@@ -286,6 +286,8 @@ p.extra-text-table {
 
 .chocolate-section {
   display: flex;
+  flex-direction: column;
+  gap: 0;
 }
 
 /*New CSS Addition */
@@ -1105,6 +1107,18 @@ p.art-of-breakfast {
   top: 64px;
 }
 
+/* New day == New CSS RULES */
+
+p.chocolate-title {
+  font-family: 'Garamond';
+  font-size: 18px;
+  position: relative;
+  top: 20px;
+}
+
+p.section-titles-description {
+  font-size: 22px;
+}
 
 
 
@@ -2454,6 +2468,18 @@ p.everyday-breakfast {
 p.everyday-classic-description {
   position: relative;
   top: -36px;
+}
+
+/*New Day === New CSS RULES */
+p.chocolate-title {
+  font-family: 'Garamond';
+  font-size: 10px;
+  position: relative;
+  top: 20px;
+}
+
+p.section-titles-description {
+  font-size: 9px;
 }
 
 
