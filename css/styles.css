@@ -1280,6 +1280,25 @@ p.left-sangria-price {
   color: #a79a89;
   font-family: 'GlacialIndifference-Bold';
 }
+/* New CSS */
+.sparkling-sweet-section {
+  background: url('../images/Moscato.png');
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 100px 0px 0px 200px;
+}
+
+.sparkling-sweet-section-title{
+  font-family: 'GlacialIndifference-Bold';
+  font-size: 16px;
+  
+}
+.frontera-title{
+  display: flex;
+  flex-direction: column;
+}
 
 
 
@@ -1934,6 +1953,24 @@ p.left-sangria-price {
 .top-text-chardonnay {
   color: #a79a89;
   font-family: 'GlacialIndifference-Bold';
+}
+.sparkling-sweet-section {
+  background: url('../images/Moscato.png');
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 100px 0px 0px 120px;
+}
+
+.sparkling-sweet-section-title{
+  font-family: 'GlacialIndifference-Bold';
+  font-size: 16px;
+  
+}
+.frontera-title{
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -3022,6 +3059,26 @@ p.left-sangria-price {
   top: 10px;
   font-size: 7px;
   margin: 10px 0px;
+}
+
+.sparkling-sweet-section {
+  background: url('../images/Moscato.png');
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 40px 0px 0px 60px;
+  overflow: hidden;
+}
+
+.sparkling-sweet-section-title{
+  font-family: 'GlacialIndifference-Bold';
+  font-size: 9px;
+  
+}
+.frontera-title{
+  display: flex;
+  flex-direction: column;
 }
 
 
