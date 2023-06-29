@@ -1223,6 +1223,46 @@ p.classic-cocktails-price {
   flex: 1;
 }
 
+/* Column 2 last section */
+.sangria-section {
+  background: url('../images/sangria.PNG');
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 150px 30px;
+  position: relative;
+  top: -50px;
+}
+
+p.sangria-title-description {
+  font-family: 'Survey-regular';
+  width: 50%;
+  font-size: 22px;
+}
+
+p.sangria-description {
+  font-family: 'GlacialIndifference-Bold';
+}
+
+.sangria-price-section {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'GlacialIndifference-Bold';
+  position: relative;
+  top: 10px;
+}
+.sangria-price-section p{
+  font-family: 'GlacialIndifference-Bold';
+  width: 100px;
+  padding: 2px 19px;
+}
+
+p.left-sangria-price {
+  /* height: 20px; */
+  border-right: dotted; 
+  height: 50px;
+}
 
 
 
@@ -1819,6 +1859,48 @@ p.classic-cocktails-price {
   flex: 1;
 }
 
+/* New CSS */
+
+/* Column 2 last section */
+.sangria-section {
+  background: url('../images/sangria.PNG');
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 170px 20px;
+  position: relative;
+  top: -50px;
+}
+
+p.sangria-title-description {
+  font-family: 'Survey-regular';
+  width: 50%;
+  font-size: 18px;
+}
+
+p.sangria-description {
+  font-family: 'GlacialIndifference-Bold';
+}
+
+.sangria-price-section {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'GlacialIndifference-Bold';
+  position: relative;
+  top: 10px;
+}
+.sangria-price-section p{
+  font-family: 'GlacialIndifference-Bold';
+  width: 100px;
+  padding: 2px 19px;
+}
+
+p.left-sangria-price {
+  /* height: 20px; */
+  border-right: dotted; 
+  height: 50px;
+}
 
 
 }
@@ -2840,6 +2922,51 @@ p.classic-cocktails-price {
   flex: 1;
   width: 80%;
   height: auto;
+}
+
+/* Column 2 last section */
+.sangria-section {
+  background: url('../images/sangria.PNG');
+  height: 220px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 100px 10px;
+  position: relative;
+  top: -50px;
+  /* overflow: hidden; */
+}
+
+p.sangria-title-description {
+  font-family: 'Survey-regular';
+  width: 60%;
+  font-size: 9px;
+}
+
+p.sangria-description {
+  font-family: 'GlacialIndifference-Bold';
+  position: relative;
+  margin-top: 0px;
+  top: 0px;
+}
+
+.sangria-price-section {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'GlacialIndifference-Bold';
+  position: relative;
+  top: 10px;
+}
+.sangria-price-section p{
+  font-family: 'GlacialIndifference-Bold';
+  padding: 2px 19px;
+  font-size: 7px;
+}
+
+p.left-sangria-price {
+  /* height: 20px; */
+  border-right: dotted; 
+  height: 10px;
 }
 
 
