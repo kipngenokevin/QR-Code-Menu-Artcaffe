@@ -1300,6 +1300,24 @@ p.left-sangria-price {
   flex-direction: column;
 }
 
+.available-on-happy-hour{
+  display: flex;
+  position: relative;
+  top: -50px;
+  left: 50px;
+}
+
+.art-cocktails-section{
+  background: url('../images/Cocktail.png');
+  height: 300px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -100px;
+  padding: 120px 100px 0px 30px;
+}
+
 
 
 
@@ -1971,6 +1989,24 @@ p.left-sangria-price {
 .frontera-title{
   display: flex;
   flex-direction: column;
+}
+
+.available-on-happy-hour{
+  display: flex;
+  position: relative;
+  top: -25px;
+  left: 20px;
+}
+
+.art-cocktails-section{
+  background: url('../images/Cocktail.png');
+  height: 300px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -100px;
+  padding: 120px 70px 0px 30px;
 }
 
 
@@ -3079,6 +3115,25 @@ p.left-sangria-price {
 .frontera-title{
   display: flex;
   flex-direction: column;
+}
+
+.available-on-happy-hour{
+  display: flex;
+  position: relative;
+  top: -15px;
+  left: 10px;
+}
+
+.art-cocktails-section{
+  background: url('../images/Cocktail.png');
+  height: 150px;
+  width: 110%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -60px;
+  padding: 60px 40px 0px 10px;
 }
 
 
