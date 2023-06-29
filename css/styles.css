@@ -942,6 +942,9 @@ p.texas-burger-price {
 .pollo-section-left {
   flex: 1;
 }
+.pollo-section-right {
+  flex: 2;
+}
 
 p.pollo-section-title {
   font-family: 'GlacialIndifference-Bold';
@@ -1524,7 +1527,7 @@ p.texas-burger-price {
   display: flex;
   margin: 32px 0px;
   align-items: center;
-  width: 120%;
+  width: 100%;
 }
 .slow-cooked-beef{
   background: url('../images/SlowCookedBBQBeef-border.png');
