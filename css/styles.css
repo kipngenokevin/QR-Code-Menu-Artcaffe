@@ -1498,7 +1498,7 @@ p.grilled-hall-description {
 }
 .texas-burger {
   background: url('../images/TexasBurger-border.png');
-  height: 350px;
+  height: 363px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1611,6 +1611,7 @@ p.power-smoothies-top-text.beef-top-text {
   top: -43px;
   width: 100%;
 }
+
 p.slow-cooked-beef-title {
   position: relative;
   top: -20px;
@@ -1629,6 +1630,11 @@ p.slow-cooked-beef-pric {
   position: relative;
   top: 0px;
   margin: 4px 0px;
+}
+
+p.power-smoothies-top-text.texas-burger-p {
+  font-size: 13px;
+  top: -10px;
 }
 
 
