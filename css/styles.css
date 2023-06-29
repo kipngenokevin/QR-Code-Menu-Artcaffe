@@ -1119,6 +1119,10 @@ p.chocolate-title {
 p.section-titles-description {
   font-size: 22px;
 }
+p.power-smoothies-top-text.beef-top-text {
+  top: 3px;
+  width: 30%;
+}
 
 
 
@@ -1587,6 +1591,31 @@ p.everyday-breakfast {
 p.everyday-classic-description {
   position: relative;
   top: -55px;
+}
+
+/*New added CSS */
+p.power-smoothies-top-text.beef-top-text {
+  top: -43px;
+  width: 100%;
+}
+p.slow-cooked-beef-title {
+  position: relative;
+  top: -20px;
+  font-size: 12px;
+}
+p.slow-cooked-beef-description {
+  width: 80%;
+  margin: 0px;
+  position: relative;
+  top: -12px;
+  width: 40%;
+  font-size: 12px;
+}
+
+p.slow-cooked-beef-pric {
+  position: relative;
+  top: 0px;
+  margin: 4px 0px;
 }
 
 
@@ -2331,9 +2360,9 @@ p.art-wings-description {
 p.slow-cooked-beef-title {
   font-family: 'GlacialIndifference-Bold';
   font-size: 9px;
-  width: 50%;
+  width: 40%;
   position: relative;
-  top: 0px;
+  top: -25px;
 }
 .beef-top-text{
   top: -10px;
@@ -2351,7 +2380,7 @@ p.slow-cooked-beef-description {
 
 p.slow-cooked-beef-pric {
   font-family: 'GlacialIndifference-Bold';
-  font-size: 9px;
+  font-size: 9px;  
 }
 
 /* New day === New CSS additions */
@@ -2480,6 +2509,24 @@ p.chocolate-title {
 
 p.section-titles-description {
   font-size: 9px;
+}
+/*New added CSS */
+p.power-smoothies-top-text.beef-top-text {
+  top: -43px;
+  width: 100%;
+}
+p.slow-cooked-beef-description {
+  width: 80%;
+  margin: 0px;
+  position: relative;
+  top: -18px;
+  width: 60%;
+}
+
+p.slow-cooked-beef-pric {
+  position: relative;
+  top: -20px;
+  margin: 4px 0px;
 }
 
 
