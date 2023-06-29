@@ -1136,6 +1136,96 @@ p.power-smoothies-top-text.texas-burger-p {
   position: relative;
   top: -10px;
 }
+.frontera-section {
+  background: url('../images/FronteraChile.png');
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 150px 20px;
+  position: relative;
+  top: -50px;
+}
+.zevenwatch-section {
+  background: url('../images/CabernetSauvignon.png');
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 30px 50px;
+  position: relative;
+  top: 0px;
+}
+
+p.frontera-title {
+  font-size: 30px;
+  font-family: 'Survey-Regular';
+}
+
+p.frontera-title-description {
+  color: #A59F9A;
+  font-family: 'Survey-regular';
+  position: relative;
+  top: -15px;
+}
+
+p.frontera-description {
+  font-size: 16px;
+  width: 80%;
+  position: relative;
+  top: -12px;
+}
+
+p.frontera-price {
+  font-family: 'GlacialIndifference-Bold';
+}
+
+.classic-cocktails-section {
+  background: url('../images/ClassicCocktail.png');
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 80px 50px;
+}
+
+p.classic-cocktails-title {
+  font-family: 'Survey-regular';
+  font-size: 30px;
+}
+
+.classick-cocktails-content {
+  display: flex;
+  justify-content: flex-start;
+  gap: 100px;
+  align-items: flex-end;
+}
+
+p.classic-cocktails-text {
+  font-size: 16px;
+}
+
+p.classic-cocktails-price {
+  font-family: 'GlacialIndifference-Bold';
+}
+
+.spirits-and-liquor {
+  display: flex;
+  height: 200px;
+}
+
+.spirits-and-liquor h3{
+  flex: 2;
+  position: relative;
+  top: 50px;
+}
+.spirits-and-liquor img{
+  flex: 1;
+}
+
+
+
+
 
 
 
@@ -1635,6 +1725,98 @@ p.slow-cooked-beef-pric {
 p.power-smoothies-top-text.texas-burger-p {
   font-size: 13px;
   top: -10px;
+}
+
+/* More CSS Changes */
+.frontera-section {
+  background: url('../images/FronteraChile.png');
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 100px 20px;
+  position: relative;
+  top: -50px;
+}
+.zevenwatch-section {
+  background: url('../images/CabernetSauvignon.png');
+  height: 320px;
+  width: 102%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 35px 40px;
+  position: relative;
+  top: 0px;
+}
+
+p.frontera-title {
+  font-size: 22px;
+  font-family: 'Survey-Regular';
+  line-height: 1;
+}
+
+p.frontera-title-description {
+  color: #A59F9A;
+  font-family: 'Survey-regular';
+  position: relative;
+  top: -15px;
+}
+
+p.frontera-description {
+  font-size: 12px;
+  width: 80%;
+  position: relative;
+  top: -12px;
+}
+
+p.frontera-price {
+  font-family: 'GlacialIndifference-Bold';
+  position: relative;
+  top: -12px;
+}
+
+.classic-cocktails-section {
+  background: url('../images/ClassicCocktail.png');
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 50px 20px;
+}
+
+p.classic-cocktails-title {
+  font-family: 'Survey-regular';
+  font-size: 22px;
+}
+
+.classick-cocktails-content {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+p.classic-cocktails-text {
+  font-size: 16px;
+}
+
+p.classic-cocktails-price {
+  font-family: 'GlacialIndifference-Bold';
+}
+
+.spirits-and-liquor {
+  display: flex;
+  height: 200px;
+}
+
+.spirits-and-liquor h3{
+  flex: 2;
+  position: relative;
+  top: 50px;
+}
+.spirits-and-liquor img{
+  flex: 1;
 }
 
 
@@ -2560,6 +2742,101 @@ p.slow-cooked-beef-pric {
 p.power-smoothies-top-text.texas-burger-p {
   position: relative;
   top: -20px;
+}
+
+.frontera-section {
+  background: url('../images/FronteraChile.png');
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 50px 10px;
+  position: relative;
+  top: -50px;
+  overflow: hidden;
+}
+.zevenwatch-section {
+  background: url('../images/CabernetSauvignon.png');
+  height: 150px;
+  width: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px 20px;
+  position: relative;
+  top: 0px;
+}
+
+p.frontera-title {
+  font-size: 12px;
+  font-family: 'Survey-Regular';
+}
+
+p.frontera-title-description {
+  color: #A59F9A;
+  font-family: 'Survey-regular';
+  position: relative;
+  top: -15px;
+}
+
+p.frontera-description {
+  font-size: 7px;
+  width: 80%;
+  position: relative;
+  top: -25px;
+  line-height: 1;
+}
+
+p.frontera-price {
+  font-family: 'GlacialIndifference-Bold';
+  position: relative;
+  font-size: 7px;
+  top: -30px;
+}
+
+.classic-cocktails-section {
+  background: url('../images/ClassicCocktail.png');
+  height: 100px;
+  width: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 35px 10px;
+  overflow: hidden;
+}
+
+p.classic-cocktails-title {
+  font-family: 'Survey-regular';
+  font-size: 12px;
+}
+
+.classick-cocktails-content {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+p.classic-cocktails-text {
+  font-size: 7px;
+}
+
+p.classic-cocktails-price {
+  font-family: 'GlacialIndifference-Bold';
+}
+
+.spirits-and-liquor {
+  display: flex;
+  height: 200px;
+}
+
+.spirits-and-liquor h3{
+  flex: 2;
+  position: relative;
+  top: 50px;
+}
+.spirits-and-liquor img{
+  flex: 1;
 }
 
 
