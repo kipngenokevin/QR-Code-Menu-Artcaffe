@@ -401,8 +401,10 @@ p.extra-text-table {
 .liquor-section {
   color: goldenrod;
   font-size: 80%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-family: 'Survey-regular',Georgia, 'Times New Roman', Times, serif;
+  /* font-weight: bold; */
+  font-family: 'Survey-regular', 'Times New Roman', Times, serif;
+  font-size: 12px;
 }
 
 /*New Logo */
