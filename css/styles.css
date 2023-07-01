@@ -2326,9 +2326,14 @@ span.slice {
     top: 100px;
   }
   .pie-and-chai {
-    height: 100px;
+    height: 300px;
     overflow: hidden;
+    background: url('../images/PieChai.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
+
   .pie-and-chai-top {
     display: flex;
     justify-content: space-between;
@@ -2362,7 +2367,6 @@ p.pie-and-chai-price {
 .pie-and-chie-add-section {
     width: 50%;
     position: relative;
-    left: -10px;
     line-height: 1;
 }
 
@@ -3219,6 +3223,34 @@ p.warm-up {
 .item-after-artcocktails{
   position: relative;
   top: -60px;
+}
+
+/* Pie & Chai Section  */
+
+.pie-and-chie-add-section {
+  position: relative;
+  /* top: 80px; */
+  /* left: 65px; */
+}
+
+.pie-and-chai-bottom {
+  position: relative;
+  top: 1px;
+  left: 12px;
+  width: 80%;
+}
+
+.pie-and-chie-add-section {
+  position: relative;
+  left: -50px;
+  width: 100%;
+  /* top: 105px; */
+}
+
+.pie-and-chai-top-left {
+  position: relative;
+  top: 43px;
+  left: 15px;
 }
 
 
