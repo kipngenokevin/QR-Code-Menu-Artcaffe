@@ -329,8 +329,8 @@ p.extra-text-table {
 
 .pies-title {
   display: flex;
-  align-items: center;
-  gap: 4px;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .item-table-outlined {
@@ -1072,7 +1072,7 @@ td.non-bolded-table-text {
 }
 th.bold-underlined-text {
   font-family: 'GlacialIndifference-Bold';
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 18px;
 }
 span.top-section-text.top-section-text-right {
@@ -1316,6 +1316,20 @@ p.left-sangria-price {
   position: relative;
   top: -100px;
   padding: 120px 100px 0px 30px;
+}
+
+/* NEWLY ADDED CSS */
+
+.chocolate-section {
+  position: relative;
+  top: 0px;
+}
+
+h3.section-titles {}
+
+p.section-titles-description {
+  position: relative;
+  top: -4px;
 }
 
 
@@ -2009,6 +2023,27 @@ p.left-sangria-price {
   padding: 120px 70px 0px 30px;
 }
 
+/* New Css */
+span.slice {
+  font-family: GlacialIndifference-Regular;
+  font-size: 12px;
+  position: relative;
+  top: 15px;
+  left: -85px;
+}
+
+.pie-and-chai-top-left {
+  position: relative;
+  top: -10px;
+}
+
+.pie-and-chie-add-section {
+  position: relative;
+  left: -44px;
+  /* width: 70%; */
+}
+
+
 
 }
 
@@ -2335,12 +2370,12 @@ p.add-pie-chai {
   position: relative;
   top: -5px;
   font-size: 6px;
-  width: 80%;
+  width: 70%;
 }
 
 .pie-and-chai-bottom {
     position: relative;
-    top: -50px;
+    top: -42px;
     padding: 2px;
     display: flex;
     align-items: center;
@@ -2392,6 +2427,9 @@ p.salted-caramel-title {
 span.slice {
   font-family: GlacialIndifference-Regular;
   font-size: 8px;
+  position: relative;
+  top: 12px;
+  left: -33px;
 }
 
 p.salted-caramel-price {
@@ -2657,9 +2695,9 @@ p.grilled-hall-description {
 }
 .texas-burger-top-text{
   position: relative;
-  top: -15px;
- line-height: 1;
- margin: 2px 0px;
+  top: 0px;
+  line-height: 1;
+  margin: 2px 0px;
 }
 .texas-burger-bottom-text {
   position: relative;
@@ -2718,7 +2756,7 @@ p.pollo-section-description {
 }
 .art-wings-section{
   background: url('../images/Wings.png');
-  height: 315px;
+  height: 300px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2740,7 +2778,7 @@ p.art-wings-description {
   position: relative;
   float: right;
   font-size: 8px;
-  top: -20px;
+  top: -45px;
 }
 .pasta-section{
   position: relative;
@@ -2848,7 +2886,7 @@ img.tea-product {
 }
 th.bold-underlined-text {
   font-family: 'GlacialIndifference-Bold';
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 12px;
 }
 
@@ -3136,6 +3174,37 @@ p.left-sangria-price {
   padding: 60px 40px 0px 10px;
 }
 
+/* NEW CSS ADDED */
+p.salted-caramel-title {
+  position: relative;
+  /* left: -7px; */
+}
+
+.pie-and-chai-top-left {
+  position: relative;
+  top: 10px;
+  left: 3px;
+}
+
+.pie-and-chie-add-section {
+  position: relative;
+  left: 1px;
+}
+
+p.bowl-of-hugs-description {
+  position: relative;
+  top: 10px;
+}
+
+p.bowl-of-hugs-title {
+  position: relative;
+  top: 18px;
+}
+
+p.warm-up {
+  position: relative;
+  top: 23px;
+}
 
 
 
