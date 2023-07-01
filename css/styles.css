@@ -3093,8 +3093,9 @@ p.classic-cocktails-price {
 
 p.sangria-title-description {
   font-family: 'Survey-regular';
-  width: 60%;
+  width: 50%;
   font-size: 9px;
+  line-height: 1.2;
 }
 
 p.sangria-description {
@@ -3120,7 +3121,7 @@ p.sangria-description {
 p.left-sangria-price {
   /* height: 20px; */
   border-right: dotted; 
-  height: 10px;
+  height: 30px;
 }
 
 .chardonnay-section {
