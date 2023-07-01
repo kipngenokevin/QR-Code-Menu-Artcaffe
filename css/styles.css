@@ -2327,7 +2327,7 @@ span.slice {
   }
   .pie-and-chai {
     height: 300px;
-    overflow: hidden;
+    /* overflow: hidden; */
     background: url('../images/PieChai.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -3244,6 +3244,7 @@ p.warm-up {
   position: relative;
   left: -50px;
   width: 100%;
+  top: -5px;
   /* top: 105px; */
 }
 
