@@ -3238,25 +3238,36 @@ p.warm-up {
 
 .pie-and-chai-bottom {
   position: relative;
-  top: 1px;
+  top: 15px;
   left: 12px;
   width: 80%;
 }
 
 .pie-and-chie-add-section {
   position: relative;
-  left: -70px;
-  width: 150%;
-  top: -5px;
+  left: -55%;
+  top: 35px;
+  width: 60%;
   /* top: 105px; */
 }
 
 .pie-and-chai-top-left {
   position: relative;
-  top: 43px;
+  top: 63px;
   left: 15px;
   width: 100%;
   padding: 13px 0px; 
+}
+h3.chai-and-pie-title {
+  width: 100%;
+  position: relative;
+  top: -20px;
+}
+
+p.pie-and-chai-description {
+  width: 100%;
+  position: relative;
+  line-height: 1.2;
 }
 
 
