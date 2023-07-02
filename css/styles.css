@@ -1340,6 +1340,71 @@ p.section-titles-description {
 }
 
 
+/* NEW DAY ===== NEW CSS RULES */
+.new-pie-and-chai-section {
+  background: url('../images/PieChai.png');
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.new-pie-and-chai-section {
+  padding: 50px;
+  display: flex;
+  /* gap: 150px; */
+  flex-direction: column;
+}
+
+p.new-pie-and-chai-title {
+  font-family: 'Survey-regular';
+  font-size: 32px;
+  margin: 10px 0px;
+}
+
+p.new-pie-and-chai-description {
+  font-size: 16px;
+  margin: 10px 0px;
+  width: 35%;
+}
+
+p.new-pie-chai-bold-text {
+  font-family: 'GlacialIndifference-Bold';
+  margin: 10px 0px;
+}
+
+.new-pie-chai-add-section {
+  margin: 50px 0px;
+  font-size: 16px;
+}
+
+.new-pie-and-chai-bottom {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0px 100px;
+}
+
+.new-sausage-roll {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 29px 0px 0px;
+}
+
+p.new-sausage-roll-title {
+  font-family: 'Survey-regular';
+  font-size: 32px;
+  width: 60%;
+}
+
+p.new-sausage-roll-bold-text {
+  font-family: 'GlacialIndifference-Bold';
+  font-size: 16px;
+}
+
+p.new-sausage-roll-text-description {
+  font-size: 16px;
+}
+
 
 
 
@@ -2049,6 +2114,76 @@ span.slice {
   left: -44px;
   /* width: 70%; */
 }
+
+
+/* NEW DAY ===== NEW CSS RULES */
+.new-pie-and-chai-section {
+  background: url('../images/PieChai.png');
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.new-pie-and-chai-section {
+  padding: 30px 30px;
+  display: flex;
+  /* gap: 150px; */
+  flex-direction: column;
+}
+
+p.new-pie-and-chai-title {
+  font-family: 'Survey-regular';
+  font-size: 32px;
+  margin: 0px 0px;
+}
+
+p.new-pie-and-chai-description {
+  font-size: 16px;
+  margin: 0px 0px;
+  width: 35%;
+}
+
+p.new-pie-chai-bold-text {
+  font-family: 'GlacialIndifference-Bold';
+  margin: 0px 0px;
+}
+
+.new-pie-chai-add-section {
+  margin: 0px 0px;
+  font-size: 16px;
+}
+
+.new-pie-and-chai-bottom {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0px 65px;
+  position: relative;
+  top: -20px;
+}
+
+.new-sausage-roll {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px 0px 0px;
+  align-items: center;
+}
+
+p.new-sausage-roll-title {
+  font-family: 'Survey-regular';
+  font-size: 22px;
+  width: 60%;
+}
+
+p.new-sausage-roll-bold-text {
+  font-family: 'GlacialIndifference-Bold';
+  font-size: 16px;
+}
+
+p.new-sausage-roll-text-description {
+  font-size: 16px;
+}
+
 
 
 
@@ -3274,6 +3409,80 @@ p.pie-and-chai-description {
   width: 100%;
   position: relative;
   line-height: 1.2;
+}
+
+/* NEW DAY ===== NEW CSS RULES */
+.new-pie-and-chai-section {
+  background: url('../images/PieChai.png');
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.new-pie-and-chai-section {
+  padding: 45px 12px;
+  display: flex;
+  /* gap: 150px; */
+  flex-direction: column;
+}
+
+p.new-pie-and-chai-title {
+  font-family: 'Survey-regular';
+  font-size: 12px;
+  margin: 4px 0px;
+}
+
+p.new-pie-and-chai-description {
+  font-size: 8px;
+  margin: 0px 0px;
+  width: 40%;
+}
+
+p.new-pie-chai-bold-text {
+  font-family: 'GlacialIndifference-Bold';
+  font-size: 8px;
+  margin: 0px 0px;
+}
+
+.new-pie-chai-add-section {
+  margin: 4px 0px;
+  font-size: 6px;
+  width: 80%;
+  line-height: 1;
+}
+
+.new-pie-and-chai-bottom {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0px 40px;
+  position: relative;
+  top: -10px;
+}
+
+.new-sausage-roll {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 6px 0px 0px;
+}
+
+p.new-sausage-roll-title {
+  font-family: 'Survey-regular';
+  font-size: 9px;
+  width: 60%;
+}
+
+p.new-sausage-roll-bold-text {
+  font-family: 'GlacialIndifference-Bold';
+  font-size: 8px;
+}
+
+p.new-sausage-roll-text-description {
+  font-size: 8px;
+  position: relative;
+  top: -8px;
+  padding: 0px 4px;
 }
 
 
