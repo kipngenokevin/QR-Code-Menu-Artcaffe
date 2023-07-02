@@ -1208,11 +1208,12 @@ p.classic-cocktails-title {
 }
 
 p.classic-cocktails-text {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 p.classic-cocktails-price {
   font-family: 'GlacialIndifference-Bold';
+  font-size: 22px;
 }
 
 .spirits-and-liquor {
@@ -3060,11 +3061,16 @@ p.classic-cocktails-title {
 }
 
 p.classic-cocktails-text {
-  font-size: 7px;
+  font-size: 9px;
+  position: relative;
+  top: -10px;
 }
 
 p.classic-cocktails-price {
   font-family: 'GlacialIndifference-Bold';
+  font-size: 10px;
+  position: relative;
+  top: -10px;
 }
 
 .spirits-and-liquor {
