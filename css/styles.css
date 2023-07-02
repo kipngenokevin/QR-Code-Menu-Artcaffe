@@ -404,7 +404,7 @@ p.extra-text-table {
   font-family: 'Survey-regular',Georgia, 'Times New Roman', Times, serif;
   /* font-weight: bold; */
   font-family: 'Survey-regular', 'Times New Roman', Times, serif;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 /*New Logo */
@@ -3483,6 +3483,10 @@ p.new-sausage-roll-text-description {
   position: relative;
   top: -8px;
   padding: 0px 4px;
+}
+
+.liquor-section {
+  font-size: 13px;
 }
 
 
