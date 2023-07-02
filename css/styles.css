@@ -3514,5 +3514,36 @@ p.sharing-for-family-text {
   top: -17px;
 }
 
+/* NEW DAY NEW CSS */
+
+.soups-section-divider{
+  margin: 30px 0px;
+}
+
+.divider.stacked-goodness-breaker {
+  margin: 50px 0px;
+  position: relative;
+  top: 14px;
+}
+
+.move-art-pizzas-top {
+  position: relative;
+  top: -20px;
+}
+
+.lunch-and-dinner-move-top {
+  position: relative;
+  top: -28px;
+}
+
+.move-pasta-section-to-top {
+  position: relative;
+  top: -50px;
+}
+
+.move-pollo-section-top {
+  position: relative;
+  top: -40px;
+}
 
 }
