@@ -3489,5 +3489,30 @@ p.new-sausage-roll-text-description {
   font-size: 13px;
 }
 
+/* NEW DAY ====== NEW CSS */
+.sharing-block {
+  flex-direction: column;
+  align-items: baseline;
+  position: relative;
+  top: -21px;
+}
+
+p.sharing-for-family-text {
+  font-family: 'GlacialIndifference-Regular';
+  position: relative;
+  top: -20px;
+}
+
+.divider {
+  border-bottom: 2px solid #a79a89;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.chocolate-section-upwards {
+  position: relative;
+  top: -17px;
+}
+
 
 }
