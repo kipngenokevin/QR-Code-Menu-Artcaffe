@@ -1404,6 +1404,10 @@ p.new-sausage-roll-bold-text {
 p.new-sausage-roll-text-description {
   font-size: 16px;
 }
+.new-wings-and-chips-section {
+  position: relative;
+  top: -76px;
+}
 
 
 
@@ -3544,6 +3548,28 @@ p.sharing-for-family-text {
 .move-pollo-section-top {
   position: relative;
   top: -40px;
+}
+
+/* NEW DAY ==== NEW CSS */
+
+.new-wings-and-chips-section {
+  position: relative;
+  top: -50px;
+}
+
+.wings-and-chips {
+  position: relative;
+  top: -32px;
+}
+
+.art-wings-section {
+  position: relative;
+  top: -67px;
+}
+
+.new-move-chicken-wings-table-top {
+  position: relative;
+  top: -92px;
 }
 
 }
