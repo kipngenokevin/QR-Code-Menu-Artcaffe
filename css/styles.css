@@ -730,7 +730,7 @@ p.salted-caramel-price {
 p.sharing-for-family {
   font-family: Garamond;
   position: relative;
-  bottom: -13px;
+  bottom: -3px;
 }
 
 .samosa-section-top {
@@ -743,13 +743,19 @@ p.sharing-for-family {
 
 .sharing-block {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: flex-start;
   gap: 10px;
+  flex-direction: column;
+  position: relative;
+  top: -20px;
 }
 
 p.sharing-for-family-text {
-  font-family: GlacialIndifference-Bold;
+  font-family: 'GLACIALINDIFFERENCE-REGULAR';
+    font-size: 16px;
+    position: relative;
+    top: -12px;
 }
 
 p.beef-samosas {
@@ -3570,6 +3576,13 @@ p.sharing-for-family-text {
 .new-move-chicken-wings-table-top {
   position: relative;
   top: -92px;
+}
+
+p.sharing-for-family-text {
+  font-family: 'GLACIALINDIFFERENCE-REGULAR';
+    font-size: 9px;
+    position: relative;
+    top: -18px;
 }
 
 }
