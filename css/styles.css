@@ -1415,6 +1415,11 @@ p.new-sausage-roll-text-description {
   top: -76px;
 }
 
+.new-wings-and-chips {
+  position: relative;
+  top: -82px;
+}
+
 
 
 
@@ -3575,7 +3580,7 @@ p.sharing-for-family-text {
 
 .new-move-chicken-wings-table-top {
   position: relative;
-  top: -40px;
+  top: -90px;
 }
 
 p.sharing-for-family-text {
@@ -3586,6 +3591,12 @@ p.sharing-for-family-text {
 }
 p.power-smoothies-top-text.good-morning-sunshine {
   margin-top: 0px;
+}
+
+.new-wings-and-chips {
+  position: relative;
+  top: -42px;
+  height: 650px;
 }
 
 }
