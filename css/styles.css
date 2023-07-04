@@ -2953,7 +2953,7 @@ p.art-wings-description {
 .slow-cooked-beef{
   background: url('../images/SlowCookedBBQBeef-border.png');
   height: 210px;
-  width: 130%;
+  width: 140%;
   position: relative;
   left: -10px;
   background-position: center;
@@ -2964,7 +2964,7 @@ p.art-wings-description {
 p.slow-cooked-beef-title {
   font-family: 'GlacialIndifference-Bold';
   font-size: 9px;
-  width: 40%;
+  width: 35%;
   position: relative;
   top: -12px;
 }
@@ -3120,11 +3120,11 @@ p.power-smoothies-top-text.beef-top-text {
   width: 100%;
 }
 p.slow-cooked-beef-description {
-  width: 80%;
+  /* width: 80%; */
   margin: 0px;
   position: relative;
   top: -10px;
-  width: 60%;
+  width: 42%;
 }
 
 p.slow-cooked-beef-pric {
@@ -3437,7 +3437,7 @@ p.pie-and-chai-description {
 }
 
 .new-pie-and-chai-section {
-  padding: 45px 12px;
+  padding: 45px 16px;
   display: flex;
   /* gap: 150px; */
   flex-direction: column;
@@ -3597,6 +3597,10 @@ p.power-smoothies-top-text.good-morning-sunshine {
   position: relative;
   top: -42px;
   height: 650px;
+}
+p.texas-burger-description.texas-burger-description-bottom {
+  position: relative;
+  top: -18px;
 }
 
 }
