@@ -2414,7 +2414,7 @@ p.new-sausage-roll-text-description {
 
   .everyday-classics {
     background: url('../images/Breakfast-side.png');
-    height: 250px;
+    height: 260px;
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -2427,7 +2427,7 @@ p.new-sausage-roll-text-description {
     border-radius: 100%;
     color: #fff;
     padding: 12px;
-    font-size: 12px;
+    font-size: 16px;
     outline: 1px solid #A59F9A;
     font-family: Knockout;
     position: absolute;
@@ -2684,7 +2684,12 @@ p.beef-samosas-description {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  padding: 1px 0px;
+  padding: 1px 6px;
+  position: relative;
+  top: -40px;
+  width: 115%;
+  left: -25px;
+  margin-bottom: -33px;
 }
 .super-green {
   text-align: right;
@@ -3147,7 +3152,9 @@ p.power-smoothies-top-text.texas-burger-p {
   position: relative;
   top: -50px;
   overflow: hidden;
+  margin-bottom: -39px;
 }
+
 .zevenwatch-section {
   background: url('../images/CabernetSauvignon.png');
   height: 150px;
@@ -3264,7 +3271,7 @@ p.sangria-description {
   font-family: 'GlacialIndifference-Bold';
   position: relative;
   margin-top: 0px;
-  top: 0px;
+  top: 7px;
 }
 
 .sangria-price-section {
@@ -3296,6 +3303,7 @@ p.left-sangria-price {
   position: relative;
   left: -50px;
   padding: 40px 0px 0px 80px;
+  margin: -45px 0px;
 }
 
 .top-text-chardonnay {
@@ -3434,6 +3442,7 @@ p.pie-and-chai-description {
   background-repeat: no-repeat;
   background-size: contain;
   overflow: hidden;
+  margin: -31px 0px;
 }
 
 .new-pie-and-chai-section {
@@ -3608,6 +3617,9 @@ p.texas-burger-description.texas-burger-description-bottom {
 
 .artcaffe-market-slideshow.remove-margin-adsection-1{
   margin: 3px 0px;
+}
+.chocolate-section {
+  margin-top: -26px;
 }
 
 }
