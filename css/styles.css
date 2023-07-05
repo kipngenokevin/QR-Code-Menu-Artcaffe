@@ -2396,9 +2396,10 @@ p.new-sausage-roll-text-description {
   }
 
   img.Teas-title {
-    width: 60%;
+    width: 80%;
     position: relative;
-    top: 10px;
+    top: -12px;
+    left: -12px;
   }
 
   .view-more {
