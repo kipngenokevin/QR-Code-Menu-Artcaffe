@@ -3602,5 +3602,12 @@ p.texas-burger-description.texas-burger-description-bottom {
   position: relative;
   top: -18px;
 }
+.artcaffe-market-slideshow.removemargin-mobile {
+  margin: -25px 0px;
+}
+
+.artcaffe-market-slideshow.remove-margin-adsection-1{
+  margin: 3px 0px;
+}
 
 }
