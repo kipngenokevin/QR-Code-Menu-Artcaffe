@@ -1419,6 +1419,10 @@ p.new-sausage-roll-text-description {
   position: relative;
   top: -82px;
 }
+.halal-beverages {
+	background: #A59F9A;
+	padding: 15px;
+}
 
 
 
@@ -2197,6 +2201,10 @@ p.new-sausage-roll-bold-text {
 
 p.new-sausage-roll-text-description {
   font-size: 16px;
+}
+.halal-beverages {
+	background: #A59F9A;
+	padding: 15px;
 }
 
 
@@ -3625,6 +3633,10 @@ p.texas-burger-description.texas-burger-description-bottom {
 img.section-title-images.cocktail-animation {
   position: relative;
   top: -34px;
+}
+.halal-beverages {
+	background: #A59F9A;
+	padding: 15px;
 }
 
 }
