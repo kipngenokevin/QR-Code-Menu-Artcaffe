@@ -383,7 +383,6 @@ p.extra-text-table {
 .artcaffe-market-slideshow img,
 .artcaffe-market-slideshow video {
   width: 100%;
-  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -2447,10 +2446,10 @@ p.new-sausage-roll-text-description {
   .art-breakfast {
     background: url('../images/ArtofBreakfast.png');
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: unset;
     background-size: contain;
-    height: 300px;
-    width: 150%;
+    height: 274px;
+    width: 119%;
   }
 
   p.art-of-breakfast {
