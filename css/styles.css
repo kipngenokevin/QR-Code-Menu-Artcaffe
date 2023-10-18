@@ -1418,6 +1418,9 @@ p.new-sausage-roll-text-description {
   position: relative;
   top: -82px;
 }
+img.mobile-only {
+  display: none;
+}
 
 
 
@@ -2209,8 +2212,11 @@ p.new-sausage-roll-text-description {
   * {
     font-size: 95%;
   }
-  
-  
+
+
+  img.mobile-only {
+    display: block;
+  }
 
   table th {
     font-family: 'GlacialIndifference-Regular';
