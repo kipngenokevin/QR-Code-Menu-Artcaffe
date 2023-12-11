@@ -119,8 +119,6 @@ body
 	left: 0;
 	right: 0;
 	margin: auto;
-
-	min-height: 100vh;
 	background-color: antiquewhite !important;
 }
 section{
