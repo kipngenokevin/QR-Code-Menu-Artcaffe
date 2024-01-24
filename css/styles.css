@@ -1555,6 +1555,9 @@ h3.section-titles.flatbread-title {
     top: 58px;
     left: 16px;
 }
+table.item-table-1.table-short {
+    width: 70%;
+}
 
 
 
@@ -3884,11 +3887,17 @@ img.img-responsive.vegetarian-img {
     width: 80%;
     position: relative;
     left: 10px;
+	top: 12px;
 }
 h3.section-titles.flatbread-title {
     position: relative;
-    top: -39px;
-    left: 20px;
+	top: -23px;
+	margin: 0;
+}
+
+.flatbread-top {
+    display: flex;
+    margin: 0px;
 }
 
 }
