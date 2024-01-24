@@ -67,6 +67,7 @@ body {
 
 p {
   font-family: 'GlacialIndifference-Regular';
+  font-size: 14px;
 }
 
 table {
@@ -188,7 +189,7 @@ i.fa-brands {
 
 .add-bacon p {
   margin-top: 8px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 p.extra-text-table {
@@ -537,12 +538,12 @@ img.Teas-title {
 }
 
 .everyday-classics {
-  background: url('../images/Breakfast-side.png');
+  background: url('../images/Everyday\ Breakfast-jan24.png');
   height: 400px;
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
-  width: 130%;
+  width: 150%;
 }
 
 .all-day-everyday {
@@ -565,8 +566,8 @@ img.Teas-title {
   background: #98272D;
   border-radius: 100%;
   color: #fff;
-  padding: 12px;
-  font-size: 26px;
+  padding: 22px;
+  font-size: 30px;
   outline: 1px solid #A59F9A;
   font-family: Knockout;
   position: absolute;
@@ -579,7 +580,7 @@ img.Teas-title {
 }
 
 .art-breakfast {
-  background: url('../images/ArtofBreakfast.png');
+  background: url('../images/Art\ of\ Breakfast-jan24.png');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
@@ -835,7 +836,7 @@ p.super-green-price {
 }
 
 .bbq-chicken{
-  background: url('../images/BBQ\ CHICKEN\ IN\ RUSTIC\ CIABATTA.png');
+  background: url('../images/Fried\ Chicken\ Sandwich-jan24.png');
   height: 300px;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -843,6 +844,7 @@ p.super-green-price {
   margin: 10px 0px;
   position: relative;
   top: -31px;
+  width: 110%;
 }
 .soups-section {
   display: flex;
@@ -1032,6 +1034,7 @@ img.tea-product {
   float: right;
   height: 276px;
   top: -60px;
+  right: 150px;
 }
 
 .allergen-advise {
@@ -1347,11 +1350,14 @@ p.section-titles-description {
 
 /* NEW DAY ===== NEW CSS RULES */
 .new-pie-and-chai-section {
-  background: url('../images/PieChai.png');
+  background: url('../images/Snacks-jan24.png');
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  width: 115%;
+  position: relative;
+  right: 70px;
 }
 
 .new-pie-and-chai-section {
@@ -1359,6 +1365,11 @@ p.section-titles-description {
   display: flex;
   /* gap: 150px; */
   flex-direction: column;
+}
+
+.new-pie-and-chai-top {
+    position: relative;
+    left: 44px;
 }
 
 p.new-pie-and-chai-title {
@@ -1386,7 +1397,7 @@ p.new-pie-chai-bold-text {
 .new-pie-and-chai-bottom {
   display: flex;
   flex-direction: column;
-  padding: 0px 0px 0px 100px;
+  padding: 0px 0px 0px 140px;
 }
 
 .new-sausage-roll {
@@ -1418,15 +1429,44 @@ p.new-sausage-roll-text-description {
   position: relative;
   top: -82px;
 }
-.golden-serif-text {
-	color: #A59F9A;
-	font-family: 'Survey-regular';
-}
-
 .halal-beverages {
 	background: #fff;
 	border: 2px solid #e2d7c4;
-	padding: 10px;
+	padding: 15px;
+}
+.breakfast-croissant-container {
+    display: flex;
+}
+
+.croissant-right {
+    width: 469px;
+	display: flex;
+	align-items: center;
+}
+.spacing {
+	height: 40px;
+}
+.hummus-bowl-container {
+    display: flex;
+}
+
+.hummus-bowl-right {
+    width: 125%;
+	display: flex;
+    align-items: center;
+}
+img.img-responsive.hummus-bowl-img {
+    max-width: 150%;
+    width: 120%;
+}
+
+.hummus-bowl-left {
+    display: flex;
+    align-items: center;
+}
+img.img-responsive.img-croissant {
+    max-width: 150%;
+    width: 120%;
 }
 
 
@@ -1512,7 +1552,7 @@ p.new-sausage-roll-text-description {
   }
 
   .everyday-classics {
-    background: url('../images/Breakfast-side.png');
+    background: url('../images/Everyday\ Breakfast-jan24.png');
     height: 430px;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -1538,7 +1578,7 @@ p.new-sausage-roll-text-description {
   }
 
   .art-breakfast {
-    background: url('../images/ArtofBreakfast.png');
+    background: url('../images/Art\ of\ Breakfast-jan24.png');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -1710,7 +1750,7 @@ p.sausage-roll-price {
 }
 
 .bbq-chicken{
-  background: url('../images/BBQ\ CHICKEN\ IN\ RUSTIC\ CIABATTA.png');
+  background: url('../images/Fried\ Chicken\ Sandwich-jan24.png');
   height: 300px;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -2142,7 +2182,7 @@ span.slice {
 
 /* NEW DAY ===== NEW CSS RULES */
 .new-pie-and-chai-section {
-  background: url('../images/PieChai.png');
+  background: url('../images/Snacks-jan24.png');
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -2207,6 +2247,11 @@ p.new-sausage-roll-bold-text {
 p.new-sausage-roll-text-description {
   font-size: 16px;
 }
+.halal-beverages {
+	background: #fff;
+	border: 1px solid #e2d7c4;
+	padding: 15px;
+}
 
 
 
@@ -2219,7 +2264,10 @@ p.new-sausage-roll-text-description {
   * {
     font-size: 95%;
   }
-  
+  p {
+	font-family: 'GlacialIndifference-Regular';
+	font-size: 8px;
+  }
   
 
   table th {
@@ -2395,7 +2443,7 @@ p.new-sausage-roll-text-description {
 
   /*New CSS */
   .teas-section-top {
-    background: url('../images/Teas-group-shot.png');
+    background: url('../images/Artcaffe\ Tea-jan24.png');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -2424,7 +2472,7 @@ p.new-sausage-roll-text-description {
 
   .everyday-classics {
     background: url('../images/Breakfast-side.png');
-    height: 260px;
+    height: 250px;
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -2436,7 +2484,7 @@ p.new-sausage-roll-text-description {
     background: #98272D;
     border-radius: 100%;
     color: #fff;
-    padding: 12px;
+    padding: 9px;
     font-size: 16px;
     outline: 1px solid #A59F9A;
     font-family: Knockout;
@@ -2450,7 +2498,7 @@ p.new-sausage-roll-text-description {
   }
 
   .art-breakfast {
-    background: url('../images/ArtofBreakfast.png');
+    background: url('../images/Art\ of\ Breakfast-jan24.png');
     background-repeat: no-repeat;
     background-position: unset;
     background-size: contain;
@@ -2753,12 +2801,12 @@ p.super-green-price {
   font-size: 10px;
 }
 .bbq-chicken{
-  background: url('../images/BBQ\ CHICKEN\ IN\ RUSTIC\ CIABATTA.png');
+  background: url('../images/Fried\ Chicken\ Sandwich-jan24.png');
   height: 150px;
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
-  margin: 30px 0px;
+  margin: 0px 0px;
 }
 .soups-section {
   display: flex;
@@ -3446,13 +3494,16 @@ p.pie-and-chai-description {
 
 /* NEW DAY ===== NEW CSS RULES */
 .new-pie-and-chai-section {
-  background: url('../images/PieChai.png');
+  background: url('../images/Snacks-jan24.png');
   height: 300px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   overflow: hidden;
   margin: -31px 0px;
+  width: 130%;
+  position: relative;
+  right: 22px;
 }
 
 .new-pie-and-chai-section {
@@ -3460,6 +3511,10 @@ p.pie-and-chai-description {
   display: flex;
   /* gap: 150px; */
   flex-direction: column;
+}
+.new-pie-and-chai-top {
+	left: 15px;
+	width: 80%;
 }
 
 p.new-pie-and-chai-title {
@@ -3634,6 +3689,10 @@ p.texas-burger-description.texas-burger-description-bottom {
 img.section-title-images.cocktail-animation {
   position: relative;
   top: -34px;
+}
+.halal-beverages {
+	background: #fff;
+	padding: 15px;
 }
 
 }
