@@ -63,6 +63,8 @@ body {
   color: #2E251D;
   margin: 0;
   overflow-x: hidden;
+  background: url('../images/Background-jan24.png');
+  background-repeat: repeat-x;
 }
 
 p {
@@ -1468,6 +1470,46 @@ img.img-responsive.img-croissant {
     max-width: 150%;
     width: 120%;
 }
+.eastleigh-section {
+    border: 3px solid #e2d7c4;
+	background: url('../images/Background-jan24.png');
+	background-repeat: repeat-x;
+}
+.eastleigh-signature.col-sm-12.col-xs-12 {
+    display: flex;
+    justify-content: center;
+}
+.vegetarian-appetizer {
+	height: 400px;
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.items-table.veg-table {
+    width: 70%;
+    position: relative;
+    top: -100px;
+}
+img.img-responsive.vegetarian-img {
+	width: 80%;
+}
+.large-plates {
+	display: flex;
+}
+.divider.large-plates-right {
+    width: 75%;
+}
+
+h3.section-titles.large-plates-left {
+    width: 100%;
+}
+.osso-bucco-container {
+    display: flex;
+}
+
+.osso-bucco-left {
+    width: 150%;
+}
 
 
 
@@ -2251,6 +2293,20 @@ p.new-sausage-roll-text-description {
 	background: #fff;
 	border: 1px solid #e2d7c4;
 	padding: 15px;
+}
+.vegetarian-appetizer {
+	height: 300px;
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.items-table.veg-table {
+    width: 80%;
+    position: relative;
+    top: -100px;
+}
+img.img-responsive.vegetarian-img {
+	width: 90%;
 }
 
 
@@ -3693,6 +3749,31 @@ img.section-title-images.cocktail-animation {
 .halal-beverages {
 	background: #fff;
 	padding: 15px;
+}
+.eastleigh-section {
+    border: 2px solid #e2d7c4;
+	margin: 10px 0px;
+}
+.vegetarian-appetizer {
+	height: 200px;
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.items-table.veg-table {
+    width: 100%;
+    position: relative;
+    top: 00px;
+}
+img.img-responsive.vegetarian-img {
+	width: 90%;
+}
+.osso-bucco-container {
+    display: flex;
+	flex-direction: column;
+}
+.osso-bucco-left {
+    width: 100%;
 }
 
 }
