@@ -3766,7 +3766,8 @@ img.section-title-images.cocktail-animation {
     top: 00px;
 }
 img.img-responsive.vegetarian-img {
-	width: 90%;
+	width: 120%;
+	max-width: 150%;
 }
 .osso-bucco-container {
     display: flex;
