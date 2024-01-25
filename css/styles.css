@@ -2762,11 +2762,11 @@ p.super-green-price {
 }
 .bbq-chicken{
   background: url('../images/Fried\ Chicken\ Sandwich-jan24.png');
-  height: 150px;
+  height: 110px;
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
-  margin: 30px 0px;
+  margin: 0px 0px;
 }
 .soups-section {
   display: flex;
@@ -2922,7 +2922,7 @@ p.texas-burger-price {
 
 .pollo-section {
   display: flex;
-  margin: 32px 0px;
+  margin: 0px 0px;
   align-items: center;
   width: 105%;
 }
@@ -3644,6 +3644,9 @@ p.texas-burger-description.texas-burger-description-bottom {
 img.section-title-images.cocktail-animation {
   position: relative;
   top: -34px;
+}
+.pasta-section-to-top {
+    margin-bottom: -30px;
 }
 
 }
