@@ -1436,7 +1436,7 @@ p.new-sausage-roll-text-description {
 	align-items: center;
 }
 .col-sm-12.col-xs-12.eastern-flavor-container {
-    border: 2px solid;
+    border: 2px solid #e2d7c4;
     padding: 10px;
     background: url('../images/Background-jan24.png');
     background-repeat: repeat-x;
