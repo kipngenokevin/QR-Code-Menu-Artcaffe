@@ -581,7 +581,7 @@ img.Teas-title {
 .art-breakfast {
   background: url('../images/ArtofBreakfast.png');
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: left;
   background-size: contain;
   height: 600px;
   width: 150%;
@@ -1460,6 +1460,14 @@ img.menu-item-icon-images.eastern-flavor-img {
 	height: 23px !important;
 }
 
+.riverside {
+	border-bottom: 1px solid #e2d7c4 !important;
+}
+
+p.riverside-artbreakfast-p {
+    font-family: Garamond;
+    font-weight: 700;
+}
 
 
 
@@ -1571,7 +1579,7 @@ img.menu-item-icon-images.eastern-flavor-img {
   .art-breakfast {
     background: url('../images/ArtofBreakfast.png');
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-size: contain;
     height: 600px;
     width: 150%;
@@ -2487,7 +2495,7 @@ p.new-sausage-roll-text-description {
   .art-breakfast {
     background: url('../images/ArtofBreakfast.png');
     background-repeat: no-repeat;
-    background-position: unset;
+    background-position: center;
     background-size: contain;
     height: 274px;
     width: 119%;
@@ -3659,7 +3667,7 @@ p.texas-burger-description.texas-burger-description-bottom {
   top: -18px;
 }
 .artcaffe-market-slideshow.removemargin-mobile {
-  margin: -25px 0px;
+  margin: -15px 0px;
 }
 
 .artcaffe-market-slideshow.remove-margin-adsection-1{
