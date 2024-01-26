@@ -1000,7 +1000,7 @@ p.art-wings-description {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 110px 10px;
+  padding: 90px 10px;
 }
 p.slow-cooked-beef-title {
   font-family: 'GlacialIndifference-Bold';
@@ -1434,6 +1434,30 @@ p.new-sausage-roll-text-description {
     width: 469px;
 	display: flex;
 	align-items: center;
+}
+.col-sm-12.col-xs-12.eastern-flavor-container {
+    border: 2px solid;
+    padding: 10px;
+    background: url('../images/Background-jan24.png');
+    background-repeat: repeat-x;
+}
+
+.col-sm-12.col-xs-12.easter-flavor-logo {
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
+.col-sm-6.col-xs-6.eastern-flavor-right {
+    display: flex;
+}
+img.menu-item-icon-images.eastern-flavor-img {
+    position: relative;
+    top: 10px;
+}
+.g-web {
+    position: relative;
+    top: -2px;
+	height: 23px !important;
 }
 
 
@@ -2215,6 +2239,9 @@ p.new-sausage-roll-bold-text {
 p.new-sausage-roll-text-description {
   font-size: 16px;
 }
+.col-sm-6.col-xs-6.eastern-flavor-right {
+    flex-direction: column;
+}
 
 
 
@@ -2982,7 +3009,7 @@ p.art-wings-description {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 30px 10px;
+  padding: 20px 10px;
 }
 p.slow-cooked-beef-title {
   font-family: 'GlacialIndifference-Bold';
@@ -3647,6 +3674,15 @@ img.section-title-images.cocktail-animation {
 }
 .pasta-section-to-top {
     margin-bottom: -30px;
+}
+.col-sm-6.col-xs-6.eastern-flavor-right {
+    flex-direction: column;
+}
+
+.g-web {
+    position: relative;
+    top: -2px;
+	height: 13px !important;
 }
 
 }
