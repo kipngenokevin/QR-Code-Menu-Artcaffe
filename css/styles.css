@@ -1032,6 +1032,7 @@ img.tea-product {
   float: right;
   height: 276px;
   top: -60px;
+  left: -156px;
 }
 
 .allergen-advise {
@@ -1422,7 +1423,19 @@ p.new-sausage-roll-text-description {
 	color: #A59F9A;
 	font-family: 'Survey-regular';
 }
+.croissant-container {
+    display: flex;
+	flex-direction: column;
+}
 
+.croissant-img {
+	width: 80%;
+	position: relative;
+	left: 10%;
+}
+.breakfast-croissant-container {
+    display: flex;
+}
 
 
 
@@ -1480,7 +1493,7 @@ p.new-sausage-roll-text-description {
 
   /*New CSS TEAS SECTION*/
   .teas-section-top {
-    background: url('../images/Teas-group-shot.png');
+    background: url('../images/Artcaffe\ Tea-jan24.png');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -2201,6 +2214,14 @@ p.new-sausage-roll-bold-text {
 p.new-sausage-roll-text-description {
   font-size: 16px;
 }
+.croissant-container {
+    display: flex;
+	flex-direction: column;
+}
+.breakfast-croissant-container {
+    display: flex;
+	flex-direction: column;
+}
 
 
 
@@ -2389,7 +2410,7 @@ p.new-sausage-roll-text-description {
 
   /*New CSS */
   .teas-section-top {
-    background: url('../images/Teas-group-shot.png');
+    background: url('../images/Artcaffe\ Tea-jan24.png');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -3628,6 +3649,15 @@ p.texas-burger-description.texas-burger-description-bottom {
 img.section-title-images.cocktail-animation {
   position: relative;
   top: -34px;
+}
+.croissant-container {
+    display: flex;
+	flex-direction: column;
+}
+
+.breakfast-croissant-container {
+    display: flex;
+	flex-direction: column;
 }
 
 }
