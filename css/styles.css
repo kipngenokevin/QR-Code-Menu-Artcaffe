@@ -1468,6 +1468,12 @@ p.riverside-artbreakfast-p {
     font-family: Garamond;
     font-weight: 700;
 }
+img.img-responsive.breakfast-img {
+    float: none;
+    width: 80%;
+    position: relative;
+    left: 100px;
+}
 
 
 
@@ -2250,7 +2256,10 @@ p.new-sausage-roll-text-description {
 .col-sm-6.col-xs-6.eastern-flavor-right {
     flex-direction: column;
 }
-
+img.img-responsive.breakfast-img {
+    width: 80%;
+    position: inherit;
+}
 
 
 
@@ -3691,6 +3700,10 @@ img.section-title-images.cocktail-animation {
     position: relative;
     top: -2px;
 	height: 13px !important;
+}
+img.img-responsive.breakfast-img {
+    width: 80%;
+    position: inherit;
 }
 
 }
