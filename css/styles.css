@@ -831,7 +831,9 @@ p.super-green-price {
   top: -70px;
 }
 .carrot-and-ginger-table{
-  width: 80%;
+	width: 80%;
+    position: relative;
+    top: 125px;
 }
 
 .bbq-chicken{
@@ -1436,6 +1438,22 @@ p.new-sausage-roll-text-description {
 .breakfast-croissant-container {
     display: flex;
 }
+.dark-forest-container {
+    display: flex;
+}
+p.dark-forest-title {
+    font-family: Garamond;
+    font-size: 30px;
+}
+.col-sm-12.col-xs-12.snacks-container {
+    border: 1px solid #e2d7c4;
+}
+
+img.img-responsive.hummus-img {
+    max-width: 150%;
+    position: relative;
+    top: 50px;
+}
 
 
 
@@ -1713,7 +1731,7 @@ p.sausage-roll-price {
 .carrot-and-ginger-table{
   width: 80%;
   position: relative;
-  top: 20px;
+  top: 140px;
 }
 
 .bbq-chicken{
@@ -1874,7 +1892,7 @@ img.tea-product {
 }
 .stacked-goodness-section{
   position: relative;
-  top: -96px;
+  top: -160px;
 }
 .art-breakfast-content {
   position: relative;
@@ -2221,6 +2239,19 @@ p.new-sausage-roll-text-description {
 .breakfast-croissant-container {
     display: flex;
 	flex-direction: column;
+}
+p.dark-forest-title {
+    font-family: Garamond;
+    font-size: 16px;
+}
+img.img-responsive.hummus-img {
+    max-width: 150%;
+    position: relative;
+    top: 50px;
+}
+.breakfast-croissant-container.fried-chicken-container {
+    position: relative;
+    top: -30px;
 }
 
 
@@ -2764,7 +2795,7 @@ p.super-green-price {
 .carrot-and-ginger-table{
   width: 80%;
   position: relative;
-  top: 0px;
+  top: 70px;
   font-size: 10px;
 }
 .bbq-chicken{
@@ -2783,7 +2814,7 @@ p.super-green-price {
   gap: 2px;
   margin: 20px 0px 0px 0px;
   position: relative;
-  top: -67px;
+  top: -40px;
 }
 
 
@@ -3096,7 +3127,8 @@ p.power-smoothies-top-text{
 }
 .stacked-goodness-section {
   position: relative;
-  top: -38px;
+  top: -68px;
+  height: 1250px;
 }
 p.all-day-everyday {
   font-size: 10px;
@@ -3414,7 +3446,7 @@ p.warm-up {
 
 .item-after-artcocktails{
   position: relative;
-  top: -60px;
+  top: 0px;
 }
 
 /* Pie & Chai Section  */
@@ -3560,7 +3592,7 @@ p.sharing-for-family-text {
 
 .chocolate-section-upwards {
   position: relative;
-  top: -17px;
+  top: 30px;
 }
 
 /* NEW DAY NEW CSS */
@@ -3592,7 +3624,7 @@ p.sharing-for-family-text {
 
 .move-pollo-section-top {
   position: relative;
-  top: -40px;
+  top: -4px;
 }
 
 /* NEW DAY ==== NEW CSS */
@@ -3648,7 +3680,7 @@ p.texas-burger-description.texas-burger-description-bottom {
 }
 img.section-title-images.cocktail-animation {
   position: relative;
-  top: -34px;
+  top: 4px;
 }
 .croissant-container {
     display: flex;
@@ -3658,6 +3690,30 @@ img.section-title-images.cocktail-animation {
 .breakfast-croissant-container {
     display: flex;
 	flex-direction: column;
+}
+.power-smoothies-container {
+    margin: 33px 0px;
+}
+p.dark-forest-title {
+    font-family: Garamond;
+    font-size: 12px;
+}
+
+img.img-responsive.hummus-img {
+    position: relative;
+    top: 42px;
+    width: 130% !important;
+    max-width: 150%;
+}
+
+.breakfast-croissant-container.fried-chicken-container {
+    position: relative;
+    top: -50px;
+}
+
+.breakfast-croissant-container.artpesto-container {
+    position: relative;
+    top: -40px;
 }
 
 }
