@@ -67,6 +67,7 @@ body {
 
 p {
   font-family: 'GlacialIndifference-Regular';
+  font-size: 14px;
 }
 
 table {
@@ -77,7 +78,7 @@ table td {
   font-family: 'GlacialIndifference-Bold';
   padding: 3px;
   vertical-align: baseline;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 table th {
@@ -188,7 +189,7 @@ i.fa-brands {
 
 .add-bacon p {
   margin-top: 8px;
-  font-size: 20px;
+  font-size: 14px;
 }
 
 p.extra-text-table {
@@ -270,7 +271,7 @@ p.extra-text-table {
 
 .menu-item-description {
   margin: 0 0 10px;
-  font-size: 17px;
+  font-size: 14px;
   line-height: 16px;
 }
 
@@ -1002,7 +1003,7 @@ p.art-wings-description {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 110px 10px;
+  padding: 95px 10px;
 }
 p.slow-cooked-beef-title {
   font-family: 'GlacialIndifference-Bold';
@@ -2264,6 +2265,11 @@ img.img-responsive.hummus-img {
 @media only screen and (max-width: 766px) {
   * {
     font-size: 95%;
+  }
+
+  p {
+    font-family: 'GlacialIndifference-Regular';
+    font-size: 8px;
   }
   
   
