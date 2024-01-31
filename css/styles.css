@@ -782,7 +782,7 @@ p.power-smoothies-top-text {
   font-size: 18px;
 }
 .healthy-treat {
-  background: url('../images/SmoothieBorder.png');
+  background: url('../images/Healthy-Treat-Pink.png');
   height: 300px;
   background-position: center;
   background-size: contain;
@@ -2741,7 +2741,7 @@ p.beef-samosas-description {
 
 /*New day CSS code */
 .healthy-treat {
-  background: url('../images/SmoothieBorder.png');
+  background: url('../images/Healthy-Treat-Pink.png');
   height: 150px;
   background-position: center;
   background-size: contain;
