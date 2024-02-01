@@ -713,9 +713,7 @@ p.salted-caramel-price {
   height: 30px;
 }
 .beef-samosa-section{
-  background: url('../images/Samosas.png');
-  background-position: center;
-  height: 250px;
+  height: auto;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -723,7 +721,7 @@ p.salted-caramel-price {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 120px;
+  margin-top: 0px;
 }
 
 p.sharing-for-family {
@@ -734,7 +732,7 @@ p.sharing-for-family {
 
 .samosa-section-top {
   position: relative;
-  top: -91px;
+  top: 0px;
   line-height: 0;
 }
 
@@ -1435,6 +1433,11 @@ p.new-sausage-roll-text-description {
 	display: flex;
 	align-items: center;
 }
+.croissant-img {
+	width: 80%;
+	position: relative;
+	left: 10%;
+}
 
 
 
@@ -1739,9 +1742,9 @@ p.sausage-roll-price {
 
 
 .bowl-of-hugs {
-  padding: 180px 16px;
+  padding: 220px 16px;
   position: relative;
-  top: -160px;
+  top: -107px;
 }
 
 p.warm-up {
@@ -2619,9 +2622,7 @@ p.salted-caramel-price {
   display: none;
 }
 .beef-samosa-section{
-  background: url('../images/Samosas.png');
-  background-position: center;
-  height: 200px;
+  height: auto;
   background-size: contain;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -2641,7 +2642,7 @@ p.sharing-for-family {
 
 .samosa-section-top {
   position: relative;
-  top: -22px;
+  top: 0px;
   line-height: 1;
 }
 
@@ -2762,7 +2763,7 @@ p.super-green-price {
 }
 .bbq-chicken{
   background: url('../images/Fried\ Chicken\ Sandwich-jan24.png');
-  height: 110px;
+  height: 140px;
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
@@ -3089,7 +3090,7 @@ p.power-smoothies-top-text{
 }
 .stacked-goodness-section {
   position: relative;
-  top: -38px;
+  top: -108px;
 }
 p.all-day-everyday {
   font-size: 10px;
@@ -3577,7 +3578,7 @@ p.sharing-for-family-text {
 
 .lunch-and-dinner-move-top {
   position: relative;
-  top: -28px;
+  top: 0px;
 }
 
 .move-pasta-section-to-top {
@@ -3624,8 +3625,8 @@ p.power-smoothies-top-text.good-morning-sunshine {
 
 .new-wings-and-chips {
   position: relative;
-  top: -42px;
-  height: 650px;
+  top: -108px;
+  height: 625px;
 }
 p.texas-burger-description.texas-burger-description-bottom {
   position: relative;
