@@ -2164,7 +2164,7 @@ span.slice {
   display: flex;
   /* gap: 150px; */
   flex-direction: column;
-  width: 120%;
+  width: 140%;
 }
 
 p.new-pie-and-chai-title {
@@ -2642,7 +2642,7 @@ p.sharing-for-family {
 
 .samosa-section-top {
   position: relative;
-  top: 0px;
+  top: 10px;
   line-height: 1;
 }
 
@@ -3090,7 +3090,7 @@ p.power-smoothies-top-text{
 }
 .stacked-goodness-section {
   position: relative;
-  top: -108px;
+  top: -50px;
 }
 p.all-day-everyday {
   font-size: 10px;
@@ -3625,8 +3625,8 @@ p.power-smoothies-top-text.good-morning-sunshine {
 
 .new-wings-and-chips {
   position: relative;
-  top: -108px;
-  height: 625px;
+  top: -50px;
+  height: auto;
 }
 p.texas-burger-description.texas-burger-description-bottom {
   position: relative;
