@@ -538,7 +538,7 @@
   }
   
   .everyday-classics {
-	background: url('../images/Breakfast-side.png');
+	background: url('../images/Everyday\ Breakfast-jan24.png');
 	height: 400px;
 	background-repeat: no-repeat;
 	background-position: bottom;
@@ -1541,7 +1541,7 @@
 	}
   
 	.everyday-classics {
-	  background: url('../images/Breakfast-side.png');
+	  background: url('../images/Everyday\ Breakfast-jan24.png');
 	  height: 430px;
 	  background-repeat: no-repeat;
 	  background-position: bottom;
@@ -2479,7 +2479,7 @@
 	}
   
 	.everyday-classics {
-	  background: url('../images/Breakfast-side.png');
+	  background: url('../images/Everyday\ Breakfast-jan24.png');
 	  height: 260px;
 	  background-repeat: no-repeat;
 	  background-position: bottom;
@@ -3138,8 +3138,8 @@
   }
   .stacked-goodness-section {
 	position: relative;
-	top: -68px;
-	height: auto;
+	top: 0px;
+	height: 1190px;
   }
   p.all-day-everyday {
 	font-size: 10px;
@@ -3615,7 +3615,7 @@
   }
   
   .divider.stacked-goodness-breaker {
-	margin: 50px 0px;
+	margin: 0px 0px;
 	position: relative;
 	top: 14px;
   }
