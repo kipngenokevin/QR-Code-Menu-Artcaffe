@@ -538,7 +538,7 @@ img.Teas-title {
 }
 
 .everyday-classics {
-  background: url('../images/Breakfast-side.png');
+  background: url('../images/Everyday\ Breakfast-jan24.png');
   height: 400px;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -566,7 +566,7 @@ img.Teas-title {
   background: #98272D;
   border-radius: 100%;
   color: #fff;
-  padding: 12px;
+  padding: 18px 13px;
   font-size: 26px;
   outline: 1px solid #A59F9A;
   font-family: Knockout;
@@ -1455,6 +1455,10 @@ img.img-responsive.hummus-img {
     position: relative;
     top: 50px;
 }
+span.art-pesto {
+    font-family: 'Garamond';
+    font-size: 30px;
+}
 
 
 
@@ -1538,7 +1542,7 @@ img.img-responsive.hummus-img {
   }
 
   .everyday-classics {
-    background: url('../images/Breakfast-side.png');
+    background: url('../images/Everyday\ Breakfast-jan24.png');
     height: 430px;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -1550,7 +1554,7 @@ img.img-responsive.hummus-img {
     background: #98272D;
     border-radius: 100%;
     color: #fff;
-    padding: 12px;
+    padding: 12px 9px;
     font-size: 26px;
     outline: 1px solid #A59F9A;
     font-family: Knockout;
@@ -2475,7 +2479,7 @@ img.img-responsive.hummus-img {
   }
 
   .everyday-classics {
-    background: url('../images/Breakfast-side.png');
+    background: url('../images/Everyday\ Breakfast-jan24.png');
     height: 260px;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -2488,14 +2492,14 @@ img.img-responsive.hummus-img {
     background: #98272D;
     border-radius: 100%;
     color: #fff;
-    padding: 12px;
+    padding: 10px 7px;
     font-size: 16px;
     outline: 1px solid #A59F9A;
     font-family: Knockout;
     position: absolute;
     /* right: 193px; */
     left: 85%;
-    top: 180px;
+    top: 200px;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
@@ -3720,6 +3724,11 @@ img.img-responsive.hummus-img {
 .breakfast-croissant-container.artpesto-container {
     position: relative;
     top: -40px;
+}
+
+span.art-pesto {
+    font-family: 'Garamond';
+    font-size: 14px;
 }
 
 }
