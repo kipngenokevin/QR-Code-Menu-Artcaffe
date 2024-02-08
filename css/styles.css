@@ -684,7 +684,7 @@
 	font-size: 16px;
   }
   .salted-caramel-section {
-	background: url('../images/CakeSlice.png');
+	background: url('../images/Salted-Caramel-Slice.png');
 	height: 400px;
 	background-position: center;
 	background-size: contain;
@@ -3140,7 +3140,7 @@
   .stacked-goodness-section {
 	position: relative;
 	top: 0px;
-	height: 1190px;
+	height: auto;
   }
   p.all-day-everyday {
 	font-size: 10px;
@@ -3606,7 +3606,7 @@
   
   .chocolate-section-upwards {
 	position: relative;
-	top: 30px;
+	top: -80px;
   }
   
   /* NEW DAY NEW CSS */
