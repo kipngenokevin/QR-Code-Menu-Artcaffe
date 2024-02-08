@@ -684,7 +684,7 @@
 	font-size: 16px;
   }
   .salted-caramel-section {
-	background: url('../images/CakeSlice.png');
+	background: url('../images/Salted-Caramel-Slice.png');
 	height: 400px;
 	background-position: center;
 	background-size: contain;
@@ -2805,7 +2805,7 @@
   .carrot-and-ginger-table{
 	width: 80%;
 	position: relative;
-	top: 70px;
+	top: 0px;
 	font-size: 10px;
   }
   .bbq-chicken{
@@ -2824,7 +2824,7 @@
 	gap: 2px;
 	margin: 0px 0px 0px 0px;
 	position: relative;
-	top: 0px;
+	top: -30px;
   }
   
   
@@ -3617,7 +3617,7 @@
   .divider.stacked-goodness-breaker {
 	margin: 50px 0px;
 	position: relative;
-	top: 14px;
+	top: 34px;
   }
   
   .move-art-pizzas-top {
