@@ -1114,7 +1114,7 @@ p.art-of-breakfast {
 
 .stacked-goodness-section {
   position: relative;
-  top: -96px;
+  top: 0px;
 }
 p.all-day-everyday {
   font-size: 18px;
@@ -1434,7 +1434,7 @@ p.new-sausage-roll-text-description {
 
 .new-wings-and-chips {
   position: relative;
-  top: -82px;
+  top: 0px;
 }
 .halal-beverages {
 	background: #fff;
@@ -1997,7 +1997,7 @@ img.tea-product {
 }
 .stacked-goodness-section{
   position: relative;
-  top: -96px;
+  top: 0px;
 }
 .art-breakfast-content {
   position: relative;
@@ -2277,12 +2277,14 @@ span.slice {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  width: 140%;
+  left: -100px;
 }
 
 .new-pie-and-chai-section {
   padding: 30px 30px;
   display: flex;
-  /* gap: 150px; */
+  gap: 50px;
   flex-direction: column;
 }
 
