@@ -415,11 +415,11 @@ p.extra-text-table {
 /* New CSS Changes */
 .chai-and-pie {
   display: flex;
-  background: url('../images/Coffee&Pastry.png');
+  background: url('../images/new-images/Coffee-&-Pastry.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 360px;
 }
 
 .chai-and-pie-text {
@@ -537,7 +537,7 @@ img.Teas-title {
 }
 
 .everyday-classics {
-  background: url('../images/Breakfast-side\ -\ jan24.png');
+  background: url('../images/new-images/Everyday-Breakfast.png');
   height: 400px;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -565,8 +565,8 @@ img.Teas-title {
   background: #98272D;
   border-radius: 100%;
   color: #fff;
-  padding: 12px;
-  font-size: 26px;
+  padding: 20px;
+  font-size: 34px;
   outline: 1px solid #A59F9A;
   font-family: Knockout;
   position: absolute;
@@ -683,7 +683,7 @@ p.iced-description {
   font-size: 16px;
 }
 .salted-caramel-section {
-  background: url('../images/Salted-Caramel-Slice.png');
+  background: url('../images/new-images/Salted-Caramel-Slice.png');
   height: 400px;
   background-position: center;
   background-size: contain;
@@ -713,8 +713,8 @@ p.salted-caramel-price {
   height: 30px;
 }
 .beef-samosa-section{
-  background: url('../images/Samosas.png');
-  background-position: center;
+  background: url('../images/new-images/Samosas.png');
+  background-position: left;
   height: 250px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -724,6 +724,7 @@ p.salted-caramel-price {
   flex-direction: column;
   justify-content: space-between;
   margin-top: 120px;
+  margin-bottom: 50px;
 }
 
 p.sharing-for-family {
@@ -738,7 +739,10 @@ p.sharing-for-family {
   line-height: 0;
 }
 
-.samosa-section-bottom {}
+.samosa-section-bottom {
+	position: relative;
+	top: 40px;
+}
 
 .sharing-block {
   display: flex;
@@ -820,7 +824,7 @@ p.super-green-price {
   font-family: 'GlacialIndifference-Bold';
 }
 .bowl-of-hugs{
-  background: url('../images/BowlofHugs-border.png');
+  background: url('../images/new-images/Bowl-of-Soup.png');
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -857,7 +861,7 @@ p.super-green-price {
 
 
 .bowl-of-hugs {
-  padding: 220px 16px;
+  padding: 160px 46px;
 }
 
 p.warm-up {
@@ -896,7 +900,7 @@ p.bowl-of-hugs-price {
   font-size: 18px;
 }
 .grilled-hall{
-  background: url('../images/Grilled\ Halloumi.png');
+  background: url('../images/new-images/Grilled-Halloumi.png');
   height: 450px;
   background-position: top;
   background-repeat: no-repeat;
@@ -971,7 +975,7 @@ p.pollo-section-description {
 }
 
 .art-wings-section{
-  background: url('../images/Wings.png');
+  background: url('../images/new-images/Chicken-Wings.png');
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
@@ -1106,7 +1110,7 @@ p.art-of-breakfast {
 
 .stacked-goodness-section {
   position: relative;
-  top: -96px;
+  top: 0px;
 }
 p.all-day-everyday {
   font-size: 18px;
@@ -1149,12 +1153,12 @@ p.power-smoothies-top-text.texas-burger-p {
   top: -10px;
 }
 .frontera-section {
-  background: url('../images/FronteraChile.png');
+  background: url('../images/new-images/FronteraWhite.png');
   height: 400px;
-  background-position: center;
+  background-position: initial;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 150px 20px;
+  padding: 117px 103px 0px 17px;
   position: relative;
   top: -50px;
 }
@@ -1420,7 +1424,7 @@ p.new-sausage-roll-text-description {
 
 .new-wings-and-chips {
   position: relative;
-  top: -82px;
+  top: 0px;
 }
 .golden-serif-text {
 	color: #A59F9A;
@@ -1477,6 +1481,13 @@ img.img-responsive.breakfast-img {
 .grilled-fish-container {
     display: flex;
 }
+.croissant-left {
+    flex: 2;
+}
+
+.croissant-right {
+    flex: 4;
+}
 
 
 
@@ -1493,12 +1504,12 @@ img.img-responsive.breakfast-img {
   /*New CSS Changes for images */
   .chai-and-pie {
     display: flex;
-    background: url('../images/Coffee&Pastry.png');
+    background: url('../images/new-images/Coffee-&-Pastry.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-size: contain;
-    width: 100%;
-    min-height: 200px;
+    width: 120%;
+    min-height: 224px;
     height: auto;
   }
 
@@ -1534,12 +1545,12 @@ img.img-responsive.breakfast-img {
 
   /*New CSS TEAS SECTION*/
   .teas-section-top {
-    background: url('../images/Artcaffe\ Tea-jan24.png');
+    background: url('../images/new-images/Artcaffe-Tea.png');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
     width: 100%;
-    height: 300px;
+    height: 230px;
 
   }
 
@@ -1560,7 +1571,7 @@ img.img-responsive.breakfast-img {
   }
 
   .everyday-classics {
-    background: url('../images/Breakfast-side\ -\ jan24.png');
+    background: url('../images/new-images/Everyday-Breakfast.png');
     height: 430px;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -1579,7 +1590,7 @@ img.img-responsive.breakfast-img {
     position: absolute;
     /* right: 193px; */
     left: 85%;
-    top: 350px;
+    top: 340px;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
@@ -1743,13 +1754,17 @@ p.sausage-roll-price {
   line-height: 1;
 }
 .bowl-of-hugs{
-  background: url('../images/BowlofHugs-border.png');
+  background: url('../images/new-images/Bowl-of-Soup.png');
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   width: 120%;
   margin: 0px 0px;
+}
+.bowl-of-hugs-bottom {
+    position: relative;
+    top: 22px;
 }
 .carrot-and-ginger-table{
   width: 80%;
@@ -1782,7 +1797,7 @@ p.sausage-roll-price {
 .bowl-of-hugs {
   padding: 180px 16px;
   position: relative;
-  top: -160px;
+  top: -100px;
 }
 
 p.warm-up {
@@ -1823,7 +1838,7 @@ p.bbq-chicken-price {
   font-size: 18px;
 }
 .grilled-hall{
-  background: url('../images/Grilled\ Halloumi.png');
+  background: url('../images/new-images/Grilled-Halloumi.png');
   height: 350px;
   background-position: top;
   background-repeat: no-repeat;
@@ -1915,7 +1930,7 @@ img.tea-product {
 }
 .stacked-goodness-section{
   position: relative;
-  top: -96px;
+  top: 0px;
 }
 .art-breakfast-content {
   position: relative;
@@ -1981,7 +1996,7 @@ p.power-smoothies-top-text.texas-burger-p {
 
 /* More CSS Changes */
 .frontera-section {
-  background: url('../images/FronteraChile.png');
+  background: url('../images/new-images/FronteraWhite.png');
   height: 300px;
   background-position: center;
   background-repeat: no-repeat;
@@ -2267,6 +2282,12 @@ img.img-responsive.breakfast-img {
     display: flex;
 	flex-direction: column;
 }
+.breakfast-croissant-container {
+	flex-direction: column;
+}
+.croissant-right {
+	width: 100%;
+}
 
 
 
@@ -2413,12 +2434,12 @@ img.img-responsive.breakfast-img {
   /*New CSS Changes for images */
   .chai-and-pie {
     display: flex;
-    background: url('../images/Coffee&Pastry.png');
+    background: url('../images/new-images/Coffee-&-Pastry.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     width: 135%;
-    min-height: 120px;
+    min-height: 150px;
     height: auto;
   }
 
@@ -2482,7 +2503,7 @@ img.img-responsive.breakfast-img {
   }
 
   .everyday-classics {
-    background: url('../images/Breakfast-side\ -\ jan24.png');
+    background: url('../images/new-images/Everyday-Breakfast.png');
     height: 260px;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -2495,7 +2516,7 @@ img.img-responsive.breakfast-img {
     background: #98272D;
     border-radius: 100%;
     color: #fff;
-    padding: 12px;
+    padding: 9px;
     font-size: 16px;
     outline: 1px solid #A59F9A;
     font-family: Knockout;
@@ -2670,18 +2691,17 @@ p.salted-caramel-price {
   display: none;
 }
 .beef-samosa-section{
-  background: url('../images/Samosas.png');
+  background: url('../images/new-images/Samosas.png');
   background-position: center;
   height: 200px;
   background-size: contain;
-  overflow: hidden;
   background-repeat: no-repeat;
 }
 .beef-samosa-section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 00px;
+  margin-top: 50px;
 }
 
 p.sharing-for-family {
@@ -2797,9 +2817,9 @@ p.super-green-price {
   top: -10px;
 }
 .bowl-of-hugs{
-  background: url('../images/BowlofHugs-border.png');
+  background: url('../images/new-images/Bowl-of-Soup.png');
   height: 150px;
-  background-position: center;
+  background-position: initial;
   background-repeat: no-repeat;
   background-size: contain;
   width: 120%;
@@ -2827,7 +2847,7 @@ p.super-green-price {
   gap: 2px;
   margin: 20px 0px 0px 0px;
   position: relative;
-  top: -67px;
+  top: -70px;
 }
 
 
@@ -2886,7 +2906,7 @@ p.bowl-of-hugs-price {
 }
 
 .grilled-hall{
-  background: url('../images/Grilled\ Halloumi.png');
+  background: url('../images/new-images/Grilled-Halloumi.png');
   height: 200px;
   background-position: top;
   background-repeat: no-repeat;
@@ -2995,7 +3015,7 @@ p.pollo-section-description {
   font-size: 8px;
 }
 .art-wings-section{
-  background: url('../images/Wings.png');
+  background: url('../images/new-images/Chicken-Wings.png');
   height: 300px;
   background-position: center;
   background-repeat: no-repeat;
@@ -3140,7 +3160,7 @@ p.power-smoothies-top-text{
 }
 .stacked-goodness-section {
   position: relative;
-  top: -38px;
+  top: 0px;
 }
 p.all-day-everyday {
   font-size: 10px;
@@ -3212,15 +3232,15 @@ p.power-smoothies-top-text.texas-burger-p {
 }
 
 .frontera-section {
-  background: url('../images/FronteraChile.png');
+  background: url('../images/new-images/FronteraWhite.png');
   height: 150px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   padding: 50px 10px;
   position: relative;
-  top: -50px;
-  overflow: hidden;
+  top: -12px;
+  overflow: show;
   margin-bottom: -39px;
 }
 
@@ -3675,7 +3695,7 @@ p.power-smoothies-top-text.good-morning-sunshine {
 
 .new-wings-and-chips {
   position: relative;
-  top: -42px;
+  top: 0px;
   height: 700px;
 }
 p.texas-burger-description.texas-burger-description-bottom {
