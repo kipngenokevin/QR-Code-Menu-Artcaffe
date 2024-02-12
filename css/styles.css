@@ -1474,6 +1474,9 @@ img.img-responsive.breakfast-img {
     position: relative;
     left: 100px;
 }
+.grilled-fish-container {
+    display: flex;
+}
 
 
 
@@ -2259,6 +2262,10 @@ p.new-sausage-roll-text-description {
 img.img-responsive.breakfast-img {
     width: 80%;
     position: inherit;
+}
+.grilled-fish-container {
+    display: flex;
+	flex-direction: column;
 }
 
 
@@ -3669,7 +3676,7 @@ p.power-smoothies-top-text.good-morning-sunshine {
 .new-wings-and-chips {
   position: relative;
   top: -42px;
-  height: 650px;
+  height: 700px;
 }
 p.texas-burger-description.texas-burger-description-bottom {
   position: relative;
@@ -3704,6 +3711,10 @@ img.section-title-images.cocktail-animation {
 img.img-responsive.breakfast-img {
     width: 80%;
     position: inherit;
+}
+.grilled-fish-container {
+    display: flex;
+	flex-direction: column;
 }
 
 }
