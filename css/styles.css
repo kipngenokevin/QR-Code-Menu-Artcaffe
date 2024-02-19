@@ -414,17 +414,19 @@ p.extra-text-table {
 
 /* New CSS Changes */
 .chai-and-pie {
-  display: flex;
-  background: url('../images/Coffee&Pastry.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 300px;
-}
+	display: flex;
+	background: url('../images/new-images/Coffee-&-Pastry.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 120%;
+	position: relative;
+	height: 400px;
+  }
 
 .chai-and-pie-text {
   position: relative;
-  left: 14px;
+  left: 54px;
   top: 70px;
   width: 298px;
   /* height: 300px; */
@@ -537,7 +539,7 @@ img.Teas-title {
 }
 
 .everyday-classics {
-  background: url('../images/Breakfast-side\ -\ jan24.png');
+  background: url('../images/new-images/Everyday-Breakfast.png');
   height: 400px;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -579,7 +581,7 @@ img.Teas-title {
 }
 
 .art-breakfast {
-  background: url('../images/ArtofBreakfast.png');
+  background: url('../images/new-images/Art-of-Breakfast.png');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
@@ -683,7 +685,7 @@ p.iced-description {
   font-size: 16px;
 }
 .salted-caramel-section {
-  background: url('../images/Salted-Caramel-Slice.png');
+  background: url('../images/new-images/Salted-Caramel-Slice.png');
   height: 400px;
   background-position: center;
   background-size: contain;
@@ -713,9 +715,9 @@ p.salted-caramel-price {
   height: 30px;
 }
 .beef-samosa-section{
-  background: url('../images/Samosas.png');
+  background: url('../images/new-images/Samosas.png');
   background-position: center;
-  height: 250px;
+  height: 325px;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -781,7 +783,7 @@ p.power-smoothies-top-text {
   font-size: 18px;
 }
 .healthy-treat {
-  background: url('../images/SmoothieBorder.png');
+  background: url('../images/new-images/Super-Green-Smoothie.png');
   height: 300px;
   background-position: center;
   background-size: contain;
@@ -791,7 +793,7 @@ p.power-smoothies-top-text {
 .super-green {
   text-align: right;
   width: 90%;
-  padding: 70px 0px;
+  padding: 70px 55px;
 }
 
 .super-green-title {
@@ -820,7 +822,7 @@ p.super-green-price {
   font-family: 'GlacialIndifference-Bold';
 }
 .bowl-of-hugs{
-  background: url('../images/BowlofHugs-border.png');
+  background: url('../images/new-images/Bowl-of-Soup.png');
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -835,7 +837,7 @@ p.super-green-price {
 }
 
 .bbq-chicken{
-  background: url('../images/Fried\ Chicken\ Sandwich-jan24.png');
+  background: url('../images/new-images/Fried-Chicken-Sandwich.png');
   height: 300px;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -843,6 +845,7 @@ p.super-green-price {
   margin: 10px 0px;
   position: relative;
   top: -31px;
+  width: 120%;
 }
 .soups-section {
   display: flex;
@@ -857,7 +860,7 @@ p.super-green-price {
 
 
 .bowl-of-hugs {
-  padding: 220px 16px;
+  padding: 200px 50px;
 }
 
 p.warm-up {
@@ -896,7 +899,7 @@ p.bowl-of-hugs-price {
   font-size: 18px;
 }
 .grilled-hall{
-  background: url('../images/Grilled\ Halloumi.png');
+  background: url('../images/new-images/Grilled-Halloumi.png');
   height: 450px;
   background-position: top;
   background-repeat: no-repeat;
@@ -919,7 +922,7 @@ p.grilled-hall-description {
   width: 70%;
 }
 .texas-burger {
-  background: url('../images/TexasBurger-border.png');
+  background: url('../images/new-images/Texas-Burger.png');
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -971,7 +974,7 @@ p.pollo-section-description {
 }
 
 .art-wings-section{
-  background: url('../images/Wings.png');
+  background: url('../images/new-images/Chicken-Wings.png');
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
@@ -994,13 +997,13 @@ p.art-wings-description {
   top: 10px;
 }
 .slow-cooked-beef{
-  background: url('../images/SlowCookedBBQBeef-border.png');
+  background: url('../images/new-images/Slow-Cooked-BBQ-Beef.png');
   height: 400px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 110px 10px;
+  padding: 110px 50px;
 }
 p.slow-cooked-beef-title {
   font-family: 'GlacialIndifference-Bold';
@@ -1149,25 +1152,27 @@ p.power-smoothies-top-text.texas-burger-p {
   top: -10px;
 }
 .frontera-section {
-  background: url('../images/FronteraChile.png');
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 150px 20px;
-  position: relative;
-  top: -50px;
-}
-.zevenwatch-section {
-  background: url('../images/CabernetSauvignon.png');
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 30px 50px;
-  position: relative;
-  top: 0px;
-}
+	background: url('../images/new-images/FronteraWhite.png');
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 150px 65px;
+	position: relative;
+	top: -50px;
+	left: -50px;
+  }
+  .zevenwatch-section {
+	background: url('../images/new-images/Zevenwacht-Cabernet-Sauvignon.png');
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 30px 115px;
+	position: relative;
+	top: 0px;
+	left: -70px;
+  }
 
 p.frontera-title {
   font-size: 30px;
@@ -1348,22 +1353,22 @@ p.section-titles-description {
 
 /* NEW DAY ===== NEW CSS RULES */
 .new-pie-and-chai-section {
-  background: url('../images/Snacks-jan24.png');
-  height: 700px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 120%;
-  position: relative;
-  left: -80px;
-}
-
-.new-pie-and-chai-section {
-  padding: 50px 90px;
-  display: flex;
-  /* gap: 150px; */
-  flex-direction: column;
-}
+	background: url('../images/new-images/Snacks.png');
+	height: 700px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-width: 120%;
+	position: relative;
+	left: -70px;
+	padding: 50px 85px 50px 123px;
+  }
+  
+  .new-pie-and-chai-section {
+	display: flex;
+	/* gap: 150px; */
+	flex-direction: column;
+  }
 
 p.new-pie-and-chai-title {
   font-family: 'Survey-regular';
@@ -1431,9 +1436,21 @@ p.new-sausage-roll-text-description {
 }
 
 .croissant-right {
-    width: 469px;
+    flex: 3;
 	display: flex;
 	align-items: center;
+}
+
+.croissant-left {
+    flex: 2;
+}
+
+td.humus-bowl-td {
+    vertical-align: middle;
+}
+
+img.img-responsive.humus-img {
+    max-width: 150%;
 }
 
 
@@ -1452,18 +1469,18 @@ p.new-sausage-roll-text-description {
   /*New CSS Changes for images */
   .chai-and-pie {
     display: flex;
-    background: url('../images/Coffee&Pastry.png');
+    background: url('../images/new-images/Coffee-&-Pastry.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 100%;
-    min-height: 200px;
+    width: 110%;
+    min-height: 225px;
     height: auto;
   }
 
   .chai-and-pie-text {
     position: relative;
-    left: 5px;
+    left: 25px;
     top: 30px;
     width: 100px;
     /* height: 300px; */
@@ -1493,7 +1510,7 @@ p.new-sausage-roll-text-description {
 
   /*New CSS TEAS SECTION*/
   .teas-section-top {
-    background: url('../images/Artcaffe\ Tea-jan24.png');
+    background: url('../images/new-images/Artcaffe-Tea.png');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -1519,7 +1536,7 @@ p.new-sausage-roll-text-description {
   }
 
   .everyday-classics {
-    background: url('../images/Breakfast-side\ -\ jan24.png');
+    background: url('../images/new-images/Everyday-Breakfast.png');
     height: 430px;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -1545,7 +1562,7 @@ p.new-sausage-roll-text-description {
   }
 
   .art-breakfast {
-    background: url('../images/ArtofBreakfast.png');
+    background: url('../images/new-images/Art-of-Breakfast.png');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -1702,7 +1719,7 @@ p.sausage-roll-price {
   line-height: 1;
 }
 .bowl-of-hugs{
-  background: url('../images/BowlofHugs-border.png');
+  background: url('../images/new-images/Bowl-of-Soup.png');
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -1717,7 +1734,7 @@ p.sausage-roll-price {
 }
 
 .bbq-chicken{
-  background: url('../images/Fried\ Chicken\ Sandwich-jan24.png');
+  background: url('../images/new-images/Fried-Chicken-Sandwich.png');
   height: 300px;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -1725,6 +1742,7 @@ p.sausage-roll-price {
   margin: 80px 0px;
   position: relative;
   top: 40px;
+  width: 100%;
 }
 .soups-section {
   display: flex;
@@ -1739,7 +1757,7 @@ p.sausage-roll-price {
 
 
 .bowl-of-hugs {
-  padding: 180px 16px;
+  padding: 200px 16px;
   position: relative;
   top: -160px;
 }
@@ -1782,7 +1800,7 @@ p.bbq-chicken-price {
   font-size: 18px;
 }
 .grilled-hall{
-  background: url('../images/Grilled\ Halloumi.png');
+  background: url('../images/new-images/Grilled-Halloumi.png');
   height: 350px;
   background-position: top;
   background-repeat: no-repeat;
@@ -1798,7 +1816,7 @@ p.grilled-hall-description {
   top: -10px;
 }
 .texas-burger {
-  background: url('../images/TexasBurger-border.png');
+  background: url('../images/new-images/Texas-Burger.png');
   height: 363px;
   background-position: center;
   background-repeat: no-repeat;
@@ -1841,7 +1859,7 @@ p.texas-burger-price {
   width: 100%;
 }
 .slow-cooked-beef{
-  background: url('../images/SlowCookedBBQBeef-border.png');
+  background: url('../images/new-images/Slow-Cooked-BBQ-Beef.png');
   height: 400px;
   width: 100%;
   background-position: center;
@@ -1909,7 +1927,7 @@ p.everyday-classic-description {
 
 /*New added CSS */
 p.power-smoothies-top-text.beef-top-text {
-  top: -43px;
+  top: -93px;
   width: 100%;
 }
 
@@ -1940,26 +1958,28 @@ p.power-smoothies-top-text.texas-burger-p {
 
 /* More CSS Changes */
 .frontera-section {
-  background: url('../images/FronteraChile.png');
-  height: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 100px 20px;
-  position: relative;
-  top: -50px;
-}
-.zevenwatch-section {
-  background: url('../images/CabernetSauvignon.png');
-  height: 320px;
-  width: 102%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 35px 40px;
-  position: relative;
-  top: 0px;
-}
+	background: url('../images/new-images/FronteraWhite.png');
+	height: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 100px 20px;
+	position: relative;
+	top: -50px;
+	left: 0px;
+  }
+  .zevenwatch-section {
+	background: url('../images/new-images/Zevenwacht-Cabernet-Sauvignon.png');
+	height: 320px;
+	width: 102%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 35px 40px;
+	position: relative;
+	top: 0px;
+	left: -10px;
+  }
 
 p.frontera-title {
   font-size: 22px;
@@ -2149,20 +2169,20 @@ span.slice {
 
 /* NEW DAY ===== NEW CSS RULES */
 .new-pie-and-chai-section {
-  background: url('../images/Snacks-jan24.png');
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.new-pie-and-chai-section {
-  padding: 43px 79px;
-  display: flex;
-  /* gap: 150px; */
-  flex-direction: column;
-  width: 120%;
-}
+	background: url('../images/new-images/Snacks.png');
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+  }
+  
+  .new-pie-and-chai-section {
+	padding: 27px 53px 47px 54px;
+	display: flex;
+	left: -40px;
+	gap: 20px;
+	flex-direction: column;
+  }
 
 p.new-pie-and-chai-title {
   font-family: 'Survey-regular';
@@ -2214,6 +2234,10 @@ p.new-sausage-roll-bold-text {
 
 p.new-sausage-roll-text-description {
   font-size: 16px;
+}
+
+img.img-responsive.humus-img {
+    max-width: 140%;
 }
 
 
@@ -2362,20 +2386,20 @@ p.new-sausage-roll-text-description {
   /*New CSS Changes for images */
   .chai-and-pie {
     display: flex;
-    background: url('../images/Coffee&Pastry.png');
+    background: url('../images/new-images/Coffee-&-Pastry.png');
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: initial;
+    background-size: contain;
     width: 135%;
-    min-height: 120px;
+    min-height: 140px;
     height: auto;
   }
 
   .chai-and-pie-text {
     position: relative;
     left: 5px;
-    top: 20px;
-    width: 100px;
+    top: 10px;
+    width: 120px;
     /* height: 300px; */
     /* background-size: cover; */
     /* background-position: center; */
@@ -2403,7 +2427,7 @@ p.new-sausage-roll-text-description {
 
   /*New CSS */
   .teas-section-top {
-    background: url('../images/Artcaffe\ Tea-jan24.png');
+    background: url('../images/new-images/Artcaffe-Tea.png');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -2431,8 +2455,8 @@ p.new-sausage-roll-text-description {
   }
 
   .everyday-classics {
-    background: url('../images/Breakfast-side\ -\ jan24.png');
-    height: 260px;
+    background: url('../images/new-images/Everyday-Breakfast.png');
+    height: 240px;
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -2458,7 +2482,7 @@ p.new-sausage-roll-text-description {
   }
 
   .art-breakfast {
-    background: url('../images/ArtofBreakfast.png');
+    background: url('../images/new-images/Art-of-Breakfast.png');
     background-repeat: no-repeat;
     background-position: unset;
     background-size: contain;
@@ -2619,9 +2643,9 @@ p.salted-caramel-price {
   display: none;
 }
 .beef-samosa-section{
-  background: url('../images/Samosas.png');
+  background: url('../images/new-images/Samosas.png');
   background-position: center;
-  height: 200px;
+  height: 230px;
   background-size: contain;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -2697,7 +2721,7 @@ p.beef-samosas-description {
 
 /*New day CSS code */
 .healthy-treat {
-  background: url('../images/SmoothieBorder.png');
+  background: url('../images/new-images/Super-Green-Smoothie.png');
   height: 150px;
   background-position: center;
   background-size: contain;
@@ -2712,7 +2736,7 @@ p.beef-samosas-description {
 .super-green {
   text-align: right;
   width: 100%;
-  padding: 50px 0px;
+  padding: 50px 10px;
 }
 
 .super-green-title {
@@ -2746,7 +2770,7 @@ p.super-green-price {
   top: -10px;
 }
 .bowl-of-hugs{
-  background: url('../images/BowlofHugs-border.png');
+  background: url('../images/new-images/Bowl-of-Soup.png');
   height: 150px;
   background-position: center;
   background-repeat: no-repeat;
@@ -2761,12 +2785,13 @@ p.super-green-price {
   font-size: 10px;
 }
 .bbq-chicken{
-  background: url('../images/Fried\ Chicken\ Sandwich-jan24.png');
+  background: url('../images/new-images/Fried-Chicken-Sandwich.png');
   height: 110px;
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
   margin: 0px 0px;
+  width: 100%;
 }
 .soups-section {
   display: flex;
@@ -2781,7 +2806,7 @@ p.super-green-price {
 
 
 .bowl-of-hugs {
-  padding: 30px 5px;
+  padding: 30px 22px;
   position: relative;
   top: -60px;
 }
@@ -2835,7 +2860,7 @@ p.bowl-of-hugs-price {
 }
 
 .grilled-hall{
-  background: url('../images/Grilled\ Halloumi.png');
+  background: url('../images/new-images/Grilled-Halloumi.png');
   height: 200px;
   background-position: top;
   background-repeat: no-repeat;
@@ -2864,7 +2889,7 @@ p.grilled-hall-description {
 }
 
 .texas-burger {
-  background: url('../images/TexasBurger-border.png');
+  background: url('../images/new-images/Texas-Burger.png');
   height: 200px;
   background-position: center;
   background-repeat: no-repeat;
@@ -2944,7 +2969,7 @@ p.pollo-section-description {
   font-size: 8px;
 }
 .art-wings-section{
-  background: url('../images/Wings.png');
+  background: url('../images/new-images/Chicken-Wings.png');
   height: 300px;
   background-position: center;
   background-repeat: no-repeat;
@@ -2974,7 +2999,7 @@ p.art-wings-description {
   top: -40px;
 }
 .slow-cooked-beef{
-  background: url('../images/SlowCookedBBQBeef-border.png');
+  background: url('../images/new-images/Slow-Cooked-BBQ-Beef.png');
   height: 210px;
   width: 140%;
   position: relative;
@@ -3139,7 +3164,7 @@ p.section-titles-description {
 }
 /*New added CSS */
 p.power-smoothies-top-text.beef-top-text {
-  top: -43px;
+  top: -63px;
   width: 100%;
 }
 p.slow-cooked-beef-description {
@@ -3161,29 +3186,31 @@ p.power-smoothies-top-text.texas-burger-p {
 }
 
 .frontera-section {
-  background: url('../images/FronteraChile.png');
-  height: 150px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 50px 10px;
-  position: relative;
-  top: -50px;
-  overflow: hidden;
-  margin-bottom: -39px;
-}
-
-.zevenwatch-section {
-  background: url('../images/CabernetSauvignon.png');
-  height: 150px;
-  width: 110%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 10px 20px;
-  position: relative;
-  top: 0px;
-}
+	background: url('../images/new-images/FronteraWhite.png');
+	height: 150px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 50px 10px;
+	position: relative;
+	top: 0px;
+	overflow: hidden;
+	left: 0px;
+	margin-bottom: 0px;
+  }
+  
+  .zevenwatch-section {
+	background: url('../images/new-images/Zevenwacht-Cabernet-Sauvignon.png');
+	height: 150px;
+	width: 110%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 8px 38px;
+	position: relative;
+	top: 0px;
+	left: -20px;
+  }
 
 p.frontera-title {
   font-size: 12px;
@@ -3454,13 +3481,13 @@ p.pie-and-chai-description {
 
 /* NEW DAY ===== NEW CSS RULES */
 .new-pie-and-chai-section {
-  background: url('../images/Snacks-jan24.png');
+  background: url('../images/new-images/Snacks.png');
   height: 300px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   overflow: hidden;
-  margin: -31px 0px;
+  margin: 0px 0px;
   left: -21px;
   width: 130%;
 }
