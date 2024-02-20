@@ -1452,7 +1452,10 @@
   img.img-responsive.humus-img {
 	  max-width: 150%;
   }
-  
+  .humus-td {
+    vertical-align: middle;
+    width: 50%;
+  }
   
   
   
