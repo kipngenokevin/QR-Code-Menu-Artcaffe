@@ -1431,6 +1431,12 @@ p.new-sausage-roll-text-description {
 	font-family: 'Survey-regular';
 }
 
+.halal-beverages {
+	background: #fff;
+	border: 2px solid #e2d7c4;
+	padding: 15px;
+}
+
 
 
 
@@ -2212,6 +2218,11 @@ p.new-sausage-roll-bold-text {
 p.new-sausage-roll-text-description {
   font-size: 16px;
 }
+.halal-beverages {
+	background: #fff;
+	border: 1px solid #e2d7c4;
+	padding: 15px;
+  }
 
 
 
@@ -3637,11 +3648,15 @@ p.texas-burger-description.texas-burger-description-bottom {
   margin: 3px 0px;
 }
 .chocolate-section {
-  margin-top: -26px;
+  margin-top: 0px;
 }
 img.section-title-images.cocktail-animation {
   position: relative;
   top: -34px;
 }
+.halal-beverages {
+	background: #fff;
+	padding: 15px;
+  }
 
 }
