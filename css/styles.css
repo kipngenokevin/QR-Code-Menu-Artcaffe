@@ -1151,26 +1151,26 @@ p.power-smoothies-top-text.texas-burger-p {
   top: -10px;
 }
 .frontera-section {
-  background: url('../images/new-images/FronteraWhite.png');
+  background: url('../images/new-wine/Artboard\ 1@1.5x.png');
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 150px 65px;
+  padding: 150px 0px 0px 160px;
   position: relative;
-  top: -50px;
+  top: 0px;
   left: -50px;
 }
 .zevenwatch-section {
-  background: url('../images/new-images/Zevenwacht-Cabernet-Sauvignon.png');
+  background: url('../images/new-wine/Artboard\ 2@1.5x.png');
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 30px 115px;
+  padding: 140px 45px;
   position: relative;
   top: 0px;
-  left: -70px;
+  left: 0px;
 }
 
 p.frontera-title {
@@ -1282,7 +1282,7 @@ p.left-sangria-price {
 }
 
 .chardonnay-section {
-  background: url('../images/new-images/Arrogant-Frog-Chardonnay.png');
+  background: url('../images/new-wine/Artboard\ 4@1.5x.png');
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
@@ -1290,7 +1290,7 @@ p.left-sangria-price {
   width: 110%;
   position: relative;
   left: -50px;
-  padding: 80px 66px 0px 205px;
+  padding: 120px 66px 0px 65px;
 }
 
 .top-text-chardonnay {
@@ -1299,12 +1299,12 @@ p.left-sangria-price {
 }
 /* New CSS */
 .sparkling-sweet-section {
-  background: url('../images/Moscato.png');
+  background: url('../images/new-wine/Artboard\ 3@1.5x.png');
   height: 400px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  padding: 100px 0px 0px 200px;
+  padding: 130px 0px 0px 40px;
 }
 
 .sparkling-sweet-section-title{
@@ -1325,14 +1325,14 @@ p.left-sangria-price {
 }
 
 .art-cocktails-section{
-  background: url('../images/Cocktail.png');
+  background: url('../images/new-wine/Artboard\ 5@1.5x.png');
   height: 300px;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
-  top: -100px;
-  padding: 120px 100px 0px 30px;
+  top: -90px;
+  padding: 170px 100px 0px 30px;
 }
 
 /* NEWLY ADDED CSS */
@@ -1427,8 +1427,13 @@ p.new-sausage-roll-text-description {
   top: -82px;
 }
 .golden-serif-text {
-	color: #A59F9A;
+	color: tan;
 	font-family: 'Survey-regular';
+}
+.golden-text-semibold {
+	color: #A59F9A;
+	font-size: smaller;
+	font-family: 'Futura-medium';
 }
 
 
@@ -1935,24 +1940,24 @@ p.power-smoothies-top-text.texas-burger-p {
 
 /* More CSS Changes */
 .frontera-section {
-  background: url('../images/new-images/FronteraWhite.png');
+  background: url('../images/new-wine/Artboard\ 1@1.5x.png');
   height: 300px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 100px 20px;
+  padding: 110px 20px 0px 90px;
   position: relative;
-  top: -50px;
+  top: 0px;
   left: 0px;
 }
 .zevenwatch-section {
-  background: url('../images/new-images/Zevenwacht-Cabernet-Sauvignon.png');
+  background: url('../images/new-wine/Artboard\ 2@1.5x.png');
   height: 320px;
-  width: 102%;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 35px 40px;
+  padding: 105px 20px;
   position: relative;
   top: 0px;
   left: -10px;
@@ -2071,15 +2076,15 @@ p.left-sangria-price {
 }
 
 .chardonnay-section {
-  background: url('../images/new-images/Arrogant-Frog-Chardonnay.png');
+  background: url('../images/new-wine/Artboard\ 4@1.5x.png');
   height: 300px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   width: 110%;
   position: relative;
-  left: -50px;
-  padding: 26px 0px 0px 150px;
+  left: 0px;
+  padding: 126px 0px 0px 20px;
 }
 
 .top-text-chardonnay {
@@ -2087,12 +2092,12 @@ p.left-sangria-price {
   font-family: 'GlacialIndifference-Bold';
 }
 .sparkling-sweet-section {
-  background: url('../images/Moscato.png');
+  background: url('../images/new-wine/Artboard\ 3@1.5x.png');
   height: 400px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  padding: 100px 0px 0px 120px;
+  padding: 140px 0px 0px 10px;
 }
 
 .sparkling-sweet-section-title{
@@ -2113,14 +2118,14 @@ p.left-sangria-price {
 }
 
 .art-cocktails-section{
-  background: url('../images/Cocktail.png');
+  background: url('../images/new-wine/Artboard\ 5@1.5x.png');
   height: 300px;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
-  top: -100px;
-  padding: 120px 70px 0px 30px;
+  top: -50px;
+  padding: 160px 10px 0px 10px;
 }
 
 /* New Css */
@@ -3158,12 +3163,13 @@ p.power-smoothies-top-text.texas-burger-p {
 }
 
 .frontera-section {
-  background: url('../images/new-images/FronteraWhite.png');
-  height: 150px;
+  background: url('../images/new-wine/Artboard\ 1@1.5x.png');
+  height: 180px;
+  width: 110%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 50px 10px;
+  padding: 80px 10px 0px 50px;
   position: relative;
   top: 0px;
   overflow: hidden;
@@ -3172,16 +3178,16 @@ p.power-smoothies-top-text.texas-burger-p {
 }
 
 .zevenwatch-section {
-  background: url('../images/new-images/Zevenwacht-Cabernet-Sauvignon.png');
+  background: url('../images/new-wine/Artboard\ 2@1.5x.png');
   height: 150px;
-  width: 110%;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 8px 38px;
+  padding: 40px 8px;
   position: relative;
   top: 0px;
-  left: -20px;
+  left: 0px;
 }
 
 p.frontera-title {
@@ -3311,15 +3317,15 @@ p.left-sangria-price {
 }
 
 .chardonnay-section {
-  background: url('../images/new-images/Arrogant-Frog-Chardonnay.png');
-  height: 250px;
+  background: url('../images/new-wine/Artboard\ 4@1.5x.png');
+  height: 160px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 100%;
+  width: 110%;
   position: relative;
-  left: 0px;
-  padding: 50px 0px 0px 50px;
+  left: -10px;
+  padding: 40px 20px 0px 10px;
   margin: 0px;
 }
 
@@ -3333,12 +3339,12 @@ p.left-sangria-price {
 }
 
 .sparkling-sweet-section {
-  background: url('../images/Moscato.png');
-  height: 200px;
+  background: url('../images/new-wine/Artboard\ 3@1.5x.png');
+  height: 170px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  padding: 40px 0px 0px 60px;
+  padding: 40px 20px 0px 10px;
   overflow: hidden;
 }
 
@@ -3360,7 +3366,7 @@ p.left-sangria-price {
 }
 
 .art-cocktails-section{
-  background: url('../images/Cocktail.png');
+  background: url('../images/new-wine/Artboard\ 5@1.5x.png');
   height: 150px;
   width: 110%;
   background-position: center;
@@ -3368,7 +3374,7 @@ p.left-sangria-price {
   background-repeat: no-repeat;
   position: relative;
   top: -60px;
-  padding: 60px 40px 0px 10px;
+  padding: 90px 10px 0px 10px;
 }
 
 /* NEW CSS ADDED */
