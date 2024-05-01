@@ -1067,6 +1067,8 @@
 	justify-content: space-between;
 	width: 100%;
 	color: #000;
+	gap: 22px;
+	overflow-x: auto;
   }
   
   .allergen-icon-description {
@@ -1074,6 +1076,7 @@
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	min-width: max-content;
 	/* width: 20px; */
   }
   .two-row-table {
@@ -3089,6 +3092,8 @@ img.menu-item-icon-images.eastern-flavor-img {
 	justify-content: space-between;
 	width: 100%;
 	color: #000;
+	overflow-x: auto;
+	gap: 22px;
   }
   
   .allergen-icons p {
