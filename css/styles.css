@@ -1065,6 +1065,8 @@ img.tea-product {
   justify-content: space-between;
   width: 100%;
   color: #000;
+  gap: 22px;
+  overflow-x: auto;
 }
 
 .allergen-icon-description {
@@ -1072,6 +1074,7 @@ img.tea-product {
   display: flex;
   align-items: center;
   flex-direction: column;
+  min-width: max-content;
   /* width: 20px; */
 }
 .two-row-table {
