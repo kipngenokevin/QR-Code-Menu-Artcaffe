@@ -825,11 +825,11 @@ p.super-green-price {
 }
 .bowl-of-hugs{
   background: url('../images/new-images/Bowl-of-Soup.png');
-  height: 500px;
+  height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 120%;
+  width: 140%;
   margin: 0px 0px;
   position: relative;
   top: -70px;
@@ -871,6 +871,7 @@ p.warm-up {
 p.bowl-of-hugs-title {
   font-family: 'Garamond';
   font-size: 30px;
+  width: 45%;
 }
 
 p.bowl-of-hugs-description {
@@ -1113,7 +1114,7 @@ p.art-of-breakfast {
 
 .stacked-goodness-section {
   position: relative;
-  top: 0px;
+  top: 10px;
 }
 p.all-day-everyday {
   font-size: 18px;
@@ -1810,6 +1811,7 @@ p.warm-up {
 p.bowl-of-hugs-title {
   font-family: 'Garamond';
   font-size: 30px;
+  width: 50%;
 }
 
 p.bowl-of-hugs-description {
@@ -1933,7 +1935,7 @@ img.tea-product {
 }
 .stacked-goodness-section{
   position: relative;
-  top: 0px;
+  top: 10px;
 }
 .art-breakfast-content {
   position: relative;
@@ -2821,11 +2823,11 @@ p.super-green-price {
 }
 .bowl-of-hugs{
   background: url('../images/new-images/Bowl-of-Soup.png');
-  height: 150px;
+  height: 250px;
   background-position: initial;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 120%;
+  width: 140%;
   margin: 0px 0px 40px 0px;
 }
 .carrot-and-ginger-table{
@@ -2855,7 +2857,7 @@ p.super-green-price {
 
 
 .bowl-of-hugs {
-  padding: 30px 5px;
+  padding: 10px 10px;
   position: relative;
   top: -60px;
 }
@@ -2870,6 +2872,7 @@ p.bowl-of-hugs-title {
   font-size: 12px;
   position: relative;
   top: 0px;
+  width: 50%;
 }
 
 p.bowl-of-hugs-description {
@@ -3163,7 +3166,7 @@ p.power-smoothies-top-text{
 }
 .stacked-goodness-section {
   position: relative;
-  top: 0px;
+  top: 10px;
 }
 p.all-day-everyday {
   font-size: 10px;
@@ -3472,6 +3475,7 @@ p.bowl-of-hugs-description {
 p.bowl-of-hugs-title {
   position: relative;
   top: 18px;
+  width: 50%;
 }
 
 p.warm-up {
@@ -3738,6 +3742,17 @@ img.img-responsive.breakfast-img {
 .grilled-fish-container {
     display: flex;
 	flex-direction: column;
+}
+
+.bowl-of-hugs-top {
+	position: relative;
+	top: 10px;
+}
+
+.bowl-of-hugs-bottom {
+    position: relative;
+    top: 80px;
+	left: -20px;
 }
 
 }
