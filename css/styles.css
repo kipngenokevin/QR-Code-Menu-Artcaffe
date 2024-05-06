@@ -823,11 +823,11 @@
   }
   .bowl-of-hugs{
 	background: url('../images/new-images/Bowl-of-Soup.png');
-	height: 500px;
+	height: 600px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	width: 120%;
+	width: 140%;
 	margin: 0px 0px;
 	position: relative;
 	top: -70px;
@@ -870,6 +870,7 @@
   p.bowl-of-hugs-title {
 	font-family: 'Garamond';
 	font-size: 30px;
+	width: 50%;
   }
   
   p.bowl-of-hugs-description {
@@ -2795,11 +2796,11 @@
   }
   .bowl-of-hugs{
 	background: url('../images/new-images/Bowl-of-Soup.png');
-	height: 150px;
+	height: 250px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	width: 120%;
+	width: 140%;
 	margin: 0px 0px 40px 0px;
   }
   .carrot-and-ginger-table{
@@ -2830,7 +2831,7 @@
   
   
   .bowl-of-hugs {
-	padding: 30px 22px;
+	padding: 10px 10px;
 	position: relative;
 	top: -60px;
   }
@@ -3141,7 +3142,7 @@
   }
   .stacked-goodness-section {
 	position: relative;
-	top: -38px;
+	top: 0px;
   }
   p.all-day-everyday {
 	font-size: 10px;
@@ -3452,6 +3453,7 @@
   p.bowl-of-hugs-title {
 	position: relative;
 	top: 18px;
+	width: 50%;
   }
   
   p.warm-up {
@@ -3711,5 +3713,16 @@
 	background: #fff;
 	padding: 15px;
   }
+
+  .bowl-of-hugs-top {
+	position: relative;
+	top: 40px;
+}
+
+.bowl-of-hugs-bottom {
+    position: relative;
+    top: 80px;
+	left: -20px;
+}
   
 }
