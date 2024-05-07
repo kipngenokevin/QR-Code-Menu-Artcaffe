@@ -1246,12 +1246,12 @@ p.classic-cocktails-price {
 
 /* Column 2 last section */
 .sangria-section {
-  background: url('../images/sangria.PNG');
+  background: url('../images/SangriaRed.png');
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 150px 30px;
+  padding: 150px 40px;
   position: relative;
   top: -50px;
 }
@@ -2040,7 +2040,7 @@ p.classic-cocktails-price {
 
 /* Column 2 last section */
 .sangria-section {
-  background: url('../images/sangria.PNG');
+  background: url('../images/SangriaRed.png');
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
@@ -3276,7 +3276,7 @@ p.classic-cocktails-price {
 
 /* Column 2 last section */
 .sangria-section {
-  background: url('../images/sangria.PNG');
+  background: url('../images/SangriaRed.png');
   height: 220px;
   background-position: center;
   background-repeat: no-repeat;
