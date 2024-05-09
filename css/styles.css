@@ -821,20 +821,20 @@ p.super-green-price {
   font-family: 'GlacialIndifference-Bold';
 }
 .bowl-of-hugs{
-  background: url('../images/BowlofHugs-border.png');
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 120%;
-  margin: 0px 0px;
-  position: relative;
-  top: -70px;
-}
+	background: url('../images/BowlofHugs-border.png');
+	height: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 140%;
+	margin: 0px 0px;
+	position: relative;
+	top: -70px;
+  }
 .carrot-and-ginger-table{
 	width: 80%;
     position: relative;
-    top: 125px;
+    top: 12px;
 }
 
 .bbq-chicken{
@@ -860,7 +860,7 @@ p.super-green-price {
 
 
 .bowl-of-hugs {
-  padding: 220px 16px;
+  padding: 180px 46px;
 }
 
 p.warm-up {
@@ -868,8 +868,9 @@ p.warm-up {
 }
 
 p.bowl-of-hugs-title {
-  font-family: 'Garamond';
-  font-size: 30px;
+	font-family: 'Garamond';
+	font-size: 30px;
+	width: 50%;
 }
 
 p.bowl-of-hugs-description {
@@ -1244,7 +1245,7 @@ p.classic-cocktails-price {
 
 /* Column 2 last section */
 .sangria-section {
-  background: url('../images/sangria.PNG');
+  background: url('../images/SangriaRed.png');
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
@@ -1728,7 +1729,6 @@ p.sausage-roll-price {
   line-height: 1;
 }
 .bowl-of-hugs{
-  background: url('../images/BowlofHugs-border.png');
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -1777,6 +1777,7 @@ p.warm-up {
 p.bowl-of-hugs-title {
   font-family: 'Garamond';
   font-size: 30px;
+  width: 50%;
 }
 
 p.bowl-of-hugs-description {
@@ -2060,7 +2061,6 @@ p.classic-cocktails-price {
 
 /* Column 2 last section */
 .sangria-section {
-  background: url('../images/sangria.PNG');
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
@@ -2797,12 +2797,11 @@ p.super-green-price {
   top: -10px;
 }
 .bowl-of-hugs{
-  background: url('../images/BowlofHugs-border.png');
-  height: 150px;
+  height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 120%;
+  width: 140%;
   margin: 0px 0px 40px 0px;
 }
 .carrot-and-ginger-table{
@@ -2832,7 +2831,7 @@ p.super-green-price {
 
 
 .bowl-of-hugs {
-  padding: 30px 5px;
+  padding: 10px 10px;
   position: relative;
   top: -60px;
 }
@@ -3140,8 +3139,7 @@ p.power-smoothies-top-text{
 }
 .stacked-goodness-section {
   position: relative;
-  top: -68px;
-  height: 1250px;
+  top: 0px;
 }
 p.all-day-everyday {
   font-size: 10px;
@@ -3319,7 +3317,6 @@ p.classic-cocktails-price {
 
 /* Column 2 last section */
 .sangria-section {
-  background: url('../images/sangria.PNG');
   height: 220px;
   background-position: center;
   background-repeat: no-repeat;
@@ -3450,6 +3447,7 @@ p.bowl-of-hugs-description {
 p.bowl-of-hugs-title {
   position: relative;
   top: 18px;
+  width: 50%;
 }
 
 p.warm-up {
@@ -3732,6 +3730,17 @@ img.img-responsive.hummus-img {
 span.art-pesto {
     font-family: 'Garamond';
     font-size: 14px;
+}
+
+.bowl-of-hugs-top {
+	position: relative;
+	top: 40px;
+}
+
+.bowl-of-hugs-bottom {
+    position: relative;
+    top: 0px;
+	left: -20px;
 }
 
 }
