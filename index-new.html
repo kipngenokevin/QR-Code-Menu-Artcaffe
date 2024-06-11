@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T4689DHLGP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-T4689DHLGP');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtCaffe Menu</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+		<div class="row">
+			<div class=" col-sm-12" style="text-align: center;">
+				<img src="images/ArtcaffeLogo.svg" alt="ArtCaffe Logo" class="logo" >
+				<h1>Welcome</h1>
+				<h5>Check out menu below.</h5>
+                <button id="viewMenuButton" class="btn btn-success">View Menu</button>
+			</div>
+		</div>
+    </div>
+	<section class="slider-section">
+        <div class="container">
+            <div class="row bottom-section">
+                <div class="col-sm-12">
+
+                    <div id="artcaffe-market-slideshow" class="artcaffe-market-slideshow safari">
+                        <!-- <img src="images/Menu Animation 1.gif" alt="Image 1" class="active"> -->
+						<video  preload="metadata" src="images/Menu Animation.mp4" class="active video" muted="true" autoplay playsinline loop></video>
+						<img class="img" autoplay="autoplay" preload="metadata" playsinline muted="on" loop="loop" src="images/Menu Animation.mp4" alt="Menu Animation">
+						<video  preload="metadata" src="images/Manyatta - KV_2_DOOH - 1920x1080px.mp4" class="active video" muted="true" autoplay playsinline loop></video>
+						<img class="img" autoplay="autoplay" preload="metadata" playsinline muted="on" loop="loop" src="images/Manyatta - KV_2_DOOH - 1920x1080px.mp4" alt="Menu Animation">
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+        document.getElementById('viewMenuButton').addEventListener('click', function() {
+            window.open('./images/QR-main_menu2024.pdf', '_blank');
+        });
+
+		var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+
+		if (isSafari) {
+			var videos = document.getElementsByClassName("video");
+			for (var i = 0; i < videos.length; i++) {
+				videos[i].style.display = "none";
+			}
+		} else {
+			var imgs = document.getElementsByClassName("img");
+			for (var j = 0; j < imgs.length; j++) {
+				imgs[j].style.display = "none";
+			}
+		}
+
+
+		window.addEventListener("DOMContentLoaded", function () {
+				var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+				var slideshows = document.querySelectorAll("#artcaffe-market-slideshow");
+
+				slideshows.forEach(function (slideshow) {
+					var slideIndex = 0;
+					var slides = isSafari ? slideshow.querySelectorAll(".img") : slideshow.querySelectorAll(".video");
+
+					function nextSlide() {
+						slides[slideIndex].classList.remove("active");
+						slideIndex = (slideIndex + 1) % slides.length;
+						slides[slideIndex].classList.add("active");
+					}
+
+					setInterval(nextSlide, 9000);
+				});
+		});
+    </script>
+</body>
+</html>
