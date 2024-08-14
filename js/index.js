@@ -26,8 +26,8 @@ window.nextStep = async function() {
 
 
 
-        const username = 'AQIoGIE7aBGUAAGAbAJt9XlNPOAeNsQm';
-        const password = 'YGSKCwU2ieEcure5';
+        const username = 'd3wo7feC8z3VRB6ASQva7nvFczAkDaDG8hUGGgAaGGkqZjaG';
+        const password = 'bWkk4miPhESLnfHS3MmZ4nVV99iVKWzWRFoBhTzozREuwn8LOQrWeFhnWWTLP6kz';
 
         try {
             accessToken = await getAccessToken(username, password);
