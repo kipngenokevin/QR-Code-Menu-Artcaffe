@@ -58,6 +58,10 @@ td:first-child {
 td, td p {
 	font-family: 'Gotham-Condensed-Book';
 }
+
+a {
+	color: var(--nav-item-background) !important;
+}
 /* Categories Button */
 
 .btn-category {
@@ -167,6 +171,7 @@ td, td p {
   .title-color {
     color: var(--nav-item-background);
   }
+
 
   @media only screen and (min-width: 768px) and (max-width: 1200px){
     .artcaffe-market-slideshow {
