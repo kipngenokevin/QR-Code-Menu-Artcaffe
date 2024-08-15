@@ -16,88 +16,121 @@ $(document).ready(function() {
 });
 
 window.nextStep = async function() {
-    if (currentStep === 1) {
-        msisdn = $('#phoneNumber').val();
+    // Show the spinner and disable the button to prevent multiple clicks
+    $('#spinner').show();
+    $('#nextStepButton').prop('disabled', true);  // Assuming your button has an id of 'nextStepButton'
 
-        if (!msisdn) {
-            alert('Please input your phone number.');
-            return;
-        }
+    try {
+        if (currentStep === 1) {
+            let phoneNumber = $('#phoneNumber').val();
 
+            if (!phoneNumber) {
+                alert('Please input your phone number.');
+                return;
+            }
 
+            // Remove any non-numeric characters
+            phoneNumber = phoneNumber.replace(/\D/g, '');
 
-        const username = 'd3wo7feC8z3VRB6ASQva7nvFczAkDaDG8hUGGgAaGGkqZjaG';
-        const password = 'bWkk4miPhESLnfHS3MmZ4nVV99iVKWzWRFoBhTzozREuwn8LOQrWeFhnWWTLP6kz';
+            // Check if the phone number already starts with '254'
+            if (!phoneNumber.startsWith('254')) {
+                // If not, prepend '254' and remove leading zero if present
+                if (phoneNumber.startsWith('0')) {
+                    phoneNumber = phoneNumber.substring(1);
+                }
+                phoneNumber = '254' + phoneNumber;
+            }
 
-        try {
-            accessToken = await getAccessToken(username, password);
-            console.log('Access Token:', accessToken);
-            const offers = await fetchOffers(accessToken, msisdn);
-            console.log("Received offers", offers);
-            offersData = offers.lineItem.characteristicsValue;
-            updateOfferSelection(offersData);
+            if (phoneNumber.length < 10) {
+                alert('Phone number is too short. Please enter a valid number.');
+                return;
+            }
+
+            msisdn = phoneNumber;
+
+            const username = 'd3wo7feC8z3VRB6ASQva7nvFczAkDaDG8hUGGgAaGGkqZjaG';
+            const password = 'bWkk4miPhESLnfHS3MmZ4nVV99iVKWzWRFoBhTzozREuwn8LOQrWeFhnWWTLP6kz';
+
+            try {
+                accessToken = await getAccessToken(username, password);
+                console.log('Access Token:', accessToken);
+                const offers = await fetchOffers(accessToken, msisdn);
+                console.log("Received offers", offers);
+                offersData = offers.lineItem.characteristicsValue;
+                updateOfferSelection(offersData);
+                currentStep++;
+                showStep(currentStep);
+            } catch (error) {
+                console.error('Failed to obtain access token or fetch offers:', error);
+            }
+        } else if (currentStep === 2) {
+            const selectedOffer = $('input[name="dataOffer"]:checked').val();
+            if (!selectedOffer) {
+                alert('Please select an offer.');
+                return;
+            }
+
             currentStep++;
             showStep(currentStep);
-        } catch (error) {
-            console.error('Failed to obtain access token or fetch offers:', error);
+        } else if (currentStep === 3) {
+            const selectedOffer = $('input[name="dataOffer"]:checked').val();
+            console.log('Selected Offer:', selectedOffer);
+
+            const selectedOfferData = offersData.find(offer => offer.offerName === selectedOffer);
+
+            if (!selectedOfferData) {
+                alert('Selected offer details not found. Please try again.');
+                console.error('Selected offer data not found:', selectedOffer);
+                return;
+            }
+
+            const paymentMode = $('input[name="paymentMethod"]:checked').val();
+
+            if (!paymentMode) {
+                alert('Please select a payment method.');
+                return;
+            }
+
+            const accountId = selectedOfferData.resourceAccId;
+            const price = selectedOfferData.offerPrice;
+            const resourceAmount = selectedOfferData.resourceValue;
+            const validity = selectedOfferData.offerValidity;
+
+            try {
+                const purchaseResponse = await makePurchase(
+                    accessToken,
+                    msisdn,
+                    selectedOfferData.offeringId,
+                    paymentMode,
+                    accountId,
+                    price,
+                    resourceAmount,
+                    validity
+                );
+                console.log('Purchase response:', purchaseResponse);
+                $('#confirmationMessage').text(purchaseResponse.header.customerMessage || 'You will receive an SMS confirmation shortly.');
+                alert('Kindly wait as we process your request.');
+                
+                // Wait for 3 seconds and go back to the first step
+                setTimeout(() => {
+                    currentStep = 1;
+                    showStep(currentStep);
+                    $('#spinner').hide();  // Hide spinner after process
+                }, 3000);
+            } catch (error) {
+                alert(`Failed to make purchase: ${error.message}`);
+                console.error('Failed to make purchase:', error);
+                $('#spinner').hide();  // Hide spinner on error
+            }
         }
-    } else if (currentStep === 2) {
-        const selectedOffer = $('input[name="dataOffer"]:checked').val();
-        if (!selectedOffer) {
-            alert('Please select an offer.');
-            return;
-        }
-
-        currentStep++;
-        showStep(currentStep);
-    } else if (currentStep === 3) {
-        const selectedOffer = $('input[name="dataOffer"]:checked').val();
-        console.log('Selected Offer:', selectedOffer); // Log selected offer
-
-        // Find the selected offer data in the offersData array
-        const selectedOfferData = offersData.find(offer => offer.offerName === selectedOffer);
-
-        if (!selectedOfferData) {
-            alert('Selected offer details not found. Please try again.');
-            console.error('Selected offer data not found:', selectedOffer);
-            return;
-        }
-
-        const paymentMode = $('input[name="paymentMethod"]:checked').val();
-
-        if (!paymentMode) {
-            alert('Please select a payment method.');
-            return;
-        }
-
-        const accountId = selectedOfferData.resourceAccId;
-        const price = selectedOfferData.offerPrice;
-        const resourceAmount = selectedOfferData.resourceValue;
-        const validity = selectedOfferData.offerValidity;
-
-        try {
-			const purchaseResponse = await makePurchase(
-				accessToken,
-				msisdn,
-				selectedOfferData.offeringId,
-				paymentMode,
-				accountId,
-				price,
-				resourceAmount,
-				validity
-			);
-			console.log('Purchase response:', purchaseResponse);
-            $('#confirmationMessage').text(purchaseResponse.header.customerMessage || 'You will receive an SMS confirmation shortly.');
-			alert('Kindly wait as we process your request.');
-			currentStep++;
-			showStep(currentStep);
-		} catch (error) {
-			alert(`Failed to make purchase: ${error.message}`);
-			console.error('Failed to make purchase:', error);
-		}
-		
+    } finally {
+        // Hide the spinner and re-enable the button regardless of the outcome
+        $('#spinner').hide();
+        $('#nextStepButton').prop('disabled', false);
     }
 };
+
+
 
 window.prevStep = function() {
     if (currentStep > 1) {
