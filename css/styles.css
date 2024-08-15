@@ -64,6 +64,7 @@
 	margin: 0;
 	overflow-x: hidden;
   }
+
   
   p {
 	font-family: 'GlacialIndifference-Regular';
@@ -414,15 +415,15 @@
   
   /* New CSS Changes */
   .chai-and-pie {
-	  display: flex;
-	  background: url('../images/new-images/Coffee-&-Pastry.png');
-	  background-repeat: no-repeat;
-	  background-position: center;
-	  background-size: contain;
-	  width: 120%;
-	  position: relative;
-	  height: 400px;
-	}
+	display: flex;
+	background: url('../images/new-images/Coffee-&-Pastry.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 120%;
+	position: relative;
+	height: 400px;
+  }
   
   .chai-and-pie-text {
 	position: relative;
@@ -717,7 +718,7 @@
   .beef-samosa-section{
 	background: url('../images/new-images/Samosas.png');
 	background-position: center;
-	height: 325px;
+	height: 250px;
 	background-size: contain;
 	background-repeat: no-repeat;
   }
@@ -788,12 +789,12 @@
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
-	padding: 15px 0px;
+	padding: 25px 70px;
   }
   .super-green {
 	text-align: right;
 	width: 90%;
-	padding: 70px 55px;
+	padding: 70px 0px;
   }
   
   .super-green-title {
@@ -837,7 +838,7 @@
   }
   
   .bbq-chicken{
-	background: url('../images/new-images/Fried-Chicken-Sandwich.png');
+	background: url('../images/BBQ\ CHICKEN\ IN\ RUSTIC\ CIABATTA.png');
 	height: 300px;
 	background-repeat: no-repeat;
 	background-position: bottom;
@@ -845,7 +846,6 @@
 	margin: 10px 0px;
 	position: relative;
 	top: -31px;
-	width: 120%;
   }
   .soups-section {
 	display: flex;
@@ -860,7 +860,7 @@
   
   
   .bowl-of-hugs {
-	padding: 200px 50px;
+	padding: 180px 46px;
   }
   
   p.warm-up {
@@ -870,7 +870,7 @@
   p.bowl-of-hugs-title {
 	font-family: 'Garamond';
 	font-size: 30px;
-	width: 50%;
+	width: 45%;
   }
   
   p.bowl-of-hugs-description {
@@ -1004,7 +1004,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	padding: 110px 50px;
+	padding: 110px 40px;
   }
   p.slow-cooked-beef-title {
 	font-family: 'GlacialIndifference-Bold';
@@ -1036,7 +1036,7 @@
 	float: right;
 	height: 276px;
 	top: -60px;
-	left: -153px;
+	left: -140px;
   }
   
   .allergen-advise {
@@ -1156,27 +1156,27 @@
 	top: -10px;
   }
   .frontera-section {
-	  background: url('../images/new-images/FronteraWhite.png');
-	  height: 400px;
-	  background-position: center;
-	  background-repeat: no-repeat;
-	  background-size: contain;
-	  padding: 150px 65px;
-	  position: relative;
-	  top: -50px;
-	  left: -50px;
-	}
-	.zevenwatch-section {
-	  background: url('../images/new-images/Zevenwacht-Cabernet-Sauvignon.png');
-	  height: 400px;
-	  background-position: center;
-	  background-repeat: no-repeat;
-	  background-size: contain;
-	  padding: 30px 115px;
-	  position: relative;
-	  top: 0px;
-	  left: -70px;
-	}
+	background: url('../images/new-wine/Artboard\ 1@1.5x.png');
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 150px 0px 0px 160px;
+	position: relative;
+	top: 0px;
+	left: -50px;
+  }
+  .zevenwatch-section {
+	background: url('../images/new-wine/Artboard\ 2@1.5x.png');
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 140px 45px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+  }
   
   p.frontera-title {
 	font-size: 30px;
@@ -1247,7 +1247,7 @@
   
   /* Column 2 last section */
   .sangria-section {
-	background: url('../images/sangria.PNG');
+	background: url('../images/SangriaRed.png');
 	height: 400px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1287,7 +1287,7 @@
   }
   
   .chardonnay-section {
-	background: url('../images/ArrogantFrog.png');
+	background: url('../images/new-wine/Artboard\ 4@1.5x.png');
 	height: 400px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1295,7 +1295,7 @@
 	width: 110%;
 	position: relative;
 	left: -50px;
-	padding: 80px 0px 0px 250px;
+	padding: 120px 66px 0px 65px;
   }
   
   .top-text-chardonnay {
@@ -1304,12 +1304,12 @@
   }
   /* New CSS */
   .sparkling-sweet-section {
-	background: url('../images/Moscato.png');
+	background: url('../images/new-wine/Artboard\ 3@1.5x.png');
 	height: 400px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-	padding: 100px 0px 0px 200px;
+	padding: 130px 0px 0px 40px;
   }
   
   .sparkling-sweet-section-title{
@@ -1330,14 +1330,14 @@
   }
   
   .art-cocktails-section{
-	background: url('../images/Cocktail.png');
+	background: url('../images/new-wine/Artboard\ 5@1.5x.png');
 	height: 300px;
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
 	position: relative;
-	top: -100px;
-	padding: 120px 100px 0px 30px;
+	top: -90px;
+	padding: 170px 100px 0px 30px;
   }
   
   /* NEWLY ADDED CSS */
@@ -1357,22 +1357,22 @@
   
   /* NEW DAY ===== NEW CSS RULES */
   .new-pie-and-chai-section {
-	  background: url('../images/new-images/Snacks.png');
-	  height: 700px;
-	  background-position: center;
-	  background-repeat: no-repeat;
-	  background-size: contain;
-	  min-width: 120%;
-	  position: relative;
-	  left: -70px;
-	  padding: 50px 85px 50px 123px;
-	}
-	
-	.new-pie-and-chai-section {
-	  display: flex;
-	  /* gap: 150px; */
-	  flex-direction: column;
-	}
+	background: url('../images/new-images/Snacks.png');
+	height: 700px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-width: 120%;
+	position: relative;
+	left: -70px;
+	padding: 50px 85px 50px 123px;
+  }
+  
+  .new-pie-and-chai-section {
+	display: flex;
+	/* gap: 150px; */
+	flex-direction: column;
+  }
   
   p.new-pie-and-chai-title {
 	font-family: 'Survey-regular';
@@ -1432,45 +1432,38 @@
 	top: -82px;
   }
   .golden-serif-text {
-	  color: #A59F9A;
+	  color: tan;
 	  font-family: 'Survey-regular';
   }
-  .breakfast-croissant-container {
-	  display: flex;
-  }
-  
-  .croissant-right {
-	  flex: 3;
-	  display: flex;
-	  align-items: center;
-  }
-  
-  .croissant-left {
-	  flex: 2;
-  }
-  
-  td.humus-bowl-td {
-	  vertical-align: middle;
-  }
-  
-  img.img-responsive.humus-img {
-	  max-width: 150%;
+  .golden-text-semibold {
+	  color: #A59F9A;
+	  font-size: smaller;
+	  font-family: 'Futura-medium';
   }
 
-  .hummus-bowl-container {
+  .col-sm-12.col-xs-12.eastern-flavor-container {
+    border: 2px solid #e2d7c4;
+    padding: 10px;
+    background: url('../images/Background-jan24.png');
+    background-repeat: repeat-x;
+}
+
+.col-sm-12.col-xs-12.easter-flavor-logo {
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
+.col-sm-6.col-xs-6.eastern-flavor-right {
     display: flex;
 }
-
-.hummus-bowl-left {
-    flex: 2;
+img.menu-item-icon-images.eastern-flavor-img {
+    position: relative;
+    top: 10px;
 }
-.hummus-bowl-right {
-    flex: 2;
-}
-.halal-beverages {
-	background: #fff;
-	border: 2px solid #e2d7c4;
-	padding: 15px;
+.g-web {
+    position: relative;
+    top: 2px;
+	height: 23px !important;
 }
   
   
@@ -1754,7 +1747,7 @@
   }
   
   .bbq-chicken{
-	background: url('../images/new-images/Fried-Chicken-Sandwich.png');
+	background: url('../images/BBQ\ CHICKEN\ IN\ RUSTIC\ CIABATTA.png');
 	height: 300px;
 	background-repeat: no-repeat;
 	background-position: bottom;
@@ -1762,7 +1755,6 @@
 	margin: 80px 0px;
 	position: relative;
 	top: 40px;
-	width: 100%;
   }
   .soups-section {
 	display: flex;
@@ -1777,7 +1769,7 @@
   
   
   .bowl-of-hugs {
-	padding: 200px 16px;
+	padding: 190px 16px;
 	position: relative;
 	top: -160px;
   }
@@ -1789,6 +1781,7 @@
   p.bowl-of-hugs-title {
 	font-family: 'Garamond';
 	font-size: 30px;
+	width: 50%;
   }
   
   p.bowl-of-hugs-description {
@@ -1978,28 +1971,28 @@
   
   /* More CSS Changes */
   .frontera-section {
-	  background: url('../images/new-images/FronteraWhite.png');
-	  height: 300px;
-	  background-position: center;
-	  background-repeat: no-repeat;
-	  background-size: contain;
-	  padding: 100px 20px;
-	  position: relative;
-	  top: -50px;
-	  left: 0px;
-	}
-	.zevenwatch-section {
-	  background: url('../images/new-images/Zevenwacht-Cabernet-Sauvignon.png');
-	  height: 320px;
-	  width: 102%;
-	  background-position: center;
-	  background-repeat: no-repeat;
-	  background-size: contain;
-	  padding: 35px 40px;
-	  position: relative;
-	  top: 0px;
-	  left: -10px;
-	}
+	background: url('../images/new-wine/Artboard\ 1@1.5x.png');
+	height: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 110px 20px 0px 90px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+  }
+  .zevenwatch-section {
+	background: url('../images/new-wine/Artboard\ 2@1.5x.png');
+	height: 320px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 105px 20px;
+	position: relative;
+	top: 0px;
+	left: -10px;
+  }
   
   p.frontera-title {
 	font-size: 22px;
@@ -2074,7 +2067,6 @@
   
   /* Column 2 last section */
   .sangria-section {
-	background: url('../images/sangria.PNG');
 	height: 400px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -2114,15 +2106,15 @@
   }
   
   .chardonnay-section {
-	background: url('../images/ArrogantFrog.png');
-	height: 400px;
+	background: url('../images/new-wine/Artboard\ 4@1.5x.png');
+	height: 300px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
 	width: 110%;
 	position: relative;
-	left: -50px;
-	padding: 80px 0px 0px 150px;
+	left: 0px;
+	padding: 126px 0px 0px 20px;
   }
   
   .top-text-chardonnay {
@@ -2130,12 +2122,12 @@
 	font-family: 'GlacialIndifference-Bold';
   }
   .sparkling-sweet-section {
-	background: url('../images/Moscato.png');
+	background: url('../images/new-wine/Artboard\ 3@1.5x.png');
 	height: 400px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-	padding: 100px 0px 0px 120px;
+	padding: 140px 0px 0px 10px;
   }
   
   .sparkling-sweet-section-title{
@@ -2156,14 +2148,14 @@
   }
   
   .art-cocktails-section{
-	background: url('../images/Cocktail.png');
+	background: url('../images/new-wine/Artboard\ 5@1.5x.png');
 	height: 300px;
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
 	position: relative;
-	top: -100px;
-	padding: 120px 70px 0px 30px;
+	top: -50px;
+	padding: 160px 10px 0px 10px;
   }
   
   /* New Css */
@@ -2189,20 +2181,20 @@
   
   /* NEW DAY ===== NEW CSS RULES */
   .new-pie-and-chai-section {
-	  background: url('../images/new-images/Snacks.png');
-	  height: 500px;
-	  background-position: center;
-	  background-repeat: no-repeat;
-	  background-size: contain;
-	}
-	
-	.new-pie-and-chai-section {
-	  padding: 27px 53px 47px 54px;
-	  display: flex;
-	  left: -40px;
-	  gap: 20px;
-	  flex-direction: column;
-	}
+	background: url('../images/new-images/Snacks.png');
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+  }
+  
+  .new-pie-and-chai-section {
+	padding: 27px 53px 47px 54px;
+	display: flex;
+	left: -40px;
+	gap: 20px;
+	flex-direction: column;
+  }
   
   p.new-pie-and-chai-title {
 	font-family: 'Survey-regular';
@@ -2227,11 +2219,11 @@
   }
   
   .new-pie-and-chai-bottom {
-	  display: flex;
-	  flex-direction: column;
-	  padding: 29px 5px 0px 69px;
-	  position: relative;
-	  top: -20px;
+	display: flex;
+	flex-direction: column;
+	padding: 0px 0px 0px 65px;
+	position: relative;
+	top: -20px;
   }
   
   .new-sausage-roll {
@@ -2255,16 +2247,9 @@
   p.new-sausage-roll-text-description {
 	font-size: 16px;
   }
-  
-  img.img-responsive.humus-img {
-	  max-width: 140%;
-  }
-  .halal-beverages {
-	background: #fff;
-	border: 1px solid #e2d7c4;
-	padding: 15px;
-  }
-  
+  .col-sm-6.col-xs-6.eastern-flavor-right {
+    flex-direction: column;
+}
   
   
   
@@ -2481,7 +2466,7 @@
   
 	.everyday-classics {
 	  background: url('../images/new-images/Everyday-Breakfast.png');
-	  height: 240px;
+	  height: 250px;
 	  background-repeat: no-repeat;
 	  background-position: bottom;
 	  background-size: contain;
@@ -2718,7 +2703,7 @@
   }
   .artcaffe-market-slideshow {
 	width: 100%;
-	height: 130px;
+	height: 200px;
 	overflow: hidden;
 	position: relative;
 	margin: 25px 0px;
@@ -2760,8 +2745,8 @@
   }
   .super-green {
 	text-align: right;
-	width: 100%;
-	padding: 50px 10px;
+	width: 95%;
+	padding: 50px 0px;
   }
   
   .super-green-title {
@@ -2810,13 +2795,12 @@
 	font-size: 10px;
   }
   .bbq-chicken{
-	background: url('../images/new-images/Fried-Chicken-Sandwich.png');
-	height: 110px;
+	background: url('../images/BBQ\ CHICKEN\ IN\ RUSTIC\ CIABATTA.png');
+	height: 150px;
 	background-repeat: no-repeat;
 	background-position: bottom;
 	background-size: contain;
-	margin: 0px 0px;
-	width: 100%;
+	margin: 30px 0px;
   }
   .soups-section {
 	display: flex;
@@ -2972,7 +2956,7 @@
   
   .pollo-section {
 	display: flex;
-	margin: 0px 0px;
+	margin: 32px 0px;
 	align-items: center;
 	width: 105%;
   }
@@ -3123,7 +3107,6 @@
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	min-width: max-content;
 	/* width: 20px; */
   }
   th.bold-underlined-text {
@@ -3142,7 +3125,7 @@
   }
   .stacked-goodness-section {
 	position: relative;
-	top: 0px;
+	top: -38px;
   }
   p.all-day-everyday {
 	font-size: 10px;
@@ -3192,7 +3175,7 @@
   }
   /*New added CSS */
   p.power-smoothies-top-text.beef-top-text {
-	top: -63px;
+	top: -73px;
 	width: 100%;
   }
   p.slow-cooked-beef-description {
@@ -3214,31 +3197,32 @@
   }
   
   .frontera-section {
-	  background: url('../images/new-images/FronteraWhite.png');
-	  height: 150px;
-	  background-position: center;
-	  background-repeat: no-repeat;
-	  background-size: contain;
-	  padding: 50px 10px;
-	  position: relative;
-	  top: 0px;
-	  overflow: hidden;
-	  left: 0px;
-	  margin-bottom: 0px;
-	}
-	
-	.zevenwatch-section {
-	  background: url('../images/new-images/Zevenwacht-Cabernet-Sauvignon.png');
-	  height: 150px;
-	  width: 110%;
-	  background-position: center;
-	  background-repeat: no-repeat;
-	  background-size: contain;
-	  padding: 8px 38px;
-	  position: relative;
-	  top: 0px;
-	  left: -20px;
-	}
+	background: url('../images/new-wine/Artboard\ 1@1.5x.png');
+	height: 180px;
+	width: 110%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 80px 10px 0px 50px;
+	position: relative;
+	top: 0px;
+	overflow: hidden;
+	left: 0px;
+	margin-bottom: 0px;
+  }
+  
+  .zevenwatch-section {
+	background: url('../images/new-wine/Artboard\ 2@1.5x.png');
+	height: 150px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 40px 8px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+  }
   
   p.frontera-title {
 	font-size: 12px;
@@ -3291,7 +3275,7 @@
   }
   
   p.classic-cocktails-text {
-	font-size: 8px;
+	font-size: 9px;
 	position: relative;
 	top: -10px;
   }
@@ -3322,7 +3306,6 @@
   
   /* Column 2 last section */
   .sangria-section {
-	background: url('../images/sangria.PNG');
 	height: 220px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -3367,16 +3350,16 @@
   }
   
   .chardonnay-section {
-	background: url('../images/ArrogantFrog.png');
-	height: 250px;
+	background: url('../images/new-wine/Artboard\ 4@1.5x.png');
+	height: 160px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	width: 120%;
+	width: 110%;
 	position: relative;
-	left: -50px;
-	padding: 40px 0px 0px 80px;
-	margin: -45px 0px;
+	left: -10px;
+	padding: 40px 20px 0px 10px;
+	margin: 0px;
   }
   
   .top-text-chardonnay {
@@ -3389,12 +3372,12 @@
   }
   
   .sparkling-sweet-section {
-	background: url('../images/Moscato.png');
-	height: 200px;
+	background: url('../images/new-wine/Artboard\ 3@1.5x.png');
+	height: 170px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-	padding: 40px 0px 0px 60px;
+	padding: 40px 20px 0px 10px;
 	overflow: hidden;
   }
   
@@ -3416,7 +3399,7 @@
   }
   
   .art-cocktails-section{
-	background: url('../images/Cocktail.png');
+	background: url('../images/new-wine/Artboard\ 5@1.5x.png');
 	height: 150px;
 	width: 110%;
 	background-position: center;
@@ -3424,7 +3407,7 @@
 	background-repeat: no-repeat;
 	position: relative;
 	top: -60px;
-	padding: 60px 40px 0px 10px;
+	padding: 90px 10px 0px 10px;
   }
   
   /* NEW CSS ADDED */
@@ -3516,15 +3499,14 @@
 	background-repeat: no-repeat;
 	background-size: contain;
 	overflow: hidden;
-	margin: 0px 0px;
-	left: -21px;
-	width: 130%;
+	margin: -31px 0px;
+	left: -10px;
   }
   
   .new-pie-and-chai-section {
-	padding: 38px 33px;
+	padding: 39px 21px 26px 26px;
 	display: flex;
-	/* gap: 150px; */
+	gap: 10px;
 	flex-direction: column;
   }
   
@@ -3611,7 +3593,7 @@
   
   .chocolate-section-upwards {
 	position: relative;
-	margin: 40px 0px;
+	top: -17px;
   }
   
   /* NEW DAY NEW CSS */
@@ -3695,26 +3677,30 @@
 	margin: 3px 0px;
   }
   .chocolate-section {
-	margin-top: -46px;
+	margin-top: -26px;
   }
   img.section-title-images.cocktail-animation {
 	position: relative;
 	top: -34px;
   }
-  .pasta-section-to-top {
-	  margin-bottom: -30px;
-  }
-  .hummus-bowl-container {
-    display: flex;
-	flex-direction: column;
-  }
+  .col-sm-12.col-xs-12.eastern-flavor-container {
+    border: 2px solid #e2d7c4;
+    padding: 10px;
+    background: url('../images/Background-jan24.png');
+    background-repeat: repeat-x;
+}
 
-  .halal-beverages {
-	background: #fff;
-	padding: 15px;
-  }
+.col-sm-6.col-xs-6.eastern-flavor-right {
+    flex-direction: column;
+}
 
-  .bowl-of-hugs-top {
+.g-web {
+    position: relative;
+    top: 2px;
+	height: 13px !important;
+}
+
+.bowl-of-hugs-top {
 	position: relative;
 	top: 40px;
 }
@@ -3724,5 +3710,6 @@
     top: 80px;
 	left: -20px;
 }
+
   
-}
+  }
