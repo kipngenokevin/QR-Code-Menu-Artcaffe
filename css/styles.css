@@ -1,827 +1,829 @@
 @font-face {
-  font-family: 'Futura-light';
-  src: url('fonts/Futura.woff2') format('woff2'),
-    url('fonts/Futura.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura-bold';
-  src:
-    url('fonts/Futura-Bold.woff2') format('woff2'),
-    url('fonts/Futura-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura-medium';
-  src:
-    url('fonts/futura_medium_bt-webfont.woff') format('woff2'),
-    url('fonts/futura_medium_bt-webfont.woff2') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'GlacialIndifference-Regular';
-  src: url('fonts/GlacialIndifference-Regular.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'GlacialIndifference-Bold';
-  src: url('fonts/GlacialIndifference-Bold.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'Garamond';
-  src: url('fonts/GaramondITCbyBT-Bold.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'Knockout';
-  src: url('fonts/Knockout-HTF28-JuniorFeatherwt.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'Survey-regular';
-  src: url('fonts/SurveyorDisplay-Book-Pro.otf') format('opentype');
-}
-
-
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-
-
-body {
-  color: #2E251D;
-  margin: 0;
-  overflow-x: hidden;
-}
-
-p {
-  font-family: 'GlacialIndifference-Regular';
-  font-size: 14px;
-}
-
-table {
-  width: 100%;
-}
-
-table td {
-  font-family: 'GlacialIndifference-Bold';
-  padding: 3px;
-  vertical-align: baseline;
-  font-size: 16px;
-}
-
-table th {
-  font-family: 'GlacialIndifference-Regular';
-  font-size: 14px;
-}
-
-/* tr td:first-child {
-  min-width: 320px;
-  /* CSS properties for styling the first child td element 
-} */
-
-.bold-text {
-  font-family: 'GlacialIndifference-Bold';
-}
-
-/* Added changes */
-.top-section {
-  padding: 15px;
-  margin: 7px;
-}
-
-.top-section-text {
-  font-family: 'Garamond', Georgia, 'Times New Roman', Times, serif;
-  font-size: 18px;
-}
-
-.section-titles {
-  font-family: 'Knockout', 'Oswald', sans-serif;
-  font-weight: 500;
-  font-size: 55px;
-}
-
-.top-right-section {
-  display: flex;
-  gap: 0;
-}
-
-.artcaffe-title {
-  border-bottom: #2E251D 2px solid;
-}
-
-.top-description {
-  border-bottom: #2E251D 4px solid;
-  display: flex;
-  align-items: center;
-  padding: 5px;
-  border-top: 1px solid #2e251d;
-  margin-top: 2px;
-}
-
-/* Added changes */
-
-.artcaffe-title {
-  padding: 12px;
-}
-
-/* Added changes */
-.connect-with-us-text {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-
-i.fa-brands {
-  font-size: 25px;
-}
-
-.social-icons {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.connect {
-  text-align: right;
-  position: relative;
-  right: -40px;
-  line-height: 20px;
-}
-
-.artcaffe-site {
-  text-align: center;
-}
-
-.artcaffe-title-text {
-  border-bottom: #2E251D 1px solid;
-  padding: 1px;
-}
-
-/*Changes */
-.bold-text-titles {
-  font-size: 18px;
-  font-family: 'GlacialIndifference-Regular';
-  line-height: 22px;
-}
-
-/* Added items */
-.add-bacon {
-  outline: 4px solid #e2d7c4;
-  padding-left: 16px;
-  display: flex;
-  align-items: center;
-  margin: 15px;
-  align-content: center;
-}
-
-.add-bacon p {
-  margin-top: 8px;
-  font-size: 14px;
-}
-
-p.extra-text-table {
-  font-size: 18px;
-  padding-top: 12px;
-}
-
-.add-items {
-  background: #A59F9A;
-  padding: 5px;
-  outline: 3px solid #e2d7c4;
-}
-
-.dairy-row {
-  display: flex;
-  color: #fff;
-  gap: 4px;
-  padding: 8px;
-}
-
-/* Additional Css */
-.dairy-section {
-  padding: 10px;
-  margin: 10px;
-}
-
-
-.dairy {
-  padding: 5px;
-  border-right: #fff 3px solid;
-}
-
-.dairy-divider {
-  border-bottom: #fff 3px solid;
-}
-
-.dairy-section-add {
-  font-family: 'Futura-bold';
-}
-
-
-.note {
-  background: #98272D;
-  padding: 0px;
-  color: #fff;
-  margin: 50px 0px;
-  height: 0;
-  overflow: hidden;
-}
-
-.note p {
-  font-family: 'Garamond', Georgia, 'Times New Roman', Times, serif;
-}
-
-.gold-text {
-  color: rgb(252, 226, 161);
-}
-
-/* CSS for slideshow container */
-
-.oriental h5 {
-  font-family: 'Futura-bold';
-}
-
-.bottom-section {
-  background: #fff;
-  right: 0;
-  margin: auto;
-  position: relative;
-  padding: 15px 0px 15px 0px;
-}
-
-/*====== menu item icons =======*/
-.menu-item-icons {
-  display: flex;
-  align-items: center;
-  gap: 2px;
-}
-
-.menu-item-description {
-  margin: 0 0 10px;
-  font-size: 14px;
-  line-height: 16px;
-}
-
-.menu-item-icon-images {
-  height: 24px;
-}
-
-.divider {
-  border-bottom: 2px solid #a79a89;
-  width: 100%;
-  margin: 30px 0px;
-}
-
-.chocolate-section {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-}
-
-/*New CSS Addition */
-.chocolate {
-  margin-top: 46px;
-}
-
-.warm-you-up {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
-.warm-you-up h3 {
-  margin-top: 0;
-}
-
-.timeless {
-  display: flex;
-  flex: 2;
-}
-
-.beef-container {
-  background: #98272D;
-}
-
-.beef-row {
-  display: flex;
-}
-
-.add-bacon-table td p {
-  padding: 1px;
-}
-
-.mocktails {
-  background: #e2d7c4;
-  color: #2E251D;
-}
-
-.pies-title {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-
-.item-table-outlined {
-  outline: 3px solid #e2d7c4;
-  margin-bottom: 5px;
-  padding: 0px 6px 0px 6px;
-}
-
-.item-table-outlined table {
-  font-size: 80%;
-}
-
-.toppings {
-  text-align: center;
-  display: flex;
-  padding: 2px;
-  flex-direction: column;
-  border: 3px solid #e2d7c4;
-}
-
-.toppings-content {
-  border: 1px solid #e2d7c4;
-  font-size: 18px;
-}
-
-.artcaffe-slideshow {
-  width: 100%;
-  height: 300px;
-  overflow: hidden;
-  position: relative;
-}
-
-.artcaffe-slideshow img {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  object-fit: cover;
-  top: 0;
-  left: 0;
-  transition: transform ease 1.5s;
-}
-
-.artcaffe-market-slideshow {
-  width: 100%;
-  height: 300px;
-  overflow: hidden;
-  position: relative;
-}
-
-.artcaffe-market-slideshow img,
-.artcaffe-market-slideshow video {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  object-fit: cover;
-  transition: transform 1s, opacity 1s;
-}
-
-.artcaffe-market-slideshow img.active,
-.artcaffe-market-slideshow video.active {
-  opacity: 1;
-  transform: translateX(0);
-}
-
-.liquor-section {
-  color: goldenrod;
-  font-size: 80%;
-  font-family: 'Survey-regular',Georgia, 'Times New Roman', Times, serif;
-  /* font-weight: bold; */
-  font-family: 'Survey-regular', 'Times New Roman', Times, serif;
-  font-size: 16px;
-}
-
-/*New Logo */
-
-.logo {
-  width: 40%;
-}
-
-/* New CSS Changes */
-.chai-and-pie {
-  display: flex;
-  background: url('../images/Coffee&Pastry.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 300px;
-}
-
-.chai-and-pie-text {
-  position: relative;
-  left: 14px;
-  top: 70px;
-  width: 298px;
-  /* height: 300px; */
-  /* background-size: cover; */
-  /* background-position: center; */
-}
-
-.coffee-and-pastry-title {
-  font-family: 'Survey-regular';
-  font-size: 26px;
-  width: 100;
-}
-
-.coffee-and-pastry-title-description {
-  margin-top: 12px;
-  width: 120px;
-}
-
-.coffee-and-pastry-price {
-  font-family: GlacialIndifference-Bold;
-  font-size: 16px;
-}
-
-.teas-section-top {
-  /* background: url('../images/Teas-group-shot.png'); */
-  height: 295px;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: auto;
-  width: 100%;
-  /* height: auto; */
-}
-
-img.Teas-title {
-  width: 60%;
-  position: relative;
-  top: 19px;
-}
-
-/*==== For a proposed menu section =======*/
-.floating-button {
-  border-radius: 50%;
-  height: 74px;
-  padding: 12px;
-  font-size: 16px;
-  font-family: "Futura-bold";
-  border: none;
-  background: #98272D;
-  box-shadow: 0px 0px 1px 1px #EAB56E;
-  color: #fff;
-  position: fixed;
-  z-index: 2;
-  left: 70%;
-  bottom: 32px;
-  display: none;
-}
-
-.main-menu-section {
-  height: 0vh;
-  bottom: 0;
-  right: 0;
-  position: fixed;
-  z-index: 1;
-  background: #98272D;
-  color: #fff;
-  width: 0;
-  text-align: center;
-  display: flex;
-  align-items: top;
-  font-size: 24px;
-}
-
-.main-menu-section p {
-  color: #fff;
-}
-
-.close-button {
-  width: 100vw;
-  top: 20px;
-  position: absolute;
-  left: 0;
-  font-size: 34px;
-  /* font-family: 'Futura-medium'; */
-  cursor: pointer;
-}
-
-.x-icon {
-  margin: 30px 5px;
-}
-
-.read-more {
-  border: none;
-  border-radius: 12px;
-  min-width: 150px;
-  background: #98272D;
-  color: #fff;
-  padding: 10px;
-  font-family: "GlacialIndifference-Regular";
-}
-
-.view-more {
-  /* border: 1px solid #a79a89; */
-  /* width: 223px; */
-  /* border-radius: 36px; */
-  padding: 0;
-  margin: 2px;
-  font-size: 46px;
-  color: #98272D;
-  cursor: pointer;
-}
-
-.everyday-classics {
-  background: url('../images/Everyday\ Breakfast-jan24.png');
-  height: 400px;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
-  width: 130%;
-}
-
-.all-day-everyday {
-  font-family: Garamond;
-}
-
-.section-titles.everyday-breakfast-title {
-  width: 20%;
-}
-
-.everyday-breakfast {
-  font-family: GlacialIndifference-Bold;
-}
-
-.everyday-classic-description {
-  width: 25%;
-}
-
-.everyday-classic-breakfast {
-  background: #98272D;
-  border-radius: 100%;
-  color: #fff;
-  padding: 18px 13px;
-  font-size: 26px;
-  outline: 1px solid #A59F9A;
-  font-family: Knockout;
-  position: absolute;
-  /* right: 193px; */
-  left: 90%;
-  top: 9;
-  margin: auto;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.art-breakfast {
-  background: url('../images/ArtofBreakfast.png');
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
-  height: 600px;
-  width: 150%;
-}
-
-p.art-of-breakfast {
-  font-family: Garamond;
-}
-
-.art-breakfast {
-  /* text-anchor: end; */
-  display: flex;
-  flex-direction: column;
-  align-items: normal;
-  justify-content: flex-end;
-  margin: 0px 0px 80px 0px;
-}
-
-p.art-of-breakfast-description {
-  font-family: GlacialIndifference-Bold;
-  /* margin-top: 12px; */
-  /* margin-bottom: 12px; */
-  /* padding: 12px; */
-  width: 60%;
-  position: relative;
-  /* top: 41px; */
-}
-
-p.iced-description {
-  font-family: Garamond;
-  position: relative;
-  top: 20px;
-}
-.pie-and-chai {
-  background: url('../images/Chai&Pie.png');
-  height: 300px;
-  background-repeat: no-repeat;
-  background-position: initial;
-  background-size: contain;
-  width: 120%;
-}
-
-.pie-and-chai-top {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-}
-
-.chai-and-pie-title {
-  font-family: Garamond;
-  font-size: 36px;
-  font-weight: 100;
-  width: 50%;
-}
-
-.pie-and-chai-description {
-  width: 60%;
-}
-
-.pie-and-chai-price {
-  font-family: GlacialIndifference-Bold;
-  font-size: 16px;
-}
-
-.pie-and-chie-add-section {
-  width: 30%;
-  position: relative;
-  right: 156px;
-}
-
-.add-pie-chai {
-  font-family: GlacialIndifference-Bold;
-  font-size: 16px;
-}
-
-.pie-and-chai-bottom {
-  position: relative;
-  top: -20px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 80%;
-  /* float: unset; */
-  left: -40px;
-}
-
-.sausage-roll-title {
-  font-family: Garamond;
-  width: 23%;
-}
-
-.sausage-roll-description {
-  width: 30%;
-}
-
-.sausage-roll-price {
-  font-family: GlacialIndifference-Bold;
-  font-size: 16px;
-}
-.salted-caramel-section {
-  background: url('../images/CakeSlice.png');
-  height: 400px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-p.salted-caramel-title {
-  font-size: 32px;
-  font-family: Garamond;
-  width: 50%;
-  line-height: 1.2;
-}
-
-.salted-caramel-section {
-  padding: 100px 50px;
-}
-
-span.slice {
-  font-family: GlacialIndifference-Regular;
-  font-size: 18px;
-}
-
-p.salted-caramel-price {
-  font-family: GlacialIndifference-Bold;
-  font-size: 18px;
-}
-.breaker-section {
-  height: 30px;
-}
-.beef-samosa-section{
-  background: url('../images/Samosas.png');
-  background-position: center;
-  height: 250px;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.beef-samosa-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-top: 120px;
-}
-
-p.sharing-for-family {
-  font-family: Garamond;
-  position: relative;
-  bottom: -3px;
-}
-
-.samosa-section-top {
-  position: relative;
-  top: -91px;
-  line-height: 0;
-}
-
-.samosa-section-bottom {}
-
-.sharing-block {
-  display: flex;
-  align-items: baseline;
-  justify-content: flex-start;
-  gap: 10px;
-  flex-direction: column;
-  position: relative;
-  top: -20px;
-}
-
-p.sharing-for-family-text {
-  font-family: 'GLACIALINDIFFERENCE-REGULAR';
-    font-size: 16px;
-    position: relative;
-    top: -12px;
-}
-
-p.beef-samosas {
-  font-family: GlacialIndifference-Bold;
-  font-size: 20px;
-}
-
-p.beef-samosas-description {
-  position: relative;
-  top: -10px;
-}
-.eabl {
-  height: 650px;
-}
-p.power-smoothies-top-text {
-  font-family: Garamond;
-  margin-top: 33px;
-  position: relative;
-  font-size: 18px;
-  top: 18px;
-}
-.delivers-on-big-flavour{
-  font-family: 'Garamond';
-  font-size: 18px;
-}
-.healthy-treat {
-  background: url('../images/Healthy-Treat-Pink.png');
-  height: 300px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding: 15px 0px;
-}
-.super-green {
-  text-align: right;
-  width: 90%;
-  padding: 70px 0px;
-}
-
-.super-green-title {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 3px;
-}
-
-p.super-green-title-text {
-  font-family: 'Garamond';
-  font-size: 28px;
-}
-
-p.super-green-description {
-  font-size: 16px;
-  width: 50%;
-  text-align: right;
-  position: relative;
-  right: 0;
-  left: 50%;
-}
-
-p.super-green-price {
-  font-size: 18px;
-  font-family: 'GlacialIndifference-Bold';
-}
-.bowl-of-hugs{
-	background: url('../images/BowlofHugs-border.png');
+	font-family: 'Futura-light';
+	src: url('fonts/Futura.woff2') format('woff2'),
+	  url('fonts/Futura.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+  }
+  
+  @font-face {
+	font-family: 'Futura-bold';
+	src:
+	  url('fonts/Futura-Bold.woff2') format('woff2'),
+	  url('fonts/Futura-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+  }
+  
+  @font-face {
+	font-family: 'Futura-medium';
+	src:
+	  url('fonts/futura_medium_bt-webfont.woff') format('woff2'),
+	  url('fonts/futura_medium_bt-webfont.woff2') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+  }
+  
+  @font-face {
+	font-family: 'GlacialIndifference-Regular';
+	src: url('fonts/GlacialIndifference-Regular.otf') format('opentype');
+  }
+  
+  @font-face {
+	font-family: 'GlacialIndifference-Bold';
+	src: url('fonts/GlacialIndifference-Bold.otf') format('opentype');
+  }
+  
+  @font-face {
+	font-family: 'Garamond';
+	src: url('fonts/GaramondITCbyBT-Bold.otf') format('opentype');
+  }
+  
+  @font-face {
+	font-family: 'Knockout';
+	src: url('fonts/Knockout-HTF28-JuniorFeatherwt.otf') format('opentype');
+  }
+  
+  @font-face {
+	font-family: 'Survey-regular';
+	src: url('fonts/SurveyorDisplay-Book-Pro.otf') format('opentype');
+  }
+  
+  
+  html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+  }
+  
+  
+  body {
+	color: #2E251D;
+	margin: 0;
+	overflow-x: hidden;
+  }
+
+  
+  p {
+	font-family: 'GlacialIndifference-Regular';
+  }
+  
+  table {
+	width: 100%;
+  }
+  
+  table td {
+	font-family: 'GlacialIndifference-Bold';
+	padding: 3px;
+	vertical-align: baseline;
+	font-size: 20px;
+  }
+  
+  table th {
+	font-family: 'GlacialIndifference-Regular';
+	font-size: 14px;
+  }
+  
+  /* tr td:first-child {
+	min-width: 320px;
+	/* CSS properties for styling the first child td element 
+  } */
+  
+  .bold-text {
+	font-family: 'GlacialIndifference-Bold';
+  }
+  
+  /* Added changes */
+  .top-section {
+	padding: 15px;
+	margin: 7px;
+  }
+  
+  .top-section-text {
+	font-family: 'Garamond', Georgia, 'Times New Roman', Times, serif;
+	font-size: 18px;
+  }
+  
+  .section-titles {
+	font-family: 'Knockout', 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 55px;
+  }
+  
+  .top-right-section {
+	display: flex;
+	gap: 0;
+  }
+  
+  .artcaffe-title {
+	border-bottom: #2E251D 2px solid;
+  }
+  
+  .top-description {
+	border-bottom: #2E251D 4px solid;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	border-top: 1px solid #2e251d;
+	margin-top: 2px;
+  }
+  
+  /* Added changes */
+  
+  .artcaffe-title {
+	padding: 12px;
+  }
+  
+  /* Added changes */
+  .connect-with-us-text {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+  }
+  
+  i.fa-brands {
+	font-size: 25px;
+  }
+  
+  .social-icons {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+  }
+  
+  .connect {
+	text-align: right;
+	position: relative;
+	right: -40px;
+	line-height: 20px;
+  }
+  
+  .artcaffe-site {
+	text-align: center;
+  }
+  
+  .artcaffe-title-text {
+	border-bottom: #2E251D 1px solid;
+	padding: 1px;
+  }
+  
+  /*Changes */
+  .bold-text-titles {
+	font-size: 18px;
+	font-family: 'GlacialIndifference-Regular';
+	line-height: 22px;
+  }
+  
+  /* Added items */
+  .add-bacon {
+	outline: 4px solid #e2d7c4;
+	padding-left: 16px;
+	display: flex;
+	align-items: center;
+	margin: 15px;
+	align-content: center;
+  }
+  
+  .add-bacon p {
+	margin-top: 8px;
+	font-size: 20px;
+  }
+  
+  p.extra-text-table {
+	font-size: 18px;
+	padding-top: 12px;
+  }
+  
+  .add-items {
+	background: #A59F9A;
+	padding: 5px;
+	outline: 3px solid #e2d7c4;
+  }
+  
+  .dairy-row {
+	display: flex;
+	color: #fff;
+	gap: 4px;
+	padding: 8px;
+  }
+  
+  /* Additional Css */
+  .dairy-section {
+	padding: 10px;
+	margin: 10px;
+  }
+  
+  
+  .dairy {
+	padding: 5px;
+	border-right: #fff 3px solid;
+  }
+  
+  .dairy-divider {
+	border-bottom: #fff 3px solid;
+  }
+  
+  .dairy-section-add {
+	font-family: 'Futura-bold';
+  }
+  
+  
+  .note {
+	background: #98272D;
+	padding: 0px;
+	color: #fff;
+	margin: 50px 0px;
+	height: 0;
+	overflow: hidden;
+  }
+  
+  .note p {
+	font-family: 'Garamond', Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .gold-text {
+	color: rgb(252, 226, 161);
+  }
+  
+  /* CSS for slideshow container */
+  
+  .oriental h5 {
+	font-family: 'Futura-bold';
+  }
+  
+  .bottom-section {
+	background: #fff;
+	right: 0;
+	margin: auto;
+	position: relative;
+	padding: 15px 0px 15px 0px;
+  }
+  
+  /*====== menu item icons =======*/
+  .menu-item-icons {
+	display: flex;
+	align-items: center;
+	gap: 2px;
+  }
+  
+  .menu-item-description {
+	margin: 0 0 10px;
+	font-size: 17px;
+	line-height: 16px;
+  }
+  
+  .menu-item-icon-images {
+	height: 24px;
+  }
+  
+  .divider {
+	border-bottom: 2px solid #a79a89;
+	width: 100%;
+	margin: 30px 0px;
+  }
+  
+  .chocolate-section {
+	display: flex;
+	flex-direction: column;
+	gap: 0;
+  }
+  
+  /*New CSS Addition */
+  .chocolate {
+	margin-top: 46px;
+  }
+  
+  .warm-you-up {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+  }
+  
+  .warm-you-up h3 {
+	margin-top: 0;
+  }
+  
+  .timeless {
+	display: flex;
+	flex: 2;
+  }
+  
+  .beef-container {
+	background: #98272D;
+  }
+  
+  .beef-row {
+	display: flex;
+  }
+  
+  .add-bacon-table td p {
+	padding: 1px;
+  }
+  
+  .mocktails {
+	background: #e2d7c4;
+	color: #2E251D;
+  }
+  
+  .pies-title {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+  }
+  
+  .item-table-outlined {
+	outline: 3px solid #e2d7c4;
+	margin-bottom: 5px;
+	padding: 0px 6px 0px 6px;
+  }
+  
+  .item-table-outlined table {
+	font-size: 80%;
+  }
+  
+  .toppings {
+	text-align: center;
+	display: flex;
+	padding: 2px;
+	flex-direction: column;
+	border: 3px solid #e2d7c4;
+  }
+  
+  .toppings-content {
+	border: 1px solid #e2d7c4;
+	font-size: 18px;
+  }
+  
+  .artcaffe-slideshow {
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+  }
+  
+  .artcaffe-slideshow img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	object-fit: cover;
+	top: 0;
+	left: 0;
+	transition: transform ease 1.5s;
+  }
+  
+  .artcaffe-market-slideshow {
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+  }
+  
+  .artcaffe-market-slideshow img,
+  .artcaffe-market-slideshow video {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	object-fit: cover;
+	transition: transform 1s, opacity 1s;
+  }
+  
+  .artcaffe-market-slideshow img.active,
+  .artcaffe-market-slideshow video.active {
+	opacity: 1;
+	transform: translateX(0);
+  }
+  
+  .liquor-section {
+	color: goldenrod;
+	font-size: 80%;
+	font-family: 'Survey-regular',Georgia, 'Times New Roman', Times, serif;
+	/* font-weight: bold; */
+	font-family: 'Survey-regular', 'Times New Roman', Times, serif;
+	font-size: 16px;
+  }
+  
+  /*New Logo */
+  
+  .logo {
+	width: 40%;
+  }
+  
+  /* New CSS Changes */
+  .chai-and-pie {
+	display: flex;
+	background: url('../images/new-images/Coffee-&-Pastry.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 120%;
+	position: relative;
+	height: 400px;
+  }
+  
+  .chai-and-pie-text {
+	position: relative;
+	left: 54px;
+	top: 70px;
+	width: 298px;
+	/* height: 300px; */
+	/* background-size: cover; */
+	/* background-position: center; */
+  }
+  
+  .coffee-and-pastry-title {
+	font-family: 'Survey-regular';
+	font-size: 26px;
+	width: 100;
+  }
+  
+  .coffee-and-pastry-title-description {
+	margin-top: 12px;
+	width: 120px;
+  }
+  
+  .coffee-and-pastry-price {
+	font-family: GlacialIndifference-Bold;
+	font-size: 16px;
+  }
+  
+  .teas-section-top {
+	/* background: url('../images/Teas-group-shot.png'); */
+	height: 295px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: auto;
+	width: 100%;
+	/* height: auto; */
+  }
+  
+  img.Teas-title {
+	width: 60%;
+	position: relative;
+	top: 19px;
+  }
+  
+  /*==== For a proposed menu section =======*/
+  .floating-button {
+	border-radius: 50%;
+	height: 74px;
+	padding: 12px;
+	font-size: 16px;
+	font-family: "Futura-bold";
+	border: none;
+	background: #98272D;
+	box-shadow: 0px 0px 1px 1px #EAB56E;
+	color: #fff;
+	position: fixed;
+	z-index: 2;
+	left: 70%;
+	bottom: 32px;
+	display: none;
+  }
+  
+  .main-menu-section {
+	height: 0vh;
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	z-index: 1;
+	background: #98272D;
+	color: #fff;
+	width: 0;
+	text-align: center;
+	display: flex;
+	align-items: top;
+	font-size: 24px;
+  }
+  
+  .main-menu-section p {
+	color: #fff;
+  }
+  
+  .close-button {
+	width: 100vw;
+	top: 20px;
+	position: absolute;
+	left: 0;
+	font-size: 34px;
+	/* font-family: 'Futura-medium'; */
+	cursor: pointer;
+  }
+  
+  .x-icon {
+	margin: 30px 5px;
+  }
+  
+  .read-more {
+	border: none;
+	border-radius: 12px;
+	min-width: 150px;
+	background: #98272D;
+	color: #fff;
+	padding: 10px;
+	font-family: "GlacialIndifference-Regular";
+  }
+  
+  .view-more {
+	/* border: 1px solid #a79a89; */
+	/* width: 223px; */
+	/* border-radius: 36px; */
+	padding: 0;
+	margin: 2px;
+	font-size: 46px;
+	color: #98272D;
+	cursor: pointer;
+  }
+  
+  .everyday-classics {
+	background: url('../images/new-images/Everyday-Breakfast.png');
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+	width: 130%;
+  }
+  
+  .all-day-everyday {
+	font-family: Garamond;
+  }
+  
+  .section-titles.everyday-breakfast-title {
+	width: 20%;
+  }
+  
+  .everyday-breakfast {
+	font-family: GlacialIndifference-Bold;
+  }
+  
+  .everyday-classic-description {
+	width: 25%;
+  }
+  
+  .everyday-classic-breakfast {
+	background: #98272D;
+	border-radius: 100%;
+	color: #fff;
+	padding: 12px;
+	font-size: 26px;
+	outline: 1px solid #A59F9A;
+	font-family: Knockout;
+	position: absolute;
+	/* right: 193px; */
+	left: 90%;
+	top: 9;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+  }
+  
+  .art-breakfast {
+	background: url('../images/new-images/Art-of-Breakfast.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+	height: 600px;
+	width: 150%;
+  }
+  
+  p.art-of-breakfast {
+	font-family: Garamond;
+  }
+  
+  .art-breakfast {
+	/* text-anchor: end; */
+	display: flex;
+	flex-direction: column;
+	align-items: normal;
+	justify-content: flex-end;
+	margin: 0px 0px 80px 0px;
+  }
+  
+  p.art-of-breakfast-description {
+	font-family: GlacialIndifference-Bold;
+	/* margin-top: 12px; */
+	/* margin-bottom: 12px; */
+	/* padding: 12px; */
+	width: 60%;
+	position: relative;
+	/* top: 41px; */
+  }
+  
+  p.iced-description {
+	font-family: Garamond;
+	position: relative;
+	top: 20px;
+  }
+  .pie-and-chai {
+	background: url('../images/Chai&Pie.png');
+	height: 300px;
+	background-repeat: no-repeat;
+	background-position: initial;
+	background-size: contain;
+	width: 120%;
+  }
+  
+  .pie-and-chai-top {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+  }
+  
+  .chai-and-pie-title {
+	font-family: Garamond;
+	font-size: 36px;
+	font-weight: 100;
+	width: 50%;
+  }
+  
+  .pie-and-chai-description {
+	width: 60%;
+  }
+  
+  .pie-and-chai-price {
+	font-family: GlacialIndifference-Bold;
+	font-size: 16px;
+  }
+  
+  .pie-and-chie-add-section {
+	width: 30%;
+	position: relative;
+	right: 156px;
+  }
+  
+  .add-pie-chai {
+	font-family: GlacialIndifference-Bold;
+	font-size: 16px;
+  }
+  
+  .pie-and-chai-bottom {
+	position: relative;
+	top: -20px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 80%;
+	/* float: unset; */
+	left: -40px;
+  }
+  
+  .sausage-roll-title {
+	font-family: Garamond;
+	width: 23%;
+  }
+  
+  .sausage-roll-description {
+	width: 30%;
+  }
+  
+  .sausage-roll-price {
+	font-family: GlacialIndifference-Bold;
+	font-size: 16px;
+  }
+  .salted-caramel-section {
+	background: url('../images/new-images/Salted-Caramel-Slice.png');
+	height: 400px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+  }
+  p.salted-caramel-title {
+	font-size: 32px;
+	font-family: Garamond;
+	width: 50%;
+	line-height: 1.2;
+  }
+  
+  .salted-caramel-section {
+	padding: 100px 50px;
+  }
+  
+  span.slice {
+	font-family: GlacialIndifference-Regular;
+	font-size: 18px;
+  }
+  
+  p.salted-caramel-price {
+	font-family: GlacialIndifference-Bold;
+	font-size: 18px;
+  }
+  .breaker-section {
+	height: 30px;
+  }
+  .beef-samosa-section{
+	background: url('../images/new-images/Samosas.png');
+	background-position: center;
+	height: 250px;
+	background-size: contain;
+	background-repeat: no-repeat;
+  }
+  .beef-samosa-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 120px;
+  }
+  
+  p.sharing-for-family {
+	font-family: Garamond;
+	position: relative;
+	bottom: -3px;
+  }
+  
+  .samosa-section-top {
+	position: relative;
+	top: -91px;
+	line-height: 0;
+  }
+  
+  .samosa-section-bottom {}
+  
+  .sharing-block {
+	display: flex;
+	align-items: baseline;
+	justify-content: flex-start;
+	gap: 10px;
+	flex-direction: column;
+	position: relative;
+	top: -20px;
+  }
+  
+  p.sharing-for-family-text {
+	font-family: 'GLACIALINDIFFERENCE-REGULAR';
+	  font-size: 16px;
+	  position: relative;
+	  top: -12px;
+  }
+  
+  p.beef-samosas {
+	font-family: GlacialIndifference-Bold;
+	font-size: 20px;
+  }
+  
+  p.beef-samosas-description {
+	position: relative;
+	top: -10px;
+  }
+  .eabl {
+	height: 650px;
+  }
+  p.power-smoothies-top-text {
+	font-family: Garamond;
+	margin-top: 33px;
+	position: relative;
+	font-size: 18px;
+	top: 18px;
+  }
+  .delivers-on-big-flavour{
+	font-family: 'Garamond';
+	font-size: 18px;
+  }
+  .healthy-treat {
+	background: url('../images/new-images/Super-Green-Smoothie.png');
+	height: 300px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 25px 70px;
+  }
+  .super-green {
+	text-align: right;
+	width: 90%;
+	padding: 70px 0px;
+  }
+  
+  .super-green-title {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 3px;
+  }
+  
+  p.super-green-title-text {
+	font-family: 'Garamond';
+	font-size: 28px;
+  }
+  
+  p.super-green-description {
+	font-size: 16px;
+	width: 50%;
+	text-align: right;
+	position: relative;
+	right: 0;
+	left: 50%;
+  }
+  
+  p.super-green-price {
+	font-size: 18px;
+	font-family: 'GlacialIndifference-Bold';
+  }
+  .bowl-of-hugs{
+	background: url('../images/new-images/Bowl-of-Soup.png');
 	height: 600px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -831,2905 +833,2871 @@ p.super-green-price {
 	position: relative;
 	top: -70px;
   }
-.carrot-and-ginger-table{
+  .carrot-and-ginger-table{
 	width: 80%;
+  }
+  
+  .bbq-chicken{
+	background: url('../images/BBQ\ CHICKEN\ IN\ RUSTIC\ CIABATTA.png');
+	height: 300px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+	margin: 10px 0px;
+	position: relative;
+	top: -31px;
+  }
+  .soups-section {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 0px;
+	margin: 20px 0px 0px 0px;
+	position: relative;
+	top: -60px;
+	flex-direction: column;
+  }
+  
+  
+  .bowl-of-hugs {
+	padding: 180px 46px;
+  }
+  
+  p.warm-up {
+	font-family: 'Garamond';
+  }
+  
+  p.bowl-of-hugs-title {
+	font-family: 'Garamond';
+	font-size: 30px;
+	width: 45%;
+  }
+  
+  p.bowl-of-hugs-description {
+	width: 50%;
+  }
+  
+  p.bbq-chicken-title {
+	width: 50%;
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 22px;
+  }
+  
+  .bbq-chicken {
+	padding: 5px 0px;
+  }
+  
+  p.bbq-chicken-description {
+	width: 30%;
+  }
+  
+  p.bbq-chicken-price {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 18px;
+  }
+  p.bowl-of-hugs-price {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 18px;
+  }
+  .grilled-hall{
+	background: url('../images/new-images/Grilled-Halloumi.png');
+	height: 450px;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+  }
+  p.grilled-hall-title {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 20px;
+  }
+  
+  .grilled-hall-price {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 18px;
+  }
+  
+  p.grilled-hall-description {
+	width: 70%;
+  }
+  .texas-burger {
+	background: url('../images/new-images/Texas-Burger.png');
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 20px 50px;
+	position: relative;
+	left: -20px;
+  }
+  p.texas-burger-title {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 22px;
+  }
+  
+  p.texas-burger-description {
+	width: 70%;
+  }
+  
+  p.texas-burger-price {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 18px;
+  }
+  
+  .pollo-section {
+	display: flex;
+	margin: 32px 0px;
+  }
+  
+  .pollo-section-left {
+	flex: 1;
+  }
+  .pollo-section-right {
+	flex: 2;
+  }
+  
+  p.pollo-section-title {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 22px;
+  }
+  
+  p.pollo-section-price {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 16px;
+  }
+  p.pollo-section-description {
+	font-size: 16px;
+  }
+  
+  .art-wings-section{
+	background: url('../images/new-images/Chicken-Wings.png');
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+  }
+  p.art-wings-title {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 18px;
+  }
+  
+  p.art-wings-description {
+	text-align: right;
+	width: 70%;
+	position: relative;
+	float: right;
+	font-size: 16px;
+	top: 10px;
+  }
+  .slow-cooked-beef{
+	background: url('../images/new-images/Slow-Cooked-BBQ-Beef.png');
+	height: 400px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 110px 40px;
+  }
+  p.slow-cooked-beef-title {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 18px;
+	width: 40%;
+  }
+  
+  p.slow-cooked-beef-description {
+	font-size: 16px;
+	width: 60%;
+	/* position: relative; */
+	/* top: 7px; */
+	margin: 20px 0px;
+  }
+  
+  p.slow-cooked-beef-pric {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 18px;
+  }
+  
+  .dairy-row {
+	font-size: 18px;
+  }
+  
+  /* New day ==== New CSS */
+  
+  img.tea-product {
+	position: relative;
+	float: right;
+	height: 276px;
+	top: -60px;
+	left: -140px;
+  }
+  
+  .allergen-advise {
+	display: flex;
+	align-items: center;
+	font-family: 'GlacialIndifference-Bold';
+	
+	/* left: 0; */
+	/* right: 0; */
+	/* left: -15px; */
+	/* width: 102%; */
+  }
+  .allergen-class{
+	height: auto;
+	/* background: #98272D; */
+	color: #98272D;
+	padding: 2px 12px;
+	gap: 0;
+	position: relative;
+	top: 50px;
+  }
+  
+  .allergen-class {
+	display: flex;
+  }
+  
+  .allergen-icons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	color: #000;
+	gap: 22px;
+	overflow-x: auto;
+  }
+  
+  .allergen-icon-description {
+	text-wrap: wrap;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	min-width: max-content;
+	/* width: 20px; */
+  }
+  .two-row-table {
+	float: right;
+	display: flex;
+	align-items: center;
+  }
+  td.non-bolded-table-text {
+	font-family: 'GlacialIndifference-Regular';
+  }
+  th.bold-underlined-text {
+	font-family: 'GlacialIndifference-Bold';
+	text-decoration: none;
+	font-size: 18px;
+  }
+  span.top-section-text.top-section-text-right {
+	font-family: 'Survey-regular';
+  }
+  p.art-of-breakfast {
+	position: relative;
+	top: 25px;
+  }
+  .power-smoothies {
+	position: relative;
+	top: -32px;
+  }
+  
+  .power-smoothies .bold-text-titles {
+	position: relative;
+	top: -12px;
+  }
+  
+  .stacked-goodness-section {
+	position: relative;
+	top: -96px;
+  }
+  p.all-day-everyday {
+	font-size: 18px;
+	position: relative;
+	top: 12px;
+  }
+  
+  p.art-of-breakfast {
+	font-size: 18px;
+  }
+  .art-breakfast-content {
+	position: relative;
+	top: 64px;
+  }
+  
+  /* New day == New CSS RULES */
+  
+  p.chocolate-title {
+	font-family: 'Garamond';
+	font-size: 18px;
+	position: relative;
+	top: 20px;
+  }
+  
+  p.section-titles-description {
+	font-size: 22px;
+  }
+  p.power-smoothies-top-text.beef-top-text {
+	top: 3px;
+	width: 30%;
+  }
+  /* New Css Added */
+  p.power-smoothies-top-text.texas-burger-p {
+	position: relative;
+	top: -20px;
+  }
+  
+  .texas-burger-top-text {
+	position: relative;
+	top: -10px;
+  }
+  .frontera-section {
+	background: url('../images/new-wine/Artboard\ 1@1.5x.png');
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 150px 0px 0px 160px;
+	position: relative;
+	top: 0px;
+	left: -50px;
+  }
+  .zevenwatch-section {
+	background: url('../images/new-wine/Artboard\ 2@1.5x.png');
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 140px 45px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+  }
+  
+  p.frontera-title {
+	font-size: 30px;
+	font-family: 'Survey-Regular';
+  }
+  
+  p.frontera-title-description {
+	color: #A59F9A;
+	font-family: 'Survey-regular';
+	position: relative;
+	top: -15px;
+  }
+  
+  p.frontera-description {
+	font-size: 16px;
+	width: 80%;
+	position: relative;
+	top: -12px;
+  }
+  
+  p.frontera-price {
+	font-family: 'GlacialIndifference-Bold';
+  }
+  
+  .classic-cocktails-section {
+	background: url('../images/ClassicCocktail.png');
+	height: 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 80px 50px;
+  }
+  
+  p.classic-cocktails-title {
+	font-family: 'Survey-regular';
+	font-size: 30px;
+  }
+  
+  .classick-cocktails-content {
+	display: flex;
+	justify-content: flex-start;
+	gap: 100px;
+	align-items: flex-end;
+  }
+  
+  p.classic-cocktails-text {
+	font-size: 18px;
+  }
+  
+  p.classic-cocktails-price {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 22px;
+  }
+  
+  .spirits-and-liquor {
+	display: flex;
+	height: 200px;
+  }
+  
+  .spirits-and-liquor h3{
+	flex: 2;
+	position: relative;
+	top: 50px;
+  }
+  .spirits-and-liquor img{
+	flex: 1;
+  }
+  
+  /* Column 2 last section */
+  .sangria-section {
+	background: url('../images/SangriaRed.png');
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 150px 30px;
+	position: relative;
+	top: -50px;
+  }
+  
+  p.sangria-title-description {
+	font-family: 'Survey-regular';
+	width: 50%;
+	font-size: 22px;
+  }
+  
+  p.sangria-description {
+	font-family: 'GlacialIndifference-Bold';
+  }
+  
+  .sangria-price-section {
+	display: flex;
+	justify-content: space-evenly;
+	font-family: 'GlacialIndifference-Bold';
+	position: relative;
+	top: 10px;
+  }
+  .sangria-price-section p{
+	font-family: 'GlacialIndifference-Bold';
+	width: 100px;
+	padding: 2px 19px;
+  }
+  
+  p.left-sangria-price {
+	/* height: 20px; */
+	border-right: dotted; 
+	height: 50px;
+  }
+  
+  .chardonnay-section {
+	background: url('../images/new-wine/Artboard\ 4@1.5x.png');
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 110%;
+	position: relative;
+	left: -50px;
+	padding: 120px 66px 0px 65px;
+  }
+  
+  .top-text-chardonnay {
+	color: #a79a89;
+	font-family: 'GlacialIndifference-Bold';
+  }
+  /* New CSS */
+  .sparkling-sweet-section {
+	background: url('../images/new-wine/Artboard\ 3@1.5x.png');
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	padding: 130px 0px 0px 40px;
+  }
+  
+  .sparkling-sweet-section-title{
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 16px;
+	
+  }
+  .frontera-title{
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .available-on-happy-hour{
+	display: flex;
+	position: relative;
+	top: -50px;
+	left: 50px;
+  }
+  
+  .art-cocktails-section{
+	background: url('../images/new-wine/Artboard\ 5@1.5x.png');
+	height: 300px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+	top: -90px;
+	padding: 170px 100px 0px 30px;
+  }
+  
+  /* NEWLY ADDED CSS */
+  
+  .chocolate-section {
+	position: relative;
+	top: 0px;
+  }
+  
+  h3.section-titles {}
+  
+  p.section-titles-description {
+	position: relative;
+	top: -4px;
+  }
+  
+  
+  /* NEW DAY ===== NEW CSS RULES */
+  .new-pie-and-chai-section {
+	background: url('../images/new-images/Snacks.png');
+	height: 700px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-width: 120%;
+	position: relative;
+	left: -70px;
+	padding: 50px 85px 50px 123px;
+  }
+  
+  .new-pie-and-chai-section {
+	display: flex;
+	/* gap: 150px; */
+	flex-direction: column;
+  }
+  
+  p.new-pie-and-chai-title {
+	font-family: 'Survey-regular';
+	font-size: 32px;
+	margin: 10px 0px;
+  }
+  
+  p.new-pie-and-chai-description {
+	font-size: 16px;
+	margin: 10px 0px;
+	width: 35%;
+  }
+  
+  p.new-pie-chai-bold-text {
+	font-family: 'GlacialIndifference-Bold';
+	margin: 10px 0px;
+  }
+  
+  .new-pie-chai-add-section {
+	margin: 50px 0px;
+	font-size: 16px;
+  }
+  
+  .new-pie-and-chai-bottom {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 0px 0px 100px;
+  }
+  
+  .new-sausage-roll {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 29px 0px 0px;
+  }
+  
+  p.new-sausage-roll-title {
+	font-family: 'Survey-regular';
+	font-size: 32px;
+	width: 60%;
+  }
+  
+  p.new-sausage-roll-bold-text {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 16px;
+  }
+  
+  p.new-sausage-roll-text-description {
+	font-size: 16px;
+  }
+  .new-wings-and-chips-section {
+	position: relative;
+	top: -76px;
+  }
+  
+  .new-wings-and-chips {
+	position: relative;
+	top: -82px;
+  }
+  .golden-serif-text {
+	  color: tan;
+	  font-family: 'Survey-regular';
+  }
+  .golden-text-semibold {
+	  color: #A59F9A;
+	  font-size: smaller;
+	  font-family: 'Futura-medium';
+  }
+
+  .col-sm-12.col-xs-12.eastern-flavor-container {
+    border: 2px solid #e2d7c4;
+    padding: 10px;
+    background: url('../images/Background-jan24.png');
+    background-repeat: repeat-x;
+}
+
+.col-sm-12.col-xs-12.easter-flavor-logo {
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
+.col-sm-6.col-xs-6.eastern-flavor-right {
+    display: flex;
+}
+img.menu-item-icon-images.eastern-flavor-img {
     position: relative;
-    top: 12px;
+    top: 10px;
 }
-
-.bbq-chicken{
-  background: url('../images/BBQ\ CHICKEN\ IN\ RUSTIC\ CIABATTA.png');
-  height: 300px;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
-  margin: 10px 0px;
-  position: relative;
-  top: -31px;
+.g-web {
+    position: relative;
+    top: 2px;
+	height: 23px !important;
 }
-.soups-section {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 0px;
-  margin: 20px 0px 0px 0px;
-  position: relative;
-  top: -60px;
-  flex-direction: column;
-}
-
-
-.bowl-of-hugs {
-  padding: 180px 46px;
-}
-
-p.warm-up {
-  font-family: 'Garamond';
-}
-
-p.bowl-of-hugs-title {
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (min-width: 768px) and (max-width: 1200px) {
+	/* Your CSS rules for screens between 768px and 1200px wide */
+  
+	/*New CSS Changes for images */
+	.chai-and-pie {
+	  display: flex;
+	  background: url('../images/new-images/Coffee-&-Pastry.png');
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  background-size: contain;
+	  width: 110%;
+	  min-height: 225px;
+	  height: auto;
+	}
+  
+	.chai-and-pie-text {
+	  position: relative;
+	  left: 25px;
+	  top: 30px;
+	  width: 100px;
+	  /* height: 300px; */
+	  /* background-size: cover; */
+	  /* background-position: center; */
+	}
+  
+	.coffee-and-pastry-title {
+	  font-family: 'Survey-regular';
+	  font-size: 25px;
+	  width: 100px;
+	}
+  
+	.coffee-and-pastry-title-description {
+	  margin-top: 0px;
+	  width: 50px;
+	  font-size: 8px;
+	  line-height: 1.3;
+	}
+  
+	.coffee-and-pastry-price {
+	  font-family: GlacialIndifference-Bold;
+	  font-size: 10px;
+	  position: relative;
+	  top: -5px;
+	}
+  
+	/*New CSS TEAS SECTION*/
+	.teas-section-top {
+	  background: url('../images/new-images/Artcaffe-Tea.png');
+	  background-repeat: no-repeat;
+	  background-position: bottom;
+	  background-size: contain;
+	  width: 100%;
+	  height: 300px;
+  
+	}
+  
+	img.Teas-title {
+	  width: 70%;
+	  position: relative;
+	  top: 5px;
+	  left: -58px;
+	}
+  
+	/* Social icons  */
+	.social-icons {
+	  display: flex;
+	  flex-direction: column;
+	  position: relative;
+	  left: 44px;
+	  gap: 2px;
+	}
+  
+	.everyday-classics {
+	  background: url('../images/new-images/Everyday-Breakfast.png');
+	  height: 430px;
+	  background-repeat: no-repeat;
+	  background-position: bottom;
+	  background-size: contain;
+	  width: 110%;
+	}
+  
+	.everyday-classic-breakfast {
+	  background: #98272D;
+	  border-radius: 100%;
+	  color: #fff;
+	  padding: 12px;
+	  font-size: 26px;
+	  outline: 1px solid #A59F9A;
+	  font-family: Knockout;
+	  position: absolute;
+	  /* right: 193px; */
+	  left: 85%;
+	  top: 350px;
+	  margin: auto;
+	  display: flex;
+	  justify-content: space-evenly;
+	}
+  
+	.art-breakfast {
+	  background: url('../images/new-images/Art-of-Breakfast.png');
+	  background-repeat: no-repeat;
+	  background-position: bottom;
+	  background-size: contain;
+	  height: 600px;
+	  width: 150%;
+	}
+  
+	p.art-of-breakfast {
+	  font-family: Garamond;
+	  position: relative;
+	  top: 140px;
+	}
+  
+	.art-breakfast {
+	  /* text-anchor: end; */
+	  display: flex;
+	  flex-direction: column;
+	  align-items: normal;
+	  justify-content: flex-end;
+	  margin: 0px 0px 100px 0px;
+	}
+  
+	h3.section-titles.art-of-breakfast {
+	  position: relative;
+	  top: 110px;
+	}
+  
+	p.art-of-breakfast-description {
+	  font-family: GlacialIndifference-Bold;
+	  /* margin-top: 12px; */
+	  /* margin-bottom: 12px; */
+	  /* padding: 12px; */
+	  width: 80%;
+	  position: relative;
+	  top: 100px;
+	}
+	.pie-and-chai{
+	  overflow: hidden;
+	  height: 250px;
+	  width: 110%;
+	}
+	.pie-and-chai-top {
+	  display: flex;
+	  justify-content: space-between;
+	  padding: 10px;
+  }
+  
+  
+  h3.chai-and-pie-title {
+	  font-family: Garamond;
+	  font-size: 36px;
+	  font-weight: 100;
+	  width: 50%;
+	  position: relative;
+	  top: -20px;
+  }
+  
+  p.pie-and-chai-description {
+	  width: 60%;
+	  position: relative;
+	  top: -23px;
+	  line-height: 1.2;
+  }
+  
+  p.pie-and-chai-price {
+	  font-family: GlacialIndifference-Bold;
+	  font-size: 16px;
+	  position: relative;
+	  top: -35px;
+  }
+  
+  .pie-and-chie-add-section {
+	  width: 40%;
+	  position: relative;
+	  left: -45px;
+  }
+  
+  p.add-pie-chai {
+	  font-family: GlacialIndifference-Bold;
+	  font-size: 16px;
+  }
+  .add-pie-chai-description{
+	line-height: 1.2;
+	position: relative;
+	top: -12px;
+  }
+  
+  .pie-and-chai-bottom {
+	  position: relative;
+	  top: -70px;
+	  padding: 10px;
+	  display: flex;
+	  align-items: center;
+	  justify-content: space-evenly;
+	  width: 90%;
+	  /* float: unset; */
+	  left: -5px;
+  }
+  
+  h3.sausage-roll-title {
+	  font-family: Garamond;
+	  width: 40%;
+	  font-size: 16px;
+  }
+  
+  p.sausage-roll-description {
+	  width: 30%;
+	  line-height: 1.2;
+  }
+  
+  p.sausage-roll-price {
+	  font-family: GlacialIndifference-Bold;
+	  font-size: 16px;
+  }
+  .salted-caramel-section {
+	padding: 130px 10px;
+  }
+  .breaker-section {
+	height: 20px;
+	/* outline: 2px solid green; */
+  }
+  .samosa-section-top {
+	position: relative;
+	line-height: 1;
+  }
+  .samosa-section-bottom {
+	position: relative;
+	top: 14px;
+  }
+  .artcaffe-market-slideshow {
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+	margin: 25px 0px;
+  }
+  .artcaffe-slideshow {
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+	position: relative;
+	margin: 25px 0px;
+  }
+  .eabl {
+	height: 400px;
+  }
+  .healthy-treat {
+	padding: 50px 0px;
+  }
+  .super-green {
+	text-align: right;
+	width: 95%;
+	padding: 50px 0px;
+	line-height: 1;
+  }
+  .bowl-of-hugs{
+	background: url('../images/new-images/Bowl-of-Soup.png');
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 120%;
+	margin: 0px 0px;
+  }
+  .carrot-and-ginger-table{
+	width: 80%;
+	position: relative;
+	top: 20px;
+  }
+  
+  .bbq-chicken{
+	background: url('../images/BBQ\ CHICKEN\ IN\ RUSTIC\ CIABATTA.png');
+	height: 300px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+	margin: 80px 0px;
+	position: relative;
+	top: 40px;
+  }
+  .soups-section {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 0;
+	margin: 20px 0px 0px 0px;
+	position: relative;
+	top: -60px;
+  }
+  
+  
+  .bowl-of-hugs {
+	padding: 190px 16px;
+	position: relative;
+	top: -160px;
+  }
+  
+  p.warm-up {
+	font-family: 'Garamond';
+  }
+  
+  p.bowl-of-hugs-title {
 	font-family: 'Garamond';
 	font-size: 30px;
 	width: 50%;
-}
-
-p.bowl-of-hugs-description {
-  width: 50%;
-}
-
-p.bbq-chicken-title {
-  width: 50%;
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 22px;
-}
-
-.bbq-chicken {
-  padding: 5px 0px;
-}
-
-p.bbq-chicken-description {
-  width: 30%;
-}
-
-p.bbq-chicken-price {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 18px;
-}
-p.bowl-of-hugs-price {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 18px;
-}
-.grilled-hall{
-  background: url('../images/Grilled\ Halloumi.png');
-  height: 450px;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-p.grilled-hall-title {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 20px;
-}
-
-.grilled-hall-price {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 18px;
-}
-
-p.grilled-hall-description {
-  width: 70%;
-}
-.texas-burger {
-  background: url('../images/TexasBurger-border.png');
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 20px 50px;
-  position: relative;
-  left: -20px;
-}
-p.texas-burger-title {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 22px;
-}
-
-p.texas-burger-description {
-  width: 70%;
-}
-
-p.texas-burger-price {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 18px;
-}
-
-.pollo-section {
-  display: flex;
-  margin: 32px 0px;
-}
-
-.pollo-section-left {
-  flex: 1;
-}
-.pollo-section-right {
-  flex: 2;
-}
-
-p.pollo-section-title {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 22px;
-}
-
-p.pollo-section-price {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 16px;
-}
-p.pollo-section-description {
-  font-size: 16px;
-}
-
-.art-wings-section{
-  background: url('../images/Wings.png');
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-p.art-wings-title {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 18px;
-}
-
-p.art-wings-description {
-  text-align: right;
-  width: 70%;
-  position: relative;
-  float: right;
-  font-size: 16px;
-  top: 10px;
-}
-.slow-cooked-beef{
-  background: url('../images/SlowCookedBBQBeef-border.png');
-  height: 400px;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 95px 10px;
-}
-p.slow-cooked-beef-title {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 18px;
-  width: 40%;
-}
-
-p.slow-cooked-beef-description {
-  font-size: 16px;
-  width: 60%;
-  /* position: relative; */
-  /* top: 7px; */
-  margin: 20px 0px;
-}
-
-p.slow-cooked-beef-pric {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 18px;
-}
-
-.dairy-row {
-  font-size: 18px;
-}
-
-/* New day ==== New CSS */
-
-img.tea-product {
-  position: relative;
-  float: right;
-  height: 276px;
-  top: -60px;
-  left: -156px;
-}
-
-.allergen-advise {
-  display: flex;
-  align-items: center;
-  font-family: 'GlacialIndifference-Bold';
+  }
   
-  /* left: 0; */
-  /* right: 0; */
-  /* left: -15px; */
-  /* width: 102%; */
-}
-.allergen-class{
-  height: auto;
-  /* background: #98272D; */
-  color: #98272D;
-  padding: 2px 12px;
-  gap: 0;
-  position: relative;
-  top: 50px;
-}
-
-.allergen-class {
-  display: flex;
-}
-
-.allergen-icons {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  color: #000;
-  gap: 22px;
-  overflow-x: auto;
-}
-
-.allergen-icon-description {
-  text-wrap: wrap;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  min-width: max-content;
-  /* width: 20px; */
-}
-.two-row-table {
-  float: right;
-  display: flex;
-  align-items: center;
-}
-td.non-bolded-table-text {
-  font-family: 'GlacialIndifference-Regular';
-}
-th.bold-underlined-text {
-  font-family: 'GlacialIndifference-Bold';
-  text-decoration: none;
-  font-size: 18px;
-}
-span.top-section-text.top-section-text-right {
-  font-family: 'Survey-regular';
-}
-p.art-of-breakfast {
-  position: relative;
-  top: 25px;
-}
-.power-smoothies {
-  position: relative;
-  top: -32px;
-}
-
-.power-smoothies .bold-text-titles {
-  position: relative;
-  top: -12px;
-}
-
-.stacked-goodness-section {
-  position: relative;
-  top: -96px;
-}
-p.all-day-everyday {
-  font-size: 18px;
-  position: relative;
-  top: 12px;
-}
-
-p.art-of-breakfast {
-  font-size: 18px;
-}
-.art-breakfast-content {
-  position: relative;
-  top: 64px;
-}
-
-/* New day == New CSS RULES */
-
-p.chocolate-title {
-  font-family: 'Garamond';
-  font-size: 18px;
-  position: relative;
-  top: 20px;
-}
-
-p.section-titles-description {
-  font-size: 22px;
-}
-p.power-smoothies-top-text.beef-top-text {
-  top: 3px;
-  width: 30%;
-}
-/* New Css Added */
-p.power-smoothies-top-text.texas-burger-p {
-  position: relative;
-  top: -20px;
-}
-
-.texas-burger-top-text {
-  position: relative;
-  top: -10px;
-}
-.frontera-section {
-  background: url('../images/FronteraChile.png');
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 150px 20px;
-  position: relative;
-  top: -50px;
-}
-.zevenwatch-section {
-  background: url('../images/CabernetSauvignon.png');
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 30px 50px;
-  position: relative;
-  top: 0px;
-}
-
-p.frontera-title {
-  font-size: 30px;
-  font-family: 'Survey-Regular';
-}
-
-p.frontera-title-description {
-  color: #A59F9A;
-  font-family: 'Survey-regular';
-  position: relative;
-  top: -15px;
-}
-
-p.frontera-description {
-  font-size: 16px;
-  width: 80%;
-  position: relative;
-  top: -12px;
-}
-
-p.frontera-price {
-  font-family: 'GlacialIndifference-Bold';
-}
-
-.classic-cocktails-section {
-  background: url('../images/ClassicCocktail.png');
-  height: 200px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 80px 50px;
-}
-
-p.classic-cocktails-title {
-  font-family: 'Survey-regular';
-  font-size: 30px;
-}
-
-.classick-cocktails-content {
-  display: flex;
-  justify-content: flex-start;
-  gap: 100px;
-  align-items: flex-end;
-}
-
-p.classic-cocktails-text {
-  font-size: 18px;
-}
-
-p.classic-cocktails-price {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 22px;
-}
-
-.spirits-and-liquor {
-  display: flex;
-  height: 200px;
-}
-
-.spirits-and-liquor h3{
-  flex: 2;
-  position: relative;
-  top: 50px;
-}
-.spirits-and-liquor img{
-  flex: 1;
-}
-
-/* Column 2 last section */
-.sangria-section {
-  background: url('../images/SangriaRed.png');
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 150px 30px;
-  position: relative;
-  top: -50px;
-}
-
-p.sangria-title-description {
-  font-family: 'Survey-regular';
-  width: 50%;
-  font-size: 22px;
-}
-
-p.sangria-description {
-  font-family: 'GlacialIndifference-Bold';
-}
-
-.sangria-price-section {
-  display: flex;
-  justify-content: space-evenly;
-  font-family: 'GlacialIndifference-Bold';
-  position: relative;
-  top: 10px;
-}
-.sangria-price-section p{
-  font-family: 'GlacialIndifference-Bold';
-  width: 100px;
-  padding: 2px 19px;
-}
-
-p.left-sangria-price {
-  /* height: 20px; */
-  border-right: dotted; 
-  height: 50px;
-}
-
-.chardonnay-section {
-  background: url('../images/ArrogantFrog.png');
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 110%;
-  position: relative;
-  left: -140px;
-  padding: 80px 0px 0px 250px;
-}
-
-.top-text-chardonnay {
-  color: #a79a89;
-  font-family: 'GlacialIndifference-Bold';
-}
-/* New CSS */
-.sparkling-sweet-section {
-  background: url('../images/Moscato.png');
-  height: 400px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  padding: 100px 0px 0px 200px;
-}
-
-.sparkling-sweet-section-title{
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 16px;
+  p.bowl-of-hugs-description {
+	width: 50%;
+  }
   
-}
-.frontera-title{
-  display: flex;
-  flex-direction: column;
-}
-
-.available-on-happy-hour{
-  display: flex;
-  position: relative;
-  top: -50px;
-  left: 50px;
-}
-
-.art-cocktails-section{
-  background: url('../images/Cocktail.png');
-  height: 300px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
-  top: -100px;
-  padding: 120px 100px 0px 30px;
-}
-
-/* NEWLY ADDED CSS */
-
-.chocolate-section {
-  position: relative;
-  top: 0px;
-}
-
-h3.section-titles {}
-
-p.section-titles-description {
-  position: relative;
-  top: -4px;
-}
-
-
-/* NEW DAY ===== NEW CSS RULES */
-.new-pie-and-chai-section {
-  background: url('../images/PieChai.png');
-  height: 700px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.new-pie-and-chai-section {
-  padding: 50px;
-  display: flex;
-  /* gap: 150px; */
-  flex-direction: column;
-}
-
-p.new-pie-and-chai-title {
-  font-family: 'Survey-regular';
-  font-size: 32px;
-  margin: 10px 0px;
-}
-
-p.new-pie-and-chai-description {
-  font-size: 16px;
-  margin: 10px 0px;
-  width: 35%;
-}
-
-p.new-pie-chai-bold-text {
-  font-family: 'GlacialIndifference-Bold';
-  margin: 10px 0px;
-}
-
-.new-pie-chai-add-section {
-  margin: 50px 0px;
-  font-size: 16px;
-}
-
-.new-pie-and-chai-bottom {
-  display: flex;
-  flex-direction: column;
-  padding: 0px 0px 0px 100px;
-}
-
-.new-sausage-roll {
-  display: flex;
-  justify-content: space-between;
-  padding: 0px 29px 0px 0px;
-}
-
-p.new-sausage-roll-title {
-  font-family: 'Survey-regular';
-  font-size: 32px;
-  width: 60%;
-}
-
-p.new-sausage-roll-bold-text {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 16px;
-}
-
-p.new-sausage-roll-text-description {
-  font-size: 16px;
-}
-.new-wings-and-chips-section {
-  position: relative;
-  top: -76px;
-}
-
-.new-wings-and-chips {
-  position: relative;
-  top: -82px;
-}
-.golden-serif-text {
+  p.bbq-chicken-title {
+	width: 100%;
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 22px;
+	position: relative;
+	top: -40px;
+  }
+  
+  .bbq-chicken {
+	padding: 5px 0px;
+	position: relative;
+	top: -50px;
+  }
+  
+  p.bbq-chicken-description {
+	width: 100%;
+	position: relative;
+	top: -40px;
+  }
+  
+  p.bbq-chicken-price {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 18px;
+  }
+  .grilled-hall{
+	background: url('../images/new-images/Grilled-Halloumi.png');
+	height: 350px;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+  }
+  p.grilled-hall-description {
+	width: 80%;
+	line-height: 1;
+	position: relative;
+	top: -10px;
+  }
+  .texas-burger {
+	background: url('../images/new-images/Texas-Burger.png');
+	height: 363px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 20px 30px;
+	position: relative;
+	left: -20px;
+  }
+  p.texas-burger-title {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 22px;
+	position: relative;
+	top: -20px;
+  }
+  .texas-burger-p{
+	font-size: 10px;
+	position: relative;
+	top: -10px;
+  }
+  
+  p.texas-burger-description {
+	width: 100%;
+	position: relative;
+	top: -22px;
+  }
+  
+  p.texas-burger-price {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 18px;
+	position: relative;
+	top: -24px;
+  }
+  .pollo-section {
+	display: flex;
+	margin: 32px 0px;
+	align-items: center;
+	width: 100%;
+  }
+  .slow-cooked-beef{
+	background: url('../images/new-images/Slow-Cooked-BBQ-Beef.png');
+	height: 400px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 100px 10px;
+  }
+  p.slow-cooked-beef-title {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 18px;
+	width: 40%;
+  }
+  
+  p.slow-cooked-beef-description {
+	font-size: 16px;
+	width: 80%;
+	line-height: 1;
+	/* position: relative; */
+	/* top: 7px; */
+	margin: 5px 0px;
+  }
+  
+  p.slow-cooked-beef-pric {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 18px;
+  }
+  img.tea-product {
+	display: none;
+	
+  }
+  .stacked-goodness-section{
+	position: relative;
+	top: -96px;
+  }
+  .art-breakfast-content {
+	position: relative;
+	top: 9px;
+  }
+  
+  p.all-day-everyday {
+	/* font-size: 10px; */
+	position: relative;
+	top: -10px;
+  }
+  .section-titles.everyday-breakfast-title {
+	width: 100%;
+  }
+  h3.section-titles.everyday-breakfast-title {
+	position: relative;
+	top: -40px;
+  }
+  
+  p.everyday-breakfast {
+	position: relative;
+	top: -45px;
+  }
+  .everyday-classic-description {
+	width: 100%;
+  }
+  
+  p.everyday-classic-description {
+	position: relative;
+	top: -55px;
+  }
+  
+  /*New added CSS */
+  p.power-smoothies-top-text.beef-top-text {
+	top: -93px;
+	width: 100%;
+  }
+  
+  p.slow-cooked-beef-title {
+	position: relative;
+	top: -20px;
+	font-size: 12px;
+  }
+  p.slow-cooked-beef-description {
+	width: 80%;
+	margin: 0px;
+	position: relative;
+	top: -12px;
+	width: 40%;
+	font-size: 12px;
+  }
+  
+  p.slow-cooked-beef-pric {
+	position: relative;
+	top: 0px;
+	margin: 4px 0px;
+  }
+  
+  p.power-smoothies-top-text.texas-burger-p {
+	font-size: 13px;
+	top: -10px;
+  }
+  
+  /* More CSS Changes */
+  .frontera-section {
+	background: url('../images/new-wine/Artboard\ 1@1.5x.png');
+	height: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 110px 20px 0px 90px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+  }
+  .zevenwatch-section {
+	background: url('../images/new-wine/Artboard\ 2@1.5x.png');
+	height: 320px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 105px 20px;
+	position: relative;
+	top: 0px;
+	left: -10px;
+  }
+  
+  p.frontera-title {
+	font-size: 22px;
+	font-family: 'Survey-Regular';
+	line-height: 1;
+  }
+  
+  p.frontera-title-description {
 	color: #A59F9A;
 	font-family: 'Survey-regular';
-}
-.croissant-container {
-    display: flex;
-	flex-direction: column;
-}
-
-.croissant-img {
+	position: relative;
+	top: -15px;
+  }
+  
+  p.frontera-description {
+	font-size: 12px;
 	width: 80%;
 	position: relative;
-	left: 10%;
-}
-.breakfast-croissant-container {
-    display: flex;
-}
-.dark-forest-container {
-    display: flex;
-}
-p.dark-forest-title {
-    font-family: Garamond;
-    font-size: 30px;
-}
-.col-sm-12.col-xs-12.snacks-container {
-    border: 1px solid #e2d7c4;
-}
-
-img.img-responsive.hummus-img {
-    max-width: 150%;
-    position: relative;
-    top: 50px;
-}
-span.art-pesto {
-    font-family: 'Garamond';
-    font-size: 30px;
-}
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
-  /* Your CSS rules for screens between 768px and 1200px wide */
-
-  /*New CSS Changes for images */
-  .chai-and-pie {
-    display: flex;
-    background: url('../images/Coffee&Pastry.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 100%;
-    min-height: 200px;
-    height: auto;
+	top: -12px;
   }
-
-  .chai-and-pie-text {
-    position: relative;
-    left: 5px;
-    top: 30px;
-    width: 100px;
-    /* height: 300px; */
-    /* background-size: cover; */
-    /* background-position: center; */
-  }
-
-  .coffee-and-pastry-title {
-    font-family: 'Survey-regular';
-    font-size: 25px;
-    width: 100px;
-  }
-
-  .coffee-and-pastry-title-description {
-    margin-top: 0px;
-    width: 50px;
-    font-size: 8px;
-    line-height: 1.3;
-  }
-
-  .coffee-and-pastry-price {
-    font-family: GlacialIndifference-Bold;
-    font-size: 10px;
-    position: relative;
-    top: -5px;
-  }
-
-  /*New CSS TEAS SECTION*/
-  .teas-section-top {
-    background: url('../images/Artcaffe\ Tea-jan24.png');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
-    width: 100%;
-    height: 300px;
-
-  }
-
-  img.Teas-title {
-    width: 70%;
-    position: relative;
-    top: 5px;
-    left: -58px;
-  }
-
-  /* Social icons  */
-  .social-icons {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 44px;
-    gap: 2px;
-  }
-
-  .everyday-classics {
-    background: url('../images/Everyday\ Breakfast-jan24.png');
-    height: 430px;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
-    width: 110%;
-  }
-
-  .everyday-classic-breakfast {
-    background: #98272D;
-    border-radius: 100%;
-    color: #fff;
-    padding: 12px 9px;
-    font-size: 26px;
-    outline: 1px solid #A59F9A;
-    font-family: Knockout;
-    position: absolute;
-    /* right: 193px; */
-    left: 85%;
-    top: 350px;
-    margin: auto;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .art-breakfast {
-    background: url('../images/ArtofBreakfast.png');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
-    height: 600px;
-    width: 150%;
-  }
-
-  p.art-of-breakfast {
-    font-family: Garamond;
-    position: relative;
-    top: 140px;
-  }
-
-  .art-breakfast {
-    /* text-anchor: end; */
-    display: flex;
-    flex-direction: column;
-    align-items: normal;
-    justify-content: flex-end;
-    margin: 0px 0px 100px 0px;
-  }
-
-  h3.section-titles.art-of-breakfast {
-    position: relative;
-    top: 110px;
-  }
-
-  p.art-of-breakfast-description {
-    font-family: GlacialIndifference-Bold;
-    /* margin-top: 12px; */
-    /* margin-bottom: 12px; */
-    /* padding: 12px; */
-    width: 80%;
-    position: relative;
-    top: 100px;
-  }
-  .pie-and-chai{
-    overflow: hidden;
-    height: 250px;
-    width: 110%;
-  }
-  .pie-and-chai-top {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
-
-
-h3.chai-and-pie-title {
-    font-family: Garamond;
-    font-size: 36px;
-    font-weight: 100;
-    width: 50%;
-    position: relative;
-    top: -20px;
-}
-
-p.pie-and-chai-description {
-    width: 60%;
-    position: relative;
-    top: -23px;
-    line-height: 1.2;
-}
-
-p.pie-and-chai-price {
-    font-family: GlacialIndifference-Bold;
-    font-size: 16px;
-    position: relative;
-    top: -35px;
-}
-
-.pie-and-chie-add-section {
-    width: 40%;
-    position: relative;
-    left: -45px;
-}
-
-p.add-pie-chai {
-    font-family: GlacialIndifference-Bold;
-    font-size: 16px;
-}
-.add-pie-chai-description{
-  line-height: 1.2;
-  position: relative;
-  top: -12px;
-}
-
-.pie-and-chai-bottom {
-    position: relative;
-    top: -70px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 90%;
-    /* float: unset; */
-    left: -5px;
-}
-
-h3.sausage-roll-title {
-    font-family: Garamond;
-    width: 40%;
-    font-size: 16px;
-}
-
-p.sausage-roll-description {
-    width: 30%;
-    line-height: 1.2;
-}
-
-p.sausage-roll-price {
-    font-family: GlacialIndifference-Bold;
-    font-size: 16px;
-}
-.salted-caramel-section {
-  padding: 130px 10px;
-}
-.breaker-section {
-  height: 20px;
-  /* outline: 2px solid green; */
-}
-.samosa-section-top {
-  position: relative;
-  line-height: 1;
-}
-.samosa-section-bottom {
-  position: relative;
-  top: 14px;
-}
-.artcaffe-market-slideshow {
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
-  position: relative;
-  margin: 25px 0px;
-}
-.artcaffe-slideshow {
-  width: 100%;
-  height: 100px;
-  overflow: hidden;
-  position: relative;
-  margin: 25px 0px;
-}
-.eabl {
-  height: 400px;
-}
-.healthy-treat {
-  padding: 50px 0px;
-}
-.super-green {
-  text-align: right;
-  width: 95%;
-  padding: 50px 0px;
-  line-height: 1;
-}
-.bowl-of-hugs{
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 120%;
-  margin: 0px 0px;
-}
-.carrot-and-ginger-table{
-  width: 80%;
-  position: relative;
-  top: 140px;
-}
-
-.bbq-chicken{
-  background: url('../images/BBQ\ CHICKEN\ IN\ RUSTIC\ CIABATTA.png');
-  height: 300px;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
-  margin: 80px 0px;
-  position: relative;
-  top: 40px;
-}
-.soups-section {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 0;
-  margin: 20px 0px 0px 0px;
-  position: relative;
-  top: -60px;
-}
-
-
-.bowl-of-hugs {
-  padding: 180px 16px;
-  position: relative;
-  top: -160px;
-}
-
-p.warm-up {
-  font-family: 'Garamond';
-}
-
-p.bowl-of-hugs-title {
-  font-family: 'Garamond';
-  font-size: 30px;
-  width: 50%;
-}
-
-p.bowl-of-hugs-description {
-  width: 50%;
-}
-
-p.bbq-chicken-title {
-  width: 100%;
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 22px;
-  position: relative;
-  top: -40px;
-}
-
-.bbq-chicken {
-  padding: 5px 0px;
-  position: relative;
-  top: -50px;
-}
-
-p.bbq-chicken-description {
-  width: 100%;
-  position: relative;
-  top: -40px;
-}
-
-p.bbq-chicken-price {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 18px;
-}
-.grilled-hall{
-  background: url('../images/Grilled\ Halloumi.png');
-  height: 350px;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-p.grilled-hall-description {
-  width: 80%;
-  line-height: 1;
-  position: relative;
-  top: -10px;
-}
-.texas-burger {
-  background: url('../images/TexasBurger-border.png');
-  height: 363px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 20px 30px;
-  position: relative;
-  left: -20px;
-}
-p.texas-burger-title {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 22px;
-  position: relative;
-  top: -20px;
-}
-.texas-burger-p{
-  font-size: 10px;
-  position: relative;
-  top: -10px;
-}
-
-p.texas-burger-description {
-  width: 100%;
-  position: relative;
-  top: -22px;
-}
-
-p.texas-burger-price {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 18px;
-  position: relative;
-  top: -24px;
-}
-.pollo-section {
-  display: flex;
-  margin: 32px 0px;
-  align-items: center;
-  width: 100%;
-}
-.slow-cooked-beef{
-  background: url('../images/SlowCookedBBQBeef-border.png');
-  height: 400px;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 100px 10px;
-}
-p.slow-cooked-beef-title {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 18px;
-  width: 40%;
-}
-
-p.slow-cooked-beef-description {
-  font-size: 16px;
-  width: 80%;
-  line-height: 1;
-  /* position: relative; */
-  /* top: 7px; */
-  margin: 5px 0px;
-}
-
-p.slow-cooked-beef-pric {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 18px;
-}
-img.tea-product {
-  display: none;
   
-}
-.stacked-goodness-section{
-  position: relative;
-  top: -160px;
-}
-.art-breakfast-content {
-  position: relative;
-  top: 9px;
-}
-
-p.all-day-everyday {
-  /* font-size: 10px; */
-  position: relative;
-  top: -10px;
-}
-.section-titles.everyday-breakfast-title {
-  width: 100%;
-}
-h3.section-titles.everyday-breakfast-title {
-  position: relative;
-  top: -40px;
-}
-
-p.everyday-breakfast {
-  position: relative;
-  top: -45px;
-}
-.everyday-classic-description {
-  width: 100%;
-}
-
-p.everyday-classic-description {
-  position: relative;
-  top: -55px;
-}
-
-/*New added CSS */
-p.power-smoothies-top-text.beef-top-text {
-  top: -43px;
-  width: 100%;
-}
-
-p.slow-cooked-beef-title {
-  position: relative;
-  top: -20px;
-  font-size: 12px;
-}
-p.slow-cooked-beef-description {
-  width: 80%;
-  margin: 0px;
-  position: relative;
-  top: -12px;
-  width: 40%;
-  font-size: 12px;
-}
-
-p.slow-cooked-beef-pric {
-  position: relative;
-  top: 0px;
-  margin: 4px 0px;
-}
-
-p.power-smoothies-top-text.texas-burger-p {
-  font-size: 13px;
-  top: -10px;
-}
-
-/* More CSS Changes */
-.frontera-section {
-  background: url('../images/FronteraChile.png');
-  height: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 100px 20px;
-  position: relative;
-  top: -50px;
-}
-.zevenwatch-section {
-  background: url('../images/CabernetSauvignon.png');
-  height: 320px;
-  width: 102%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 35px 40px;
-  position: relative;
-  top: 0px;
-}
-
-p.frontera-title {
-  font-size: 22px;
-  font-family: 'Survey-Regular';
-  line-height: 1;
-}
-
-p.frontera-title-description {
-  color: #A59F9A;
-  font-family: 'Survey-regular';
-  position: relative;
-  top: -15px;
-}
-
-p.frontera-description {
-  font-size: 12px;
-  width: 80%;
-  position: relative;
-  top: -12px;
-}
-
-p.frontera-price {
-  font-family: 'GlacialIndifference-Bold';
-  position: relative;
-  top: -12px;
-}
-
-.classic-cocktails-section {
-  background: url('../images/ClassicCocktail.png');
-  height: 150px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 50px 20px;
-}
-
-p.classic-cocktails-title {
-  font-family: 'Survey-regular';
-  font-size: 22px;
-}
-
-.classick-cocktails-content {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-  align-items: flex-end;
-}
-
-p.classic-cocktails-text {
-  font-size: 16px;
-}
-
-p.classic-cocktails-price {
-  font-family: 'GlacialIndifference-Bold';
-}
-
-.spirits-and-liquor {
-  display: flex;
-  height: 200px;
-}
-
-.spirits-and-liquor h3{
-  flex: 2;
-  position: relative;
-  top: 50px;
-}
-.spirits-and-liquor img{
-  flex: 1;
-}
-
-/* New CSS */
-
-/* Column 2 last section */
-.sangria-section {
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 170px 20px;
-  position: relative;
-  top: -50px;
-}
-
-p.sangria-title-description {
-  font-family: 'Survey-regular';
-  width: 50%;
-  font-size: 18px;
-}
-
-p.sangria-description {
-  font-family: 'GlacialIndifference-Bold';
-}
-
-.sangria-price-section {
-  display: flex;
-  justify-content: space-evenly;
-  font-family: 'GlacialIndifference-Bold';
-  position: relative;
-  top: 10px;
-}
-.sangria-price-section p{
-  font-family: 'GlacialIndifference-Bold';
-  width: 100px;
-  padding: 2px 19px;
-}
-
-p.left-sangria-price {
-  /* height: 20px; */
-  border-right: dotted; 
-  height: 50px;
-}
-
-.chardonnay-section {
-  background: url('../images/ArrogantFrog.png');
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 110%;
-  position: relative;
-  left: -80px;
-  padding: 80px 0px 0px 150px;
-}
-
-.top-text-chardonnay {
-  color: #a79a89;
-  font-family: 'GlacialIndifference-Bold';
-}
-.sparkling-sweet-section {
-  background: url('../images/Moscato.png');
-  height: 400px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  padding: 100px 0px 0px 120px;
-}
-
-.sparkling-sweet-section-title{
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 16px;
+  p.frontera-price {
+	font-family: 'GlacialIndifference-Bold';
+	position: relative;
+	top: -12px;
+  }
   
-}
-.frontera-title{
-  display: flex;
-  flex-direction: column;
-}
-
-.available-on-happy-hour{
-  display: flex;
-  position: relative;
-  top: -25px;
-  left: 20px;
-}
-
-.art-cocktails-section{
-  background: url('../images/Cocktail.png');
-  height: 300px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
-  top: -100px;
-  padding: 120px 70px 0px 30px;
-}
-
-/* New Css */
-span.slice {
-  font-family: GlacialIndifference-Regular;
-  font-size: 12px;
-  position: relative;
-  top: 15px;
-  left: -85px;
-}
-
-.pie-and-chai-top-left {
-  position: relative;
-  top: -10px;
-}
-
-.pie-and-chie-add-section {
-  position: relative;
-  left: -44px;
-  /* width: 70%; */
-}
-
-
-/* NEW DAY ===== NEW CSS RULES */
-.new-pie-and-chai-section {
-  background: url('../images/PieChai.png');
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.new-pie-and-chai-section {
-  padding: 30px 30px;
-  display: flex;
-  /* gap: 150px; */
-  flex-direction: column;
-}
-
-p.new-pie-and-chai-title {
-  font-family: 'Survey-regular';
-  font-size: 32px;
-  margin: 0px 0px;
-}
-
-p.new-pie-and-chai-description {
-  font-size: 16px;
-  margin: 0px 0px;
-  width: 35%;
-}
-
-p.new-pie-chai-bold-text {
-  font-family: 'GlacialIndifference-Bold';
-  margin: 0px 0px;
-}
-
-.new-pie-chai-add-section {
-  margin: 0px 0px;
-  font-size: 16px;
-}
-
-.new-pie-and-chai-bottom {
-  display: flex;
-  flex-direction: column;
-  padding: 0px 0px 0px 65px;
-  position: relative;
-  top: -20px;
-}
-
-.new-sausage-roll {
-  display: flex;
-  justify-content: space-between;
-  padding: 0px 10px 0px 0px;
-  align-items: center;
-}
-
-p.new-sausage-roll-title {
-  font-family: 'Survey-regular';
-  font-size: 22px;
-  width: 60%;
-}
-
-p.new-sausage-roll-bold-text {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 16px;
-}
-
-p.new-sausage-roll-text-description {
-  font-size: 16px;
-}
-.croissant-container {
-    display: flex;
+  .classic-cocktails-section {
+	background: url('../images/ClassicCocktail.png');
+	height: 150px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 50px 20px;
+  }
+  
+  p.classic-cocktails-title {
+	font-family: 'Survey-regular';
+	font-size: 22px;
+  }
+  
+  .classick-cocktails-content {
+	display: flex;
+	justify-content: flex-start;
+	gap: 20px;
+	align-items: flex-end;
+  }
+  
+  p.classic-cocktails-text {
+	font-size: 16px;
+  }
+  
+  p.classic-cocktails-price {
+	font-family: 'GlacialIndifference-Bold';
+  }
+  
+  .spirits-and-liquor {
+	display: flex;
+	height: 200px;
+  }
+  
+  .spirits-and-liquor h3{
+	flex: 2;
+	position: relative;
+	top: 50px;
+  }
+  .spirits-and-liquor img{
+	flex: 1;
+  }
+  
+  /* New CSS */
+  
+  /* Column 2 last section */
+  .sangria-section {
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 170px 20px;
+	position: relative;
+	top: -50px;
+  }
+  
+  p.sangria-title-description {
+	font-family: 'Survey-regular';
+	width: 50%;
+	font-size: 18px;
+  }
+  
+  p.sangria-description {
+	font-family: 'GlacialIndifference-Bold';
+  }
+  
+  .sangria-price-section {
+	display: flex;
+	justify-content: space-evenly;
+	font-family: 'GlacialIndifference-Bold';
+	position: relative;
+	top: 10px;
+  }
+  .sangria-price-section p{
+	font-family: 'GlacialIndifference-Bold';
+	width: 100px;
+	padding: 2px 19px;
+  }
+  
+  p.left-sangria-price {
+	/* height: 20px; */
+	border-right: dotted; 
+	height: 50px;
+  }
+  
+  .chardonnay-section {
+	background: url('../images/new-wine/Artboard\ 4@1.5x.png');
+	height: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 110%;
+	position: relative;
+	left: 0px;
+	padding: 126px 0px 0px 20px;
+  }
+  
+  .top-text-chardonnay {
+	color: #a79a89;
+	font-family: 'GlacialIndifference-Bold';
+  }
+  .sparkling-sweet-section {
+	background: url('../images/new-wine/Artboard\ 3@1.5x.png');
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	padding: 140px 0px 0px 10px;
+  }
+  
+  .sparkling-sweet-section-title{
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 16px;
+	
+  }
+  .frontera-title{
+	display: flex;
 	flex-direction: column;
-}
-.breakfast-croissant-container {
-    display: flex;
+  }
+  
+  .available-on-happy-hour{
+	display: flex;
+	position: relative;
+	top: -25px;
+	left: 20px;
+  }
+  
+  .art-cocktails-section{
+	background: url('../images/new-wine/Artboard\ 5@1.5x.png');
+	height: 300px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+	top: -50px;
+	padding: 160px 10px 0px 10px;
+  }
+  
+  /* New Css */
+  span.slice {
+	font-family: GlacialIndifference-Regular;
+	font-size: 12px;
+	position: relative;
+	top: 15px;
+	left: -85px;
+  }
+  
+  .pie-and-chai-top-left {
+	position: relative;
+	top: -10px;
+  }
+  
+  .pie-and-chie-add-section {
+	position: relative;
+	left: -44px;
+	/* width: 70%; */
+  }
+  
+  
+  /* NEW DAY ===== NEW CSS RULES */
+  .new-pie-and-chai-section {
+	background: url('../images/new-images/Snacks.png');
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+  }
+  
+  .new-pie-and-chai-section {
+	padding: 27px 53px 47px 54px;
+	display: flex;
+	left: -40px;
+	gap: 20px;
 	flex-direction: column;
-}
-p.dark-forest-title {
-    font-family: Garamond;
-    font-size: 16px;
-}
-img.img-responsive.hummus-img {
-    max-width: 150%;
-    position: relative;
-    top: 50px;
-}
-.breakfast-croissant-container.fried-chicken-container {
-    position: relative;
-    top: -30px;
-}
-
-
-
-
-}
-
-
-
-@media only screen and (max-width: 766px) {
-  * {
-    font-size: 95%;
   }
-
-  p {
-    font-family: 'GlacialIndifference-Regular';
-    font-size: 8px;
+  
+  p.new-pie-and-chai-title {
+	font-family: 'Survey-regular';
+	font-size: 32px;
+	margin: 0px 0px;
+  }
+  
+  p.new-pie-and-chai-description {
+	font-size: 16px;
+	margin: 0px 0px;
+	width: 35%;
+  }
+  
+  p.new-pie-chai-bold-text {
+	font-family: 'GlacialIndifference-Bold';
+	margin: 0px 0px;
+  }
+  
+  .new-pie-chai-add-section {
+	margin: 0px 0px;
+	font-size: 16px;
+  }
+  
+  .new-pie-and-chai-bottom {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 0px 0px 65px;
+	position: relative;
+	top: -20px;
+  }
+  
+  .new-sausage-roll {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 10px 0px 0px;
+	align-items: center;
+  }
+  
+  p.new-sausage-roll-title {
+	font-family: 'Survey-regular';
+	font-size: 22px;
+	width: 60%;
+  }
+  
+  p.new-sausage-roll-bold-text {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 16px;
+  }
+  
+  p.new-sausage-roll-text-description {
+	font-size: 16px;
+  }
+  .col-sm-6.col-xs-6.eastern-flavor-right {
+    flex-direction: column;
+}
+  
+  
+  
   }
   
   
-
-  table th {
-    font-family: 'GlacialIndifference-Regular';
-    font-size: 2px;
-    padding: 2px;
+  
+  @media only screen and (max-width: 766px) {
+	* {
+	  font-size: 95%;
+	}
+	
+	
+  
+	table th {
+	  font-family: 'GlacialIndifference-Regular';
+	  font-size: 2px;
+	  padding: 2px;
+	}
+  
+	table td {
+	  font-family: 'GlacialIndifference-Bold';
+	  padding: 3px;
+	  vertical-align: baseline;
+	  font-size: 10px;
+	}
+  
+	.menu-item-description {
+	  margin: 0 0 10px;
+	  font-size: 9px;
+	  line-height: 1;
+	}
+  
+	i.fa-brands {
+	  font-size: 12px;
+	  display: flex;
+	  padding: 2px;
+	}
+  
+	.connect-with-us-text {
+	  display: inline-block;
+	  width: 100%;
+	  padding: 2px;
+	}
+  
+	.top-section-text {
+	  font-size: 12px;
+	}
+  
+	.artcaffe-site {
+	  text-align: left;
+	  padding: 0;
+	  display: flex;
+	  justify-content: flex-end;
+	}
+  
+	.menu-item-icon-images {
+	  height: 12px;
+	}
+  
+	.floating-button {
+	  display: block;
+	}
+  
+	.connect-with-us-text.connect {
+	  text-align: right;
+	  position: relative;
+	  right: 16px;
+	  line-height: inherit;
+	  width: 90%;
+	  padding: 2px;
+	}
+  
+	.section-titles {
+	  font-family: 'Knockout', 'Oswald', sans-serif;
+	  font-weight: 500;
+	  font-size: 25px;
+	}
+  
+	.bold-text-titles {
+	  font-size: 10px;
+	  font-family: 'GlacialIndifference-Regular';
+	  line-height: 1;
+	}
+  
+	table th {
+	  font-family: 'GlacialIndifference-Regular';
+	  font-size: 10px;
+	}
+  
+	/* Added items */
+	.add-bacon {
+	  outline: 2px solid #a79a89;
+	  padding-left: 2px;
+	  display: flex;
+	  align-items: center;
+	  margin: 10px;
+	  align-content: center;
+	}
+  
+	.add-bacon p {
+	  margin-top: 8px;
+	  font-size: 10px;
+	}
+  
+  
+	p.extra-text-table {
+	  font-size: 8px;
+	  padding-top: 0px;
+	}
+  
+	.dairy-section {
+	  padding: 2px;
+	  margin: 4px;
+	}
+  
+	.dairy-row {
+	  padding: 2px;
+	}
+  
+	.dairy {
+	  padding: 0px;
+	  border-right: #fff 2px solid;
+	}
+  
+  
+	.dairy-divider {
+	  border-bottom: #fff 2px solid;
+	}
+  
+	.chocolate {
+	  margin-top: 38px;
+	}
+  
+	.note {
+	  margin: 10px 0px 40px 0px;
+	}
+  
+	.logo {
+	  width: 60%;
+	  margin-top: -20px;
+	}
+  
+	/*New CSS Changes for images */
+	.chai-and-pie {
+	  display: flex;
+	  background: url('../images/new-images/Coffee-&-Pastry.png');
+	  background-repeat: no-repeat;
+	  background-position: initial;
+	  background-size: contain;
+	  width: 135%;
+	  min-height: 140px;
+	  height: auto;
+	}
+  
+	.chai-and-pie-text {
+	  position: relative;
+	  left: 5px;
+	  top: 10px;
+	  width: 120px;
+	  /* height: 300px; */
+	  /* background-size: cover; */
+	  /* background-position: center; */
+	}
+  
+	.coffee-and-pastry-title {
+	  font-family: 'Survey-regular';
+	  font-size: 10px;
+	  width: 100px;
+	}
+  
+	.coffee-and-pastry-title-description {
+	  margin-top: 0px;
+	  width: 50px;
+	  font-size: 8px;
+	  line-height: 1.3;
+	}
+  
+	.coffee-and-pastry-price {
+	  font-family: GlacialIndifference-Bold;
+	  font-size: 10px;
+	  position: relative;
+	  top: -5px;
+	}
+  
+	/*New CSS */
+	.teas-section-top {
+	  background: url('../images/new-images/Artcaffe-Tea.png');
+	  background-repeat: no-repeat;
+	  background-position: bottom;
+	  background-size: contain;
+	  width: 100%;
+	  max-height: 150px;
+  
+	}
+  
+	img.Teas-title {
+	  width: 80%;
+	  position: relative;
+	  top: -12px;
+	  left: -12px;
+	}
+  
+	.view-more {
+	  /* border: 1px solid #a79a89; */
+	  /* width: 203px; */
+	  /* border-radius: 36px; */
+	  font-size: 40px;
+	  padding: 0;
+	  margin: 2px;
+	  color: #98272D;
+	  font-size:16px
+	}
+  
+	.everyday-classics {
+	  background: url('../images/new-images/Everyday-Breakfast.png');
+	  height: 250px;
+	  background-repeat: no-repeat;
+	  background-position: bottom;
+	  background-size: contain;
+	  /* background-position: 100% 100% ; */
+	  width: 120%;
+	}
+  
+	.everyday-classic-breakfast {
+	  background: #98272D;
+	  border-radius: 100%;
+	  color: #fff;
+	  padding: 12px;
+	  font-size: 16px;
+	  outline: 1px solid #A59F9A;
+	  font-family: Knockout;
+	  position: absolute;
+	  /* right: 193px; */
+	  left: 85%;
+	  top: 180px;
+	  margin: auto;
+	  display: flex;
+	  justify-content: space-evenly;
+	}
+  
+	.art-breakfast {
+	  background: url('../images/new-images/Art-of-Breakfast.png');
+	  background-repeat: no-repeat;
+	  background-position: unset;
+	  background-size: contain;
+	  height: 274px;
+	  width: 119%;
+	}
+  
+	p.art-of-breakfast {
+	  font-family: Garamond;
+	  position: relative;
+	  top: 130px;
+	  font-size: 10px;
+	}
+  
+	.art-breakfast {
+	  /* text-anchor: end; */
+	  display: flex;
+	  flex-direction: column;
+	  align-items: normal;
+	  justify-content: flex-end;
+	  margin: 0px 0px 100px 0px;
+	}
+  
+	h3.section-titles.art-of-breakfast {
+	  position: relative;
+	  top: 110px;
+	}
+  
+	p.art-of-breakfast-description {
+	  font-family: GlacialIndifference-Bold;
+	  /* margin-top: 12px; */
+	  /* margin-bottom: 12px; */
+	  /* padding: 12px; */
+	  width: 60%;
+	  position: relative;
+	  top: 100px;
+	}
+	.pie-and-chai {
+	  height: 300px;
+	  /* overflow: hidden; */
+	  background: url('../images/PieChai.png');
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: contain;
+	}
+  
+	.pie-and-chai-top {
+	  display: flex;
+	  justify-content: space-between;
+	  padding: 2px;
   }
-
-  table td {
-    font-family: 'GlacialIndifference-Bold';
-    padding: 3px;
-    vertical-align: baseline;
-    font-size: 10px;
+  
+  
+  h3.chai-and-pie-title {
+	  font-family: Garamond;
+	  font-size: 12px;
+	  width: 50%;
+	  position: relative;
+	  top: -20px;
   }
-
-  .menu-item-description {
-    margin: 0 0 10px;
-    font-size: 9px;
-    line-height: 1;
+  
+  p.pie-and-chai-description {
+	  width: 60%;
+	  line-height: 1;
+	  position: relative;
+	  top: -30px;
+	  font-size: 6px;
   }
-
-  i.fa-brands {
-    font-size: 12px;
-    display: flex;
-    padding: 2px;
+  
+  p.pie-and-chai-price {
+	  font-family: GlacialIndifference-Bold;
+	  font-size: 9px;
+	  position: relative;
+	  top: -35px;
   }
-
-  .connect-with-us-text {
-    display: inline-block;
-    width: 100%;
-    padding: 2px;
+  
+  .pie-and-chie-add-section {
+	  width: 50%;
+	  position: relative;
+	  line-height: 1;
   }
-
-  .top-section-text {
-    font-size: 12px;
+  
+  p.add-pie-chai {
+	  font-family: GlacialIndifference-Bold;
+	  font-size: 9px;
   }
-
-  .artcaffe-site {
-    text-align: left;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
+  .add-pie-chai-description {
+	position: relative;
+	top: -5px;
+	font-size: 6px;
+	width: 70%;
   }
-
-  .menu-item-icon-images {
-    height: 12px;
+  
+  .pie-and-chai-bottom {
+	  position: relative;
+	  top: -42px;
+	  padding: 2px;
+	  display: flex;
+	  align-items: center;
+	  justify-content: space-evenly;
+	  width: 80%;
+	  /* float: unset; */
+	  left: 0px;
   }
-
-  .floating-button {
-    display: block;
+  
+  h3.sausage-roll-title {
+	  font-family: Garamond;
+	  font-size: 9px;
+	  width: 35%;
+	  position: relative;
+	  top: -8px;
+	  padding: 2px;
   }
-
-  .connect-with-us-text.connect {
-    text-align: right;
-    position: relative;
-    right: 16px;
-    line-height: inherit;
-    width: 90%;
-    padding: 2px;
+  
+  p.sausage-roll-description {
+	  width: 30%;
+	  font-size: 6px;
+	  position: relative;
+	  left: 0px;
   }
-
-  .section-titles {
-    font-family: 'Knockout', 'Oswald', sans-serif;
-    font-weight: 500;
-    font-size: 25px;
+  
+  p.sausage-roll-price {
+	  font-family: GlacialIndifference-Bold;
+	  font-size: 9px;
+	  position: relative;
+	  left: -4px;
+	  top: 4px;
+  
   }
-
-  .bold-text-titles {
-    font-size: 10px;
-    font-family: 'GlacialIndifference-Regular';
-    line-height: 1;
+  .salted-caramel-section{
+	height: 200px;
+	overflow: hidden;
   }
-
-  table th {
-    font-family: 'GlacialIndifference-Regular';
-    font-size: 10px;
+  p.salted-caramel-title {
+	font-size: 12px;
+	font-family: Garamond;
+	width: 50%;
+	line-height: 1.2;
   }
-
-  /* Added items */
-  .add-bacon {
-    outline: 2px solid #a79a89;
-    padding-left: 2px;
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    align-content: center;
+  
+  .salted-caramel-section {
+	padding: 70px 10px;
   }
-
-  .add-bacon p {
-    margin-top: 8px;
-    font-size: 10px;
+  
+  span.slice {
+	font-family: GlacialIndifference-Regular;
+	font-size: 8px;
+	position: relative;
+	top: 12px;
+	left: -33px;
   }
-
-
-  p.extra-text-table {
-    font-size: 8px;
-    padding-top: 0px;
+  
+  p.salted-caramel-price {
+	font-family: GlacialIndifference-Bold;
+	font-size: 10px;
   }
-
-  .dairy-section {
-    padding: 2px;
-    margin: 4px;
+  .breaker-section {
+	display: none;
   }
-
+  .beef-samosa-section{
+	background: url('../images/new-images/Samosas.png');
+	background-position: center;
+	height: 230px;
+	background-size: contain;
+	overflow: hidden;
+	background-repeat: no-repeat;
+  }
+  .beef-samosa-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 00px;
+  }
+  
+  p.sharing-for-family {
+	font-family: Garamond;
+	position: relative;
+	bottom: 0px;
+  }
+  
+  .samosa-section-top {
+	position: relative;
+	top: -22px;
+	line-height: 1;
+  }
+  
+  .samosa-section-bottom {}
+  
+  .sharing-block {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 10px;
+  }
+  
+  p.sharing-for-family-text {
+	font-family: GlacialIndifference-Bold;
+  }
+  
+  p.beef-samosas {
+	font-family: GlacialIndifference-Bold;
+	font-size: 10px;
+  }
+  
+  p.beef-samosas-description {
+	position: relative;
+	top: -10px;
+  }
+  .artcaffe-market-slideshow {
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+	margin: 25px 0px;
+  }
+  .artcaffe-slideshow {
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+	position: relative;
+	margin: 25px 0px;
+  }
+  .eabl {
+	height: 200px;
+  }
+  .power-smoothies-top-text {
+	position: relative;
+	top: 16px;
+	font-size: 8px;
+  }
+  
+  .delivers-on-big-flavour{
+	font-family: 'Garamond';
+	font-size: 12px;
+  }
+  
+  /*New day CSS code */
+  .healthy-treat {
+	background: url('../images/new-images/Super-Green-Smoothie.png');
+	height: 150px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 1px 6px;
+	position: relative;
+	top: -40px;
+	width: 115%;
+	left: -25px;
+	margin-bottom: -33px;
+  }
+  .super-green {
+	text-align: right;
+	width: 95%;
+	padding: 50px 0px;
+  }
+  
+  .super-green-title {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 1px;
+  }
+  
+  p.super-green-title-text {
+	font-family: 'Garamond';
+	font-size: 14px;
+	position: relative;
+	top: 4px;
+  }
+  
+  p.super-green-description {
+	font-size: 6px;
+	width: 50%;
+	text-align: right;
+	position: relative;
+	right: 0;
+	top: -5px;
+	left: 50%;
+  }
+  
+  p.super-green-price {
+	font-size: 10px;
+	font-family: 'GlacialIndifference-Bold';
+	position: relative;
+	top: -10px;
+  }
+  .bowl-of-hugs{
+	background: url('../images/new-images/Bowl-of-Soup.png');
+	height: 250px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 140%;
+	margin: 0px 0px 40px 0px;
+  }
+  .carrot-and-ginger-table{
+	width: 80%;
+	position: relative;
+	top: 0px;
+	font-size: 10px;
+  }
+  .bbq-chicken{
+	background: url('../images/BBQ\ CHICKEN\ IN\ RUSTIC\ CIABATTA.png');
+	height: 150px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+	margin: 30px 0px;
+  }
+  .soups-section {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 2px;
+	margin: 20px 0px 0px 0px;
+	position: relative;
+	top: -67px;
+  }
+  
+  
+  .bowl-of-hugs {
+	padding: 10px 10px;
+	position: relative;
+	top: -60px;
+  }
+  
+  p.warm-up {
+	font-family: 'Garamond';
+	font-size: 8px;
+  }
+  
+  p.bowl-of-hugs-title {
+	font-family: 'Garamond';
+	font-size: 12px;
+	position: relative;
+	top: 0px;
+  }
+  
+  p.bowl-of-hugs-description {
+	width: 50%;
+	line-height: 1;
+	font-size: 8px;
+  }
+  
+  p.bbq-chicken-title {
+	width: 100%;
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 12px;
+	position: relative;
+	top: -40px;
+  }
+  
+  .bbq-chicken {
+	padding: 5px 0px;
+  }
+  
+  p.bbq-chicken-description {
+	width: 100%;
+	line-height: 1;
+	position: relative;
+	top: -50px;
+  }
+  
+  p.bbq-chicken-price {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 9px;
+	position: relative;
+	top: -50px;
+  }
+  p.bowl-of-hugs-price {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 10px;
+  }
+  
+  .grilled-hall{
+	background: url('../images/new-images/Grilled-Halloumi.png');
+	height: 200px;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+  }
+  p.grilled-hall-title {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 12px;
+  }
+  
+  .grilled-hall-price {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 9px;
+	position: relative;
+	top: -10px;
+  }
+  
+  p.grilled-hall-description {
+	width: 100%;
+	line-height: 1;
+	position: relative;
+	top: -10px;
+  }
+  
+  .texas-burger {
+	background: url('../images/new-images/Texas-Burger.png');
+	height: 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 8px 20px;
+	width: 125%;
+	position: relative;
+	left: -40px;
+  }
+  .texas-burger-p{
+	position: relative;
+	font-size: 6px;
+	top: 25px;
+  }
+  .texas-burger-top-text{
+	position: relative;
+	top: 0px;
+	line-height: 1;
+	margin: 2px 0px;
+  }
+  .texas-burger-bottom-text {
+	position: relative;
+	top: 20px;
+  }
+  
+  
+  p.texas-burger-title {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 10px;
+	position: relative;
+	top: -24px;
+  }
+  
+  p.texas-burger-description {
+	width: 100%;
+	line-height: 1;
+	font-size: 9px;
+	position: relative;
+	top: -30px;
+  }
+  
+  p.texas-burger-price {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 8px;
+	position: relative;
+	top: -30px;
+  }
+  .toppings-content {
+	border: 1px solid #e2d7c4;
+	font-size: 10px;
+  }
+  
+  .pollo-section {
+	display: flex;
+	margin: 32px 0px;
+	align-items: center;
+	width: 105%;
+  }
+  
+  .pollo-section-left {
+	flex: 1;
+  }
+  
+  p.pollo-section-title {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 12px;
+  }
+  
+  p.pollo-section-price {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 8px;
+  }
+  p.pollo-section-description {
+	font-size: 8px;
+  }
+  .art-wings-section{
+	background: url('../images/new-images/Chicken-Wings.png');
+	height: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+  }
+  
+  p.art-wings-title {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 12px;
+	position: relative;
+	top: 5px;
+  }
+  
+  p.art-wings-description {
+	text-align: right;
+	width: 70%;
+	position: relative;
+	float: right;
+	font-size: 8px;
+	top: -45px;
+  }
+  .pasta-section{
+	position: relative;
+	top: -40px;
+  }
+  .slow-cooked-beef{
+	background: url('../images/new-images/Slow-Cooked-BBQ-Beef.png');
+	height: 210px;
+	width: 140%;
+	position: relative;
+	left: -10px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 30px 10px;
+  }
+  p.slow-cooked-beef-title {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 9px;
+	width: 35%;
+	position: relative;
+	top: -12px;
+  }
+  .beef-top-text{
+	top: -10px;
+  }
+  
+  p.slow-cooked-beef-description {
+	font-size: 8px;
+	width: 60%;
+	line-height: 1;
+	/* position: relative; */
+	/* top: 7px; */
+	margin: 5px 0px;
+  
+  }
+  
+  p.slow-cooked-beef-pric {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 9px;  
+  }
+  
+  /* New day === New CSS additions */
+  
+  img.tea-product {
+	position: relative;
+	float: right;
+	display: none;
+	height: 176px;
+	top: -60px;
+  }
   .dairy-row {
-    padding: 2px;
+	font-size: 10px;
   }
-
-  .dairy {
-    padding: 0px;
-    border-right: #fff 2px solid;
+  
+  
+  
+  .allergen-advise {
+	display: flex;
+	align-items: center;
+	font-family: 'GlacialIndifference-Bold';
+	
+	/* left: 0; */
+	/* right: 0; */
+	/* left: -15px; */
+	/* width: 102%; */
   }
-
-
-  .dairy-divider {
-    border-bottom: #fff 2px solid;
+  .allergen-class{
+	height: auto;
+	/* background: #98272D; */
+	color: #98272D;
+	padding: 2px 12px;
+	gap: 0;
+	position: relative;
+	top: 20px;
   }
-
-  .chocolate {
-    margin-top: 38px;
+  
+  .allergen-class h3 {
+	font-size: 12px;
   }
-
-  .note {
-    margin: 10px 0px 40px 0px;
+  
+  .allergen-class {
+	display: flex;
+	flex-direction: column;
   }
-
-  .logo {
-    width: 60%;
-    margin-top: -20px;
+  
+  .allergen-icons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	color: #000;
+	overflow-x: auto;
+	gap: 22px;
   }
-
-  /*New CSS Changes for images */
-  .chai-and-pie {
-    display: flex;
-    background: url('../images/Coffee&Pastry.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 135%;
-    min-height: 120px;
-    height: auto;
+  
+  .allergen-icons p {
+	font-size: 8px;
   }
-
-  .chai-and-pie-text {
-    position: relative;
-    left: 5px;
-    top: 20px;
-    width: 100px;
-    /* height: 300px; */
-    /* background-size: cover; */
-    /* background-position: center; */
+  
+  .allergen-icon-description {
+	text-wrap: wrap;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	/* width: 20px; */
   }
-
-  .coffee-and-pastry-title {
-    font-family: 'Survey-regular';
-    font-size: 10px;
-    width: 100px;
+  th.bold-underlined-text {
+	font-family: 'GlacialIndifference-Bold';
+	text-decoration: none;
+	font-size: 12px;
   }
-
-  .coffee-and-pastry-title-description {
-    margin-top: 0px;
-    width: 50px;
-    font-size: 8px;
-    line-height: 1.3;
+  
+  .two-row-table{
+	height: 1px;
   }
-
-  .coffee-and-pastry-price {
-    font-family: GlacialIndifference-Bold;
-    font-size: 10px;
-    position: relative;
-    top: -5px;
+  
+  
+  p.power-smoothies-top-text{
+	font-size: 12px;
   }
-
-  /*New CSS */
-  .teas-section-top {
-    background: url('../images/Artcaffe\ Tea-jan24.png');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
-    width: 100%;
-    max-height: 150px;
-
+  .stacked-goodness-section {
+	position: relative;
+	top: -38px;
   }
-
-  img.Teas-title {
-    width: 80%;
-    position: relative;
-    top: -12px;
-    left: -12px;
+  p.all-day-everyday {
+	font-size: 10px;
+	position: relative;
+	top: 0px;
   }
-
-  .view-more {
-    /* border: 1px solid #a79a89; */
-    /* width: 203px; */
-    /* border-radius: 36px; */
-    font-size: 40px;
-    padding: 0;
-    margin: 2px;
-    color: #98272D;
-    font-size:16px
-  }
-
-  .everyday-classics {
-    background: url('../images/Everyday\ Breakfast-jan24.png');
-    height: 260px;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
-    /* background-position: 100% 100% ; */
-    width: 120%;
-  }
-
-  .everyday-classic-breakfast {
-    background: #98272D;
-    border-radius: 100%;
-    color: #fff;
-    padding: 10px 7px;
-    font-size: 16px;
-    outline: 1px solid #A59F9A;
-    font-family: Knockout;
-    position: absolute;
-    /* right: 193px; */
-    left: 85%;
-    top: 200px;
-    margin: auto;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .art-breakfast {
-    background: url('../images/ArtofBreakfast.png');
-    background-repeat: no-repeat;
-    background-position: unset;
-    background-size: contain;
-    height: 274px;
-    width: 119%;
-  }
-
+  
   p.art-of-breakfast {
-    font-family: Garamond;
-    position: relative;
-    top: 130px;
-    font-size: 10px;
+	font-size: 10px;
+  
   }
+  .art-breakfast-content {
+	position: relative;
+	top: 0px;
+  }
+  .section-titles.everyday-breakfast-title {
+	width: 100%;
+  }
+  h3.section-titles.everyday-breakfast-title {
+	position: relative;
+	top: -20px;
+  }
+  
+  p.everyday-breakfast {
+	position: relative;
+	top: -29px;
+  }
+  .everyday-classic-description {
+	width: 100%;
+  }
+  
+  p.everyday-classic-description {
+	position: relative;
+	top: -36px;
+  }
+  
+  /*New Day === New CSS RULES */
+  p.chocolate-title {
+	font-family: 'Garamond';
+	font-size: 10px;
+	position: relative;
+	top: 20px;
+  }
+  
+  p.section-titles-description {
+	font-size: 9px;
+  }
+  /*New added CSS */
+  p.power-smoothies-top-text.beef-top-text {
+	top: -73px;
+	width: 100%;
+  }
+  p.slow-cooked-beef-description {
+	/* width: 80%; */
+	margin: 0px;
+	position: relative;
+	top: -10px;
+	width: 42%;
+  }
+  
+  p.slow-cooked-beef-pric {
+	position: relative;
+	top: -10px;
+	margin: 4px 0px;
+  }
+  p.power-smoothies-top-text.texas-burger-p {
+	position: relative;
+	top: -20px;
+  }
+  
+  .frontera-section {
+	background: url('../images/new-wine/Artboard\ 1@1.5x.png');
+	height: 180px;
+	width: 110%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 80px 10px 0px 50px;
+	position: relative;
+	top: 0px;
+	overflow: hidden;
+	left: 0px;
+	margin-bottom: 0px;
+  }
+  
+  .zevenwatch-section {
+	background: url('../images/new-wine/Artboard\ 2@1.5x.png');
+	height: 150px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 40px 8px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+  }
+  
+  p.frontera-title {
+	font-size: 12px;
+	font-family: 'Survey-Regular';
+  }
+  
+  p.frontera-title-description {
+	color: #A59F9A;
+	font-family: 'Survey-regular';
+	position: relative;
+	top: -15px;
+  }
+  
+  p.frontera-description {
+	font-size: 7px;
+	width: 80%;
+	position: relative;
+	top: -25px;
+	line-height: 1;
+  }
+  
+  p.frontera-price {
+	font-family: 'GlacialIndifference-Bold';
+	position: relative;
+	font-size: 7px;
+	top: -30px;
+  }
+  
+  .classic-cocktails-section {
+	background: url('../images/ClassicCocktail.png');
+	height: 100px;
+	width: 110%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 35px 10px;
+	overflow: hidden;
+  }
+  
+  p.classic-cocktails-title {
+	font-family: 'Survey-regular';
+	font-size: 12px;
+  }
+  
+  .classick-cocktails-content {
+	display: flex;
+	justify-content: flex-start;
+	gap: 10px;
+	align-items: flex-end;
+  }
+  
+  p.classic-cocktails-text {
+	font-size: 9px;
+	position: relative;
+	top: -10px;
+  }
+  
+  p.classic-cocktails-price {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 10px;
+	position: relative;
+	top: -10px;
+  }
+  
+  .spirits-and-liquor {
+	display: flex;
+	height: auto;
+	width: 100%;
+  }
+  
+  .spirits-and-liquor h3{
+	flex: 2;
+	position: relative;
+	top: 0px;
+  }
+  .spirits-and-liquor img{
+	flex: 1;
+	width: 80%;
+	height: auto;
+  }
+  
+  /* Column 2 last section */
+  .sangria-section {
+	height: 220px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 100px 10px;
+	position: relative;
+	top: -50px;
+	/* overflow: hidden; */
+  }
+  
+  p.sangria-title-description {
+	font-family: 'Survey-regular';
+	width: 50%;
+	font-size: 9px;
+	line-height: 1.2;
+  }
+  
+  p.sangria-description {
+	font-family: 'GlacialIndifference-Bold';
+	position: relative;
+	margin-top: 0px;
+	top: 7px;
+  }
+  
+  .sangria-price-section {
+	display: flex;
+	justify-content: space-evenly;
+	font-family: 'GlacialIndifference-Bold';
+	position: relative;
+	top: 10px;
+  }
+  .sangria-price-section p{
+	font-family: 'GlacialIndifference-Bold';
+	padding: 2px 19px;
+	font-size: 7px;
+  }
+  
+  p.left-sangria-price {
+	/* height: 20px; */
+	border-right: dotted; 
+	height: 30px;
+  }
+  
+  .chardonnay-section {
+	background: url('../images/new-wine/Artboard\ 4@1.5x.png');
+	height: 160px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 110%;
+	position: relative;
+	left: -10px;
+	padding: 40px 20px 0px 10px;
+	margin: 0px;
+  }
+  
+  .top-text-chardonnay {
+	color: #a79a89;
+	font-family: 'GlacialIndifference-Bold';
+	position: relative;
+	top: 10px;
+	font-size: 7px;
+	margin: 10px 0px;
+  }
+  
+  .sparkling-sweet-section {
+	background: url('../images/new-wine/Artboard\ 3@1.5x.png');
+	height: 170px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	padding: 40px 20px 0px 10px;
+	overflow: hidden;
+  }
+  
+  .sparkling-sweet-section-title{
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 9px;
+	
+  }
+  .frontera-title{
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .available-on-happy-hour{
+	display: flex;
+	position: relative;
+	top: -15px;
+	left: 10px;
+  }
+  
+  .art-cocktails-section{
+	background: url('../images/new-wine/Artboard\ 5@1.5x.png');
+	height: 150px;
+	width: 110%;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+	top: -60px;
+	padding: 90px 10px 0px 10px;
+  }
+  
+  /* NEW CSS ADDED */
+  p.salted-caramel-title {
+	position: relative;
+	/* left: -7px; */
+  }
+  
+  .pie-and-chai-top-left {
+	position: relative;
+	top: 10px;
+	left: 3px;
+	/* width: 100%; */
+  }
+  
+  .pie-and-chie-add-section {
+	position: relative;
+	left: 1px;
+  }
+  
+  p.bowl-of-hugs-description {
+	position: relative;
+	top: 10px;
+  }
+  
+  p.bowl-of-hugs-title {
+	position: relative;
+	top: 18px;
+	width: 50%;
+  }
+  
+  p.warm-up {
+	position: relative;
+	top: 23px;
+  }
+  
+  .item-after-artcocktails{
+	position: relative;
+	top: -60px;
+  }
+  
+  /* Pie & Chai Section  */
+  
+  .pie-and-chie-add-section {
+	position: relative;
+	/* top: 80px; */
+	/* left: 65px; */
+  }
+  
+  .pie-and-chai-bottom {
+	position: relative;
+	top: 15px;
+	left: 12px;
+	width: 80%;
+  }
+  
+  .pie-and-chie-add-section {
+	position: relative;
+	left: -55%;
+	top: 35px;
+	width: 60%;
+	/* top: 105px; */
+  }
+  
+  .pie-and-chai-top-left {
+	position: relative;
+	top: 63px;
+	left: 15px;
+	width: 100%;
+	padding: 13px 0px; 
+  }
+  h3.chai-and-pie-title {
+	width: 100%;
+	position: relative;
+	top: -20px;
+  }
+  
+  p.pie-and-chai-description {
+	width: 100%;
+	position: relative;
+	line-height: 1.2;
+  }
+  
+  /* NEW DAY ===== NEW CSS RULES */
+  .new-pie-and-chai-section {
+	background: url('../images/new-images/Snacks.png');
+	height: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	overflow: hidden;
+	margin: -31px 0px;
+	left: -10px;
+  }
+  
+  .new-pie-and-chai-section {
+	padding: 39px 21px 26px 26px;
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+  }
+  
+  p.new-pie-and-chai-title {
+	font-family: 'Survey-regular';
+	font-size: 12px;
+	margin: 4px 0px;
+  }
+  
+  p.new-pie-and-chai-description {
+	font-size: 8px;
+	margin: 0px 0px;
+	width: 40%;
+  }
+  
+  p.new-pie-chai-bold-text {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 8px;
+	margin: 0px 0px;
+  }
+  
+  .new-pie-chai-add-section {
+	margin: 4px 0px;
+	font-size: 6px;
+	width: 80%;
+	line-height: 1;
+  }
+  
+  .new-pie-and-chai-bottom {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 0px 0px 40px;
+	position: relative;
+	top: 0px;
+  }
+  
+  .new-sausage-roll {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 6px 0px 0px;
+  }
+  
+  p.new-sausage-roll-title {
+	font-family: 'Survey-regular';
+	font-size: 9px;
+	width: 60%;
+  }
+  
+  p.new-sausage-roll-bold-text {
+	font-family: 'GlacialIndifference-Bold';
+	font-size: 8px;
+  }
+  
+  p.new-sausage-roll-text-description {
+	font-size: 8px;
+	position: relative;
+	top: -8px;
+	padding: 0px 4px;
+  }
+  
+  .liquor-section {
+	font-size: 13px;
+  }
+  
+  /* NEW DAY ====== NEW CSS */
+  .sharing-block {
+	flex-direction: column;
+	align-items: baseline;
+	position: relative;
+	top: -21px;
+  }
+  
+  p.sharing-for-family-text {
+	font-family: 'GlacialIndifference-Regular';
+	position: relative;
+	top: -20px;
+  }
+  
+  .divider {
+	border-bottom: 2px solid #a79a89;
+	width: 100%;
+	margin: 20px 0px;
+  }
+  
+  .chocolate-section-upwards {
+	position: relative;
+	top: -17px;
+  }
+  
+  /* NEW DAY NEW CSS */
+  
+  .soups-section-divider{
+	margin: 30px 0px;
+  }
+  
+  .divider.stacked-goodness-breaker {
+	margin: 50px 0px;
+	position: relative;
+	top: 14px;
+  }
+  
+  .move-art-pizzas-top {
+	position: relative;
+	top: -20px;
+  }
+  
+  .lunch-and-dinner-move-top {
+	position: relative;
+	top: -28px;
+  }
+  
+  .move-pasta-section-to-top {
+	position: relative;
+	top: -50px;
+  }
+  
+  .move-pollo-section-top {
+	position: relative;
+	top: -40px;
+  }
+  
+  /* NEW DAY ==== NEW CSS */
+  
+  .new-wings-and-chips-section {
+	position: relative;
+	top: -50px;
+  }
+  
+  .wings-and-chips {
+	position: relative;
+	top: -32px;
+  }
+  
+  .art-wings-section {
+	position: relative;
+	top: -67px;
+  }
+  
+  .new-move-chicken-wings-table-top {
+	position: relative;
+	top: -90px;
+  }
+  
+  p.sharing-for-family-text {
+	font-family: 'GLACIALINDIFFERENCE-REGULAR';
+	  font-size: 9px;
+	  position: relative;
+	  top: -18px;
+  }
+  p.power-smoothies-top-text.good-morning-sunshine {
+	margin-top: 0px;
+  }
+  
+  .new-wings-and-chips {
+	position: relative;
+	top: -42px;
+	height: 650px;
+  }
+  p.texas-burger-description.texas-burger-description-bottom {
+	position: relative;
+	top: -18px;
+  }
+  .artcaffe-market-slideshow.removemargin-mobile {
+	margin: -25px 0px;
+  }
+  
+  .artcaffe-market-slideshow.remove-margin-adsection-1{
+	margin: 3px 0px;
+  }
+  .chocolate-section {
+	margin-top: -26px;
+  }
+  img.section-title-images.cocktail-animation {
+	position: relative;
+	top: -34px;
+  }
+  .col-sm-12.col-xs-12.eastern-flavor-container {
+    border: 2px solid #e2d7c4;
+    padding: 10px;
+    background: url('../images/Background-jan24.png');
+    background-repeat: repeat-x;
+}
 
-  .art-breakfast {
-    /* text-anchor: end; */
-    display: flex;
+.col-sm-6.col-xs-6.eastern-flavor-right {
     flex-direction: column;
-    align-items: normal;
-    justify-content: flex-end;
-    margin: 0px 0px 100px 0px;
-  }
+}
 
-  h3.section-titles.art-of-breakfast {
+.g-web {
     position: relative;
-    top: 110px;
-  }
-
-  p.art-of-breakfast-description {
-    font-family: GlacialIndifference-Bold;
-    /* margin-top: 12px; */
-    /* margin-bottom: 12px; */
-    /* padding: 12px; */
-    width: 60%;
-    position: relative;
-    top: 100px;
-  }
-  .pie-and-chai {
-    height: 300px;
-    /* overflow: hidden; */
-    background: url('../images/PieChai.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-
-  .pie-and-chai-top {
-    display: flex;
-    justify-content: space-between;
-    padding: 2px;
-}
-
-
-h3.chai-and-pie-title {
-    font-family: Garamond;
-    font-size: 12px;
-    width: 50%;
-    position: relative;
-    top: -20px;
-}
-
-p.pie-and-chai-description {
-    width: 60%;
-    line-height: 1;
-    position: relative;
-    top: -30px;
-    font-size: 6px;
-}
-
-p.pie-and-chai-price {
-    font-family: GlacialIndifference-Bold;
-    font-size: 9px;
-    position: relative;
-    top: -35px;
-}
-
-.pie-and-chie-add-section {
-    width: 50%;
-    position: relative;
-    line-height: 1;
-}
-
-p.add-pie-chai {
-    font-family: GlacialIndifference-Bold;
-    font-size: 9px;
-}
-.add-pie-chai-description {
-  position: relative;
-  top: -5px;
-  font-size: 6px;
-  width: 70%;
-}
-
-.pie-and-chai-bottom {
-    position: relative;
-    top: -42px;
-    padding: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 80%;
-    /* float: unset; */
-    left: 0px;
-}
-
-h3.sausage-roll-title {
-    font-family: Garamond;
-    font-size: 9px;
-    width: 35%;
-    position: relative;
-    top: -8px;
-    padding: 2px;
-}
-
-p.sausage-roll-description {
-    width: 30%;
-    font-size: 6px;
-    position: relative;
-    left: 0px;
-}
-
-p.sausage-roll-price {
-    font-family: GlacialIndifference-Bold;
-    font-size: 9px;
-    position: relative;
-    left: -4px;
-    top: 4px;
-
-}
-.salted-caramel-section{
-  height: 200px;
-  overflow: hidden;
-}
-p.salted-caramel-title {
-  font-size: 12px;
-  font-family: Garamond;
-  width: 50%;
-  line-height: 1.2;
-}
-
-.salted-caramel-section {
-  padding: 70px 10px;
-}
-
-span.slice {
-  font-family: GlacialIndifference-Regular;
-  font-size: 8px;
-  position: relative;
-  top: 12px;
-  left: -33px;
-}
-
-p.salted-caramel-price {
-  font-family: GlacialIndifference-Bold;
-  font-size: 10px;
-}
-.breaker-section {
-  display: none;
-}
-.beef-samosa-section{
-  background: url('../images/Samosas.png');
-  background-position: center;
-  height: 200px;
-  background-size: contain;
-  overflow: hidden;
-  background-repeat: no-repeat;
-}
-.beef-samosa-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-top: 00px;
-}
-
-p.sharing-for-family {
-  font-family: Garamond;
-  position: relative;
-  bottom: 0px;
-}
-
-.samosa-section-top {
-  position: relative;
-  top: -22px;
-  line-height: 1;
-}
-
-.samosa-section-bottom {}
-
-.sharing-block {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 10px;
-}
-
-p.sharing-for-family-text {
-  font-family: GlacialIndifference-Bold;
-}
-
-p.beef-samosas {
-  font-family: GlacialIndifference-Bold;
-  font-size: 10px;
-}
-
-p.beef-samosas-description {
-  position: relative;
-  top: -10px;
-}
-.artcaffe-market-slideshow {
-  width: 100%;
-  height: 130px;
-  overflow: hidden;
-  position: relative;
-  margin: 25px 0px;
-}
-.artcaffe-slideshow {
-  width: 100%;
-  height: 100px;
-  overflow: hidden;
-  position: relative;
-  margin: 25px 0px;
-}
-.eabl {
-  height: 200px;
-}
-.power-smoothies-top-text {
-  position: relative;
-  top: 16px;
-  font-size: 8px;
-}
-
-.delivers-on-big-flavour{
-  font-family: 'Garamond';
-  font-size: 12px;
-}
-
-/*New day CSS code */
-.healthy-treat {
-  background: url('../images/Healthy-Treat-Pink.png');
-  height: 150px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding: 1px 6px;
-  position: relative;
-  top: -40px;
-  width: 115%;
-  left: -25px;
-  margin-bottom: -33px;
-}
-.super-green {
-  text-align: right;
-  width: 100%;
-  padding: 50px 0px;
-}
-
-.super-green-title {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 1px;
-}
-
-p.super-green-title-text {
-  font-family: 'Garamond';
-  font-size: 14px;
-  position: relative;
-  top: 4px;
-}
-
-p.super-green-description {
-  font-size: 6px;
-  width: 50%;
-  text-align: right;
-  position: relative;
-  right: 0;
-  top: -5px;
-  left: 50%;
-}
-
-p.super-green-price {
-  font-size: 10px;
-  font-family: 'GlacialIndifference-Bold';
-  position: relative;
-  top: -10px;
-}
-.bowl-of-hugs{
-  height: 250px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 140%;
-  margin: 0px 0px 40px 0px;
-}
-.carrot-and-ginger-table{
-  width: 80%;
-  position: relative;
-  top: 70px;
-  font-size: 10px;
-}
-.bbq-chicken{
-  background: url('../images/BBQ\ CHICKEN\ IN\ RUSTIC\ CIABATTA.png');
-  height: 150px;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
-  margin: 30px 0px;
-}
-.soups-section {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 2px;
-  margin: 20px 0px 0px 0px;
-  position: relative;
-  top: -40px;
-}
-
-
-.bowl-of-hugs {
-  padding: 10px 10px;
-  position: relative;
-  top: -60px;
-}
-
-p.warm-up {
-  font-family: 'Garamond';
-  font-size: 8px;
-}
-
-p.bowl-of-hugs-title {
-  font-family: 'Garamond';
-  font-size: 12px;
-  position: relative;
-  top: 0px;
-}
-
-p.bowl-of-hugs-description {
-  width: 50%;
-  line-height: 1;
-  font-size: 8px;
-}
-
-p.bbq-chicken-title {
-  width: 100%;
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 12px;
-  position: relative;
-  top: -40px;
-}
-
-.bbq-chicken {
-  padding: 5px 0px;
-}
-
-p.bbq-chicken-description {
-  width: 100%;
-  line-height: 1;
-  position: relative;
-  top: -50px;
-}
-
-p.bbq-chicken-price {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 9px;
-  position: relative;
-  top: -50px;
-}
-p.bowl-of-hugs-price {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 10px;
-}
-
-.grilled-hall{
-  background: url('../images/Grilled\ Halloumi.png');
-  height: 200px;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-p.grilled-hall-title {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 12px;
-}
-
-.grilled-hall-price {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 9px;
-  position: relative;
-  top: -10px;
-}
-
-p.grilled-hall-description {
-  width: 100%;
-  line-height: 1;
-  position: relative;
-  top: -10px;
-}
-
-.texas-burger {
-  background: url('../images/TexasBurger-border.png');
-  height: 200px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 8px 20px;
-  width: 125%;
-  position: relative;
-  left: -40px;
-}
-.texas-burger-p{
-  position: relative;
-  font-size: 6px;
-  top: 25px;
-}
-.texas-burger-top-text{
-  position: relative;
-  top: 0px;
-  line-height: 1;
-  margin: 2px 0px;
-}
-.texas-burger-bottom-text {
-  position: relative;
-  top: 20px;
-}
-
-
-p.texas-burger-title {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 10px;
-  position: relative;
-  top: -24px;
-}
-
-p.texas-burger-description {
-  width: 100%;
-  line-height: 1;
-  font-size: 9px;
-  position: relative;
-  top: -30px;
-}
-
-p.texas-burger-price {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 8px;
-  position: relative;
-  top: -30px;
-}
-.toppings-content {
-  border: 1px solid #e2d7c4;
-  font-size: 10px;
-}
-
-.pollo-section {
-  display: flex;
-  margin: 32px 0px;
-  align-items: center;
-  width: 105%;
-}
-
-.pollo-section-left {
-  flex: 1;
-}
-
-p.pollo-section-title {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 12px;
-}
-
-p.pollo-section-price {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 8px;
-}
-p.pollo-section-description {
-  font-size: 8px;
-}
-.art-wings-section{
-  background: url('../images/Wings.png');
-  height: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-p.art-wings-title {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 12px;
-  position: relative;
-  top: 5px;
-}
-
-p.art-wings-description {
-  text-align: right;
-  width: 70%;
-  position: relative;
-  float: right;
-  font-size: 8px;
-  top: -45px;
-}
-.pasta-section{
-  position: relative;
-  top: -40px;
-}
-.slow-cooked-beef{
-  background: url('../images/SlowCookedBBQBeef-border.png');
-  height: 210px;
-  width: 140%;
-  position: relative;
-  left: -10px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 30px 10px;
-}
-p.slow-cooked-beef-title {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 9px;
-  width: 35%;
-  position: relative;
-  top: -12px;
-}
-.beef-top-text{
-  top: -10px;
-}
-
-p.slow-cooked-beef-description {
-  font-size: 8px;
-  width: 60%;
-  line-height: 1;
-  /* position: relative; */
-  /* top: 7px; */
-  margin: 5px 0px;
-
-}
-
-p.slow-cooked-beef-pric {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 9px;  
-}
-
-/* New day === New CSS additions */
-
-img.tea-product {
-  position: relative;
-  float: right;
-  display: none;
-  height: 176px;
-  top: -60px;
-}
-.dairy-row {
-  font-size: 10px;
-}
-
-
-
-.allergen-advise {
-  display: flex;
-  align-items: center;
-  font-family: 'GlacialIndifference-Bold';
-  
-  /* left: 0; */
-  /* right: 0; */
-  /* left: -15px; */
-  /* width: 102%; */
-}
-.allergen-class{
-  height: auto;
-  /* background: #98272D; */
-  color: #98272D;
-  padding: 2px 12px;
-  gap: 0;
-  position: relative;
-  top: 20px;
-}
-
-.allergen-class h3 {
-  font-size: 12px;
-}
-
-.allergen-class {
-  display: flex;
-  flex-direction: column;
-}
-
-.allergen-icons {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  color: #000;
-}
-
-.allergen-icons p {
-  font-size: 8px;
-}
-
-.allergen-icon-description {
-  text-wrap: wrap;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  /* width: 20px; */
-}
-th.bold-underlined-text {
-  font-family: 'GlacialIndifference-Bold';
-  text-decoration: none;
-  font-size: 12px;
-}
-
-.two-row-table{
-  height: 1px;
-}
-
-
-p.power-smoothies-top-text{
-  font-size: 12px;
-}
-.stacked-goodness-section {
-  position: relative;
-  top: 0px;
-}
-p.all-day-everyday {
-  font-size: 10px;
-  position: relative;
-  top: 0px;
-}
-
-p.art-of-breakfast {
-  font-size: 10px;
-
-}
-.art-breakfast-content {
-  position: relative;
-  top: 0px;
-}
-.section-titles.everyday-breakfast-title {
-  width: 100%;
-}
-h3.section-titles.everyday-breakfast-title {
-  position: relative;
-  top: -20px;
-}
-
-p.everyday-breakfast {
-  position: relative;
-  top: -29px;
-}
-.everyday-classic-description {
-  width: 100%;
-}
-
-p.everyday-classic-description {
-  position: relative;
-  top: -36px;
-}
-
-/*New Day === New CSS RULES */
-p.chocolate-title {
-  font-family: 'Garamond';
-  font-size: 10px;
-  position: relative;
-  top: 20px;
-}
-
-p.section-titles-description {
-  font-size: 9px;
-}
-/*New added CSS */
-p.power-smoothies-top-text.beef-top-text {
-  top: -43px;
-  width: 100%;
-}
-p.slow-cooked-beef-description {
-  /* width: 80%; */
-  margin: 0px;
-  position: relative;
-  top: -10px;
-  width: 42%;
-}
-
-p.slow-cooked-beef-pric {
-  position: relative;
-  top: -10px;
-  margin: 4px 0px;
-}
-p.power-smoothies-top-text.texas-burger-p {
-  position: relative;
-  top: -20px;
-}
-
-.frontera-section {
-  background: url('../images/FronteraChile.png');
-  height: 150px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 50px 10px;
-  position: relative;
-  top: -50px;
-  overflow: hidden;
-  margin-bottom: -39px;
-}
-
-.zevenwatch-section {
-  background: url('../images/CabernetSauvignon.png');
-  height: 150px;
-  width: 110%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 10px 20px;
-  position: relative;
-  top: 0px;
-}
-
-p.frontera-title {
-  font-size: 12px;
-  font-family: 'Survey-Regular';
-}
-
-p.frontera-title-description {
-  color: #A59F9A;
-  font-family: 'Survey-regular';
-  position: relative;
-  top: -15px;
-}
-
-p.frontera-description {
-  font-size: 7px;
-  width: 80%;
-  position: relative;
-  top: -25px;
-  line-height: 1;
-}
-
-p.frontera-price {
-  font-family: 'GlacialIndifference-Bold';
-  position: relative;
-  font-size: 7px;
-  top: -30px;
-}
-
-.classic-cocktails-section {
-  background: url('../images/ClassicCocktail.png');
-  height: 100px;
-  width: 110%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 35px 10px;
-  overflow: hidden;
-}
-
-p.classic-cocktails-title {
-  font-family: 'Survey-regular';
-  font-size: 12px;
-}
-
-.classick-cocktails-content {
-  display: flex;
-  justify-content: flex-start;
-  gap: 10px;
-  align-items: flex-end;
-}
-
-p.classic-cocktails-text {
-  font-size: 9px;
-  position: relative;
-  top: -10px;
-}
-
-p.classic-cocktails-price {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 10px;
-  position: relative;
-  top: -10px;
-}
-
-.spirits-and-liquor {
-  display: flex;
-  height: auto;
-  width: 100%;
-}
-
-.spirits-and-liquor h3{
-  flex: 2;
-  position: relative;
-  top: 0px;
-}
-.spirits-and-liquor img{
-  flex: 1;
-  width: 80%;
-  height: auto;
-}
-
-/* Column 2 last section */
-.sangria-section {
-  height: 220px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 100px 10px;
-  position: relative;
-  top: -50px;
-  /* overflow: hidden; */
-}
-
-p.sangria-title-description {
-  font-family: 'Survey-regular';
-  width: 50%;
-  font-size: 9px;
-  line-height: 1.2;
-}
-
-p.sangria-description {
-  font-family: 'GlacialIndifference-Bold';
-  position: relative;
-  margin-top: 0px;
-  top: 7px;
-}
-
-.sangria-price-section {
-  display: flex;
-  justify-content: space-evenly;
-  font-family: 'GlacialIndifference-Bold';
-  position: relative;
-  top: 10px;
-}
-.sangria-price-section p{
-  font-family: 'GlacialIndifference-Bold';
-  padding: 2px 19px;
-  font-size: 7px;
-}
-
-p.left-sangria-price {
-  /* height: 20px; */
-  border-right: dotted; 
-  height: 30px;
-}
-
-.chardonnay-section {
-  background: url('../images/ArrogantFrog.png');
-  height: 250px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 120%;
-  position: relative;
-  left: -50px;
-  padding: 40px 0px 0px 80px;
-  margin: -45px 0px;
-}
-
-.top-text-chardonnay {
-  color: #a79a89;
-  font-family: 'GlacialIndifference-Bold';
-  position: relative;
-  top: 10px;
-  font-size: 7px;
-  margin: 10px 0px;
-}
-
-.sparkling-sweet-section {
-  background: url('../images/Moscato.png');
-  height: 200px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  padding: 40px 0px 0px 60px;
-  overflow: hidden;
-}
-
-.sparkling-sweet-section-title{
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 9px;
-  
-}
-.frontera-title{
-  display: flex;
-  flex-direction: column;
-}
-
-.available-on-happy-hour{
-  display: flex;
-  position: relative;
-  top: -15px;
-  left: 10px;
-}
-
-.art-cocktails-section{
-  background: url('../images/Cocktail.png');
-  height: 150px;
-  width: 110%;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
-  top: -60px;
-  padding: 60px 40px 0px 10px;
-}
-
-/* NEW CSS ADDED */
-p.salted-caramel-title {
-  position: relative;
-  /* left: -7px; */
-}
-
-.pie-and-chai-top-left {
-  position: relative;
-  top: 10px;
-  left: 3px;
-  /* width: 100%; */
-}
-
-.pie-and-chie-add-section {
-  position: relative;
-  left: 1px;
-}
-
-p.bowl-of-hugs-description {
-  position: relative;
-  top: 10px;
-}
-
-p.bowl-of-hugs-title {
-  position: relative;
-  top: 18px;
-  width: 50%;
-}
-
-p.warm-up {
-  position: relative;
-  top: 23px;
-}
-
-.item-after-artcocktails{
-  position: relative;
-  top: 0px;
-}
-
-/* Pie & Chai Section  */
-
-.pie-and-chie-add-section {
-  position: relative;
-  /* top: 80px; */
-  /* left: 65px; */
-}
-
-.pie-and-chai-bottom {
-  position: relative;
-  top: 15px;
-  left: 12px;
-  width: 80%;
-}
-
-.pie-and-chie-add-section {
-  position: relative;
-  left: -55%;
-  top: 35px;
-  width: 60%;
-  /* top: 105px; */
-}
-
-.pie-and-chai-top-left {
-  position: relative;
-  top: 63px;
-  left: 15px;
-  width: 100%;
-  padding: 13px 0px; 
-}
-h3.chai-and-pie-title {
-  width: 100%;
-  position: relative;
-  top: -20px;
-}
-
-p.pie-and-chai-description {
-  width: 100%;
-  position: relative;
-  line-height: 1.2;
-}
-
-/* NEW DAY ===== NEW CSS RULES */
-.new-pie-and-chai-section {
-  background: url('../images/PieChai.png');
-  height: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  overflow: hidden;
-  margin: -31px 0px;
-}
-
-.new-pie-and-chai-section {
-  padding: 45px 16px;
-  display: flex;
-  /* gap: 150px; */
-  flex-direction: column;
-}
-
-p.new-pie-and-chai-title {
-  font-family: 'Survey-regular';
-  font-size: 12px;
-  margin: 4px 0px;
-}
-
-p.new-pie-and-chai-description {
-  font-size: 8px;
-  margin: 0px 0px;
-  width: 40%;
-}
-
-p.new-pie-chai-bold-text {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 8px;
-  margin: 0px 0px;
-}
-
-.new-pie-chai-add-section {
-  margin: 4px 0px;
-  font-size: 6px;
-  width: 80%;
-  line-height: 1;
-}
-
-.new-pie-and-chai-bottom {
-  display: flex;
-  flex-direction: column;
-  padding: 0px 0px 0px 40px;
-  position: relative;
-  top: 0px;
-}
-
-.new-sausage-roll {
-  display: flex;
-  justify-content: space-between;
-  padding: 0px 6px 0px 0px;
-}
-
-p.new-sausage-roll-title {
-  font-family: 'Survey-regular';
-  font-size: 9px;
-  width: 60%;
-}
-
-p.new-sausage-roll-bold-text {
-  font-family: 'GlacialIndifference-Bold';
-  font-size: 8px;
-}
-
-p.new-sausage-roll-text-description {
-  font-size: 8px;
-  position: relative;
-  top: -8px;
-  padding: 0px 4px;
-}
-
-.liquor-section {
-  font-size: 13px;
-}
-
-/* NEW DAY ====== NEW CSS */
-.sharing-block {
-  flex-direction: column;
-  align-items: baseline;
-  position: relative;
-  top: -21px;
-}
-
-p.sharing-for-family-text {
-  font-family: 'GlacialIndifference-Regular';
-  position: relative;
-  top: -20px;
-}
-
-.divider {
-  border-bottom: 2px solid #a79a89;
-  width: 100%;
-  margin: 20px 0px;
-}
-
-.chocolate-section-upwards {
-  position: relative;
-  top: 30px;
-}
-
-/* NEW DAY NEW CSS */
-
-.soups-section-divider{
-  margin: 30px 0px;
-}
-
-.divider.stacked-goodness-breaker {
-  margin: 50px 0px;
-  position: relative;
-  top: 14px;
-}
-
-.move-art-pizzas-top {
-  position: relative;
-  top: -20px;
-}
-
-.lunch-and-dinner-move-top {
-  position: relative;
-  top: -28px;
-}
-
-.move-pasta-section-to-top {
-  position: relative;
-  top: -50px;
-}
-
-.move-pollo-section-top {
-  position: relative;
-  top: -4px;
-}
-
-/* NEW DAY ==== NEW CSS */
-
-.new-wings-and-chips-section {
-  position: relative;
-  top: -50px;
-}
-
-.wings-and-chips {
-  position: relative;
-  top: -32px;
-}
-
-.art-wings-section {
-  position: relative;
-  top: -67px;
-}
-
-.new-move-chicken-wings-table-top {
-  position: relative;
-  top: -90px;
-}
-
-p.sharing-for-family-text {
-  font-family: 'GLACIALINDIFFERENCE-REGULAR';
-    font-size: 9px;
-    position: relative;
-    top: -18px;
-}
-p.power-smoothies-top-text.good-morning-sunshine {
-  margin-top: 0px;
-}
-
-.new-wings-and-chips {
-  position: relative;
-  top: -42px;
-  height: 650px;
-}
-p.texas-burger-description.texas-burger-description-bottom {
-  position: relative;
-  top: -18px;
-}
-.artcaffe-market-slideshow.removemargin-mobile {
-  margin: -25px 0px;
-}
-
-.artcaffe-market-slideshow.remove-margin-adsection-1{
-  margin: 3px 0px;
-}
-.chocolate-section {
-  margin-top: -26px;
-}
-img.section-title-images.cocktail-animation {
-  position: relative;
-  top: 4px;
-}
-.croissant-container {
-    display: flex;
-	flex-direction: column;
-}
-
-.breakfast-croissant-container {
-    display: flex;
-	flex-direction: column;
-}
-.power-smoothies-container {
-    margin: 53px 0px;
-}
-p.dark-forest-title {
-    font-family: Garamond;
-    font-size: 12px;
-}
-
-img.img-responsive.hummus-img {
-    position: relative;
-    top: 42px;
-    width: 130% !important;
-    max-width: 150%;
-}
-
-.breakfast-croissant-container.fried-chicken-container {
-    position: relative;
-    top: -50px;
-}
-
-.breakfast-croissant-container.artpesto-container {
-    position: relative;
-    top: -40px;
-}
-
-span.art-pesto {
-    font-family: 'Garamond';
-    font-size: 14px;
+    top: 2px;
+	height: 13px !important;
 }
 
 .bowl-of-hugs-top {
@@ -3739,8 +3707,9 @@ span.art-pesto {
 
 .bowl-of-hugs-bottom {
     position: relative;
-    top: 0px;
+    top: 80px;
 	left: -20px;
 }
 
-}
+  
+  }
