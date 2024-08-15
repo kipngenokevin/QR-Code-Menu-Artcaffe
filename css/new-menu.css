@@ -181,10 +181,11 @@ a {
 	height: 20px;
 	background: 
 	  radial-gradient(circle 10px,#3aa335 95%,#0000 )  right /calc(200% + 20px) 100%,
-	  linear-gradient(#3aa335 0 0) center/100% 6px; 
+	  linear-gradient(#3aa335 0 0) center/100% 4px; 
 	background-repeat: no-repeat; 
 	-webkit-mask: radial-gradient(circle 4px,#3aa335 93%, #3aa335 ) right/calc(200% + 20px) 100%;
 	animation: l6 1s infinite linear;
+	
   }
   @keyframes l6 {
 	100% {background-position: left;-webkit-mask-position:left}
