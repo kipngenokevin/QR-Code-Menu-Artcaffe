@@ -36,8 +36,8 @@ export default async function makePurchase(
         rechargedMSISDN: ""    // Adding rechargedMSISDN
     };
 
-    console.log("Headers:", headers);
-    console.log("Request Body:", body);
+    //console.log("Headers:", headers);
+    //console.log("Request Body:", body);
 
     try {
         const response = await fetch(url, {
@@ -47,7 +47,7 @@ export default async function makePurchase(
         });
 
         const responseText = await response.text();
-        console.log('Response Text:', responseText);
+        //console.log('Response Text:', responseText);
 
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);

@@ -56,9 +56,9 @@ window.nextStep = async function() {
 
             try {
                 accessToken = await getAccessToken(username, password);
-                console.log('Access Token:', accessToken);
+                //console.log('Access Token:', accessToken);
                 const offers = await fetchOffers(accessToken, msisdn);
-                console.log("Received offers", offers);
+                //console.log("Received offers", offers);
                 offersData = offers.lineItem.characteristicsValue;
                 await spinnerDelay; // Ensure spinner is shown for 2 seconds
                 updateOfferSelection(offersData);
@@ -83,7 +83,7 @@ window.nextStep = async function() {
             showStep(currentStep);
         } else if (currentStep === 3) {
             const selectedOffer = $('input[name="dataOffer"]:checked').val();
-            console.log('Selected Offer:', selectedOffer);
+            //console.log('Selected Offer:', selectedOffer);
 
             const selectedOfferData = offersData.find(offer => offer.offerName === selectedOffer);
 
@@ -120,7 +120,7 @@ window.nextStep = async function() {
                     resourceAmount,
                     validity
                 );
-                console.log('Purchase response:', purchaseResponse);
+                //console.log('Purchase response:', purchaseResponse);
                 $('#confirmationMessage').text(purchaseResponse.header.customerMessage || 'You will receive an SMS confirmation shortly.');
                 alert('Kindly wait as we process your request.');
                 
