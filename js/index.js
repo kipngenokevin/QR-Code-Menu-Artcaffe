@@ -19,6 +19,7 @@ window.nextStep = async function() {
     // Show the spinner and disable the button to prevent multiple clicks
     $('#spinner').show();
     $('#nextStepButton').prop('disabled', true);
+    $('#errorMessage').hide();  // Hide the error message if it was shown before
 
     // Ensure the spinner is visible for at least 2 seconds
     const spinnerDelay = new Promise((resolve) => setTimeout(resolve, 1500));
@@ -56,9 +57,9 @@ window.nextStep = async function() {
 
             try {
                 accessToken = await getAccessToken(username, password);
-                //console.log('Access Token:', accessToken);
+                // console.log('Access Token:', accessToken);
                 const offers = await fetchOffers(accessToken, msisdn);
-                //console.log("Received offers", offers);
+                // console.log("Received offers", offers);
                 offersData = offers.lineItem.characteristicsValue;
                 await spinnerDelay; // Ensure spinner is shown for 2 seconds
                 updateOfferSelection(offersData);
@@ -68,6 +69,7 @@ window.nextStep = async function() {
                 console.error('Failed to obtain access token or fetch offers:', error);
                 $('#spinner').hide();
                 $('#nextStepButton').prop('disabled', false);
+                $('#errorMessage').text('Service currently unavailable, please try again later.').show(); // Display error message
             }
         } else if (currentStep === 2) {
             const selectedOffer = $('input[name="dataOffer"]:checked').val();
@@ -83,7 +85,7 @@ window.nextStep = async function() {
             showStep(currentStep);
         } else if (currentStep === 3) {
             const selectedOffer = $('input[name="dataOffer"]:checked').val();
-            //console.log('Selected Offer:', selectedOffer);
+            // console.log('Selected Offer:', selectedOffer);
 
             const selectedOfferData = offersData.find(offer => offer.offerName === selectedOffer);
 
@@ -120,22 +122,25 @@ window.nextStep = async function() {
                     resourceAmount,
                     validity
                 );
-                //console.log('Purchase response:', purchaseResponse);
+                // console.log('Purchase response:', purchaseResponse);
                 $('#confirmationMessage').text(purchaseResponse.header.customerMessage || 'You will receive an SMS confirmation shortly.');
                 alert('Kindly wait as we process your request.');
                 
                 await spinnerDelay; // Ensure spinner is shown for 2 seconds
+                currentStep++;
+                showStep(currentStep);
                 setTimeout(() => {
                     currentStep = 1;
                     showStep(currentStep);
                     $('#spinner').hide();  // Hide spinner after process
                     $('#nextStepButton').prop('disabled', false);
-                }, 3000);
+                }, 5000);
             } catch (error) {
                 alert(`Failed to make purchase: ${error.message}`);
                 console.error('Failed to make purchase:', error);
                 $('#spinner').hide();
                 $('#nextStepButton').prop('disabled', false);
+                $('#errorMessage').text('Service currently unavailable, please try again later.').show(); // Display error message
             }
         }
     } finally {
@@ -144,6 +149,7 @@ window.nextStep = async function() {
         $('#nextStepButton').prop('disabled', false);
     }
 };
+
 
 
 
