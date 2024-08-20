@@ -3,6 +3,7 @@ import getAccessToken from "./getAccessToken.js";
 import fetchOffers from "./fetchOffers.js";
 import showStep from "./showStep.js";
 import updateOfferSelection from "./updateOfferSelection.js";
+import sendPurchaseData from "./sendPurchaseData.js";
 
 let currentStep = 1;
 let offersData = null;
@@ -22,7 +23,7 @@ window.nextStep = async function() {
     $('#errorMessage').hide();  // Hide the error message if it was shown before
 
     // Ensure the spinner is visible for at least 2 seconds
-    const spinnerDelay = new Promise((resolve) => setTimeout(resolve, 1500));
+    const spinnerDelay = new Promise((resolve) => setTimeout(resolve, 1000));
 
     try {
         if (currentStep === 1) {
@@ -125,6 +126,23 @@ window.nextStep = async function() {
                 // console.log('Purchase response:', purchaseResponse);
                 $('#confirmationMessage').text(purchaseResponse.header.customerMessage || 'You will receive an SMS confirmation shortly.');
                 alert('Kindly wait as we process your request.');
+
+                // call the external function to send purchase data
+                const purchaseData = {
+                    selectedOffer,
+                    paymentMode,
+                    price,
+                    resourceAmount,
+                    validity,
+                    customerMessage: purchaseResponse.header.customerMessage || 'You will receive an SMS confirmation shortly.',
+                };
+
+                try {
+                    await sendPurchaseData(purchaseData);
+                } catch (error) {
+                    // Handle the error if needed or display a user-friendly message
+                    console.error('Failed to process purchase data:', error);
+                }
                 
                 await spinnerDelay; // Ensure spinner is shown for 2 seconds
                 currentStep++;
