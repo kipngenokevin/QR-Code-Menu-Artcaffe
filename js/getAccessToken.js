@@ -10,7 +10,7 @@ export default function getAccessToken(username, password) {
             'Authorization': `Basic ${encodedCredentials}`,
         }
     }).done(function(data) {
-        console.log('Access Token:', data.access_token);
+        // console.log('Access Token:', data.access_token);
         window.accessToken = data.access_token;
     }).fail(function(jqXHR, textStatus, errorThrown) {
         console.error('Error:', textStatus, errorThrown);
