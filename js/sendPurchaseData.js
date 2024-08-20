@@ -1,6 +1,6 @@
 export default async function sendPurchaseData(purchaseData) {
     try {
-        const response = await fetch('https:safanalytics.gigastreammedia.net/api/purchases', {
+        const response = await fetch('https://safanalytics.gigastreammedia.net/api/purchases', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
