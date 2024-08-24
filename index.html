@@ -17,6 +17,7 @@
 	<title>Get Data Deals!</title>
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/new-menu.css">
+	<link rel="stylesheet" href="css/offer-css.css">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 	<!-- <link rel="stylesheet" href="https://artcaffemenu.gigastreammedia.net/css/styles.css"> -->
@@ -96,20 +97,17 @@
 									<!-- STEP 3 SELECT PAYMENT METHOD -->
 									<div class="step hidden" data-step="3">
 										<h6 class="card-subtitle mb-2 text-muted">Choose Payment Method</h6>
-										<div class="form-check">
-											<input class="form-check-input" type="radio" name="paymentMethod"
-												id="airtime" value="airtime" checked>
-											<label class="form-check-label" for="airtime">
-												Airtime
-											</label>
+										<div class="offer-list">
+											<div class="offer-card" onclick="selectPaymentMethod('airtime')">
+												<input class="offer-input" type="radio" name="paymentMethod" id="airtime" value="airtime" checked>
+												<label class="offer-label" for="airtime">Airtime</label>
+											</div>
+											<div class="offer-card" onclick="selectPaymentMethod('mpesa')">
+												<input class="offer-input" type="radio" name="paymentMethod" id="mpesa" value="mpesa">
+												<label class="offer-label" for="mpesa">Mpesa</label>
+											</div>
 										</div>
-										<div class="form-check">
-											<input class="form-check-input" type="radio" name="paymentMethod"
-												id="mpesa" value="mpesa">
-											<label class="form-check-label" for="mpesa">
-												Mpesa
-											</label>
-										</div>
+													
 										<div class="row mt-2">
 											<div class="col-6">
 												<button class="btn btn-outline-success"
@@ -137,45 +135,28 @@
 		</div>
 	</section>
 
-    <script>
-        
-
-		var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-
-		if (isSafari) {
-			var videos = document.getElementsByClassName("video");
-			for (var i = 0; i < videos.length; i++) {
-				videos[i].style.display = "none";
-			}
-		} else {
-			var imgs = document.getElementsByClassName("img");
-			for (var j = 0; j < imgs.length; j++) {
-				imgs[j].style.display = "none";
-			}
+    <script>  
+		function selectOffer(id) {
+			// Deselect all cards
+			$('.offer-card').removeClass('selected');
+		
+			// Select the clicked card
+			const selectedCard = $(`#${id}`).closest('.offer-card');
+			$(`#${id}`).prop('checked', true);
+			selectedCard.addClass('selected');
 		}
 
-
-		window.addEventListener("DOMContentLoaded", function () {
-				var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-				var slideshows = document.querySelectorAll("#artcaffe-market-slideshow");
-
-				slideshows.forEach(function (slideshow) {
-					var slideIndex = 0;
-					var slides = isSafari ? slideshow.querySelectorAll(".img") : slideshow.querySelectorAll(".video");
-
-					function nextSlide() {
-						slides[slideIndex].classList.remove("active");
-						slideIndex = (slideIndex + 1) % slides.length;
-						slides[slideIndex].classList.add("active");
-					}
-
-					setInterval(nextSlide, 9000);
-				});
-		});
-
-        document.getElementById('viewMenuButton').addEventListener('click', function() {
-            window.open('./images/pdf/QR-MM-A-2024-19-Aug.pdf', '_blank');
-        });
+		function selectPaymentMethod(id) {
+			// Deselect all cards
+			$('.offer-card').removeClass('selected');
+		
+			// Select the clicked card
+			const selectedCard = $(`#${id}`).closest('.offer-card');
+			$(`#${id}`).prop('checked', true);
+			selectedCard.addClass('selected');
+		}
+		
+		
     </script>
 
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
