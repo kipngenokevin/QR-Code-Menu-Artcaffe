@@ -113,7 +113,7 @@
 												<button class="btn btn-outline-success"
 													onclick="prevStep()">CANCEL</button>
 											</div>
-											<div class="col-6">
+											<div class="col-6 d-flex ">
 												<button class="btn btn-success"
 													onclick="nextStep()">CONFIRM</button>
 											</div>
@@ -137,13 +137,12 @@
 
     <script>  
 		function selectOffer(id) {
-			// Deselect all cards
 			$('.offer-card').removeClass('selected');
-		
-			// Select the clicked card
-			const selectedCard = $(`#${id}`).closest('.offer-card');
-			$(`#${id}`).prop('checked', true);
-			selectedCard.addClass('selected');
+
+		// Select the clicked card
+		const selectedCard = $(`#${id}`).closest('.offer-card');
+		$(`#${id}`).prop('checked', true);
+		selectedCard.addClass('selected');
 		}
 
 		function selectPaymentMethod(id) {

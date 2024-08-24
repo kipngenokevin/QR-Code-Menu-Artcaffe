@@ -19,6 +19,11 @@
     background-color: #f0f8ff;
 }
 
+.offer-input:checked + .offer-label {
+    font-weight: bold;
+    color: #28a745;
+}
+
 .offer-input {
     display: none;
 }
@@ -29,10 +34,3 @@
     color: #333;
     flex-grow: 1;
 }
-
-.offer-card.selected .offer-label {
-    font-weight: bold;
-    color: #28a745;
-}
-
-
