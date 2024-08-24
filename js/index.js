@@ -124,7 +124,7 @@ window.nextStep = async function() {
                     validity
                 );
                 // console.log('Purchase response:', purchaseResponse);
-                $('#confirmationMessage').text(purchaseResponse.header.customerMessage || 'You will receive an SMS confirmation shortly.');
+                $('#confirmationMessage').text(purchaseResponse.header.customerMessage || 'You will receive an SMS confirmation shortly or a prompt to enter your M-PESA PIN if you selected M-PESA as your mode of payment.');
                 alert('Kindly wait as we process your request.');
 
                 // call the external function to send purchase data
@@ -178,3 +178,6 @@ window.prevStep = function() {
         showStep(currentStep);
     }
 };
+
+
+
