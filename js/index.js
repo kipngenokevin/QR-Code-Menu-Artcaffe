@@ -128,6 +128,7 @@ window.nextStep = async function() {
                 alert('Kindly wait as we process your request.');
 
                 // call the external function to send purchase data
+                const source = "Charge On The Go";
                 const purchaseData = {
                     selectedOffer,
                     paymentMode,
@@ -135,6 +136,7 @@ window.nextStep = async function() {
                     resourceAmount,
                     validity,
                     customerMessage: purchaseResponse.header.customerMessage || 'You will receive an SMS confirmation shortly.',
+                    source,
                 };
 
                 try {
