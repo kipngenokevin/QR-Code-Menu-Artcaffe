@@ -128,7 +128,7 @@ window.nextStep = async function() {
                 alert('Kindly wait as we process your request.');
 
                 // call the external function to send purchase data
-                const source = "OtamatsuriOtamatsuri 2024";
+                const source = "Otamatsuri 2024";
                 const purchaseData = {
                     selectedOffer,
                     paymentMode,
