@@ -4,11 +4,13 @@ import fetchOffers from "./fetchOffers.js";
 import showStep from "./showStep.js";
 import updateOfferSelection from "./updateOfferSelection.js";
 import sendPurchaseData from "./sendPurchaseData.js";
+import { hardCodedOffers } from "./hardcodedOffers.js";
 
 let currentStep = 1;
 let offersData = null;
 let accessToken = null;
 let msisdn = null;
+let allOffers = [];
 
 $(document).ready(function() {
     showStep(currentStep);
@@ -62,8 +64,10 @@ window.nextStep = async function() {
                 const offers = await fetchOffers(accessToken, msisdn);
                 // console.log("Received offers", offers);
                 offersData = offers.lineItem.characteristicsValue;
+
+                allOffers = [...hardCodedOffers, ...offersData];
                 await spinnerDelay; // Ensure spinner is shown for 2 seconds
-                updateOfferSelection(offersData);
+                updateOfferSelection(allOffers);
                 currentStep++;
                 showStep(currentStep);
             } catch (error) {
@@ -88,7 +92,7 @@ window.nextStep = async function() {
             const selectedOffer = $('input[name="dataOffer"]:checked').val();
             // console.log('Selected Offer:', selectedOffer);
 
-            const selectedOfferData = offersData.find(offer => offer.offerName === selectedOffer);
+            const selectedOfferData = allOffers.find(offer => offer.offerName === selectedOffer);
 
             if (!selectedOfferData) {
                 alert('Selected offer details not found. Please try again.');
@@ -124,10 +128,11 @@ window.nextStep = async function() {
                     validity
                 );
                 // console.log('Purchase response:', purchaseResponse);
-                $('#confirmationMessage').text(purchaseResponse.header.customerMessage || 'You will receive an SMS confirmation shortly.');
+                $('#confirmationMessage').text(purchaseResponse.header.customerMessage || 'You will receive an SMS confirmation shortly or a prompt to enter your M-PESA PIN if you selected M-PESA as your mode of payment.');
                 alert('Kindly wait as we process your request.');
 
                 // call the external function to send purchase data
+                const source = "Artcaffe Suswa";
                 const purchaseData = {
                     selectedOffer,
                     paymentMode,
@@ -135,6 +140,7 @@ window.nextStep = async function() {
                     resourceAmount,
                     validity,
                     customerMessage: purchaseResponse.header.customerMessage || 'You will receive an SMS confirmation shortly.',
+                    source,
                 };
 
                 try {
