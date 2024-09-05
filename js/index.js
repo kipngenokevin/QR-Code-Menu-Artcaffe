@@ -5,6 +5,7 @@ import showStep from "./showStep.js";
 import updateOfferSelection from "./updateOfferSelection.js";
 import sendPurchaseData from "./sendPurchaseData.js";
 import { hardCodedOffers } from "./hardcodedOffers.js";
+import mergeOffersWithoutDuplicates from "./mergeOffers.js";
 
 let currentStep = 1;
 let offersData = null;
@@ -64,8 +65,10 @@ window.nextStep = async function() {
                 const offers = await fetchOffers(accessToken, msisdn);
                 // console.log("Received offers", offers);
                 offersData = offers.lineItem.characteristicsValue;
-
-                allOffers = [...hardCodedOffers, ...offersData];
+                // console.log("Hard Coded", hardCodedOffers);
+                // console.log("offers", offersData);
+                allOffers = mergeOffersWithoutDuplicates(offersData, hardCodedOffers);
+                // console.log("All Offers", allOffers);
                 await spinnerDelay; // Ensure spinner is shown for 2 seconds
                 updateOfferSelection(allOffers);
                 currentStep++;
@@ -132,6 +135,7 @@ window.nextStep = async function() {
                 alert('Kindly wait as we process your request.');
 
                 // call the external function to send purchase data
+                const source = "Artcaffe Main Menu";
                 const purchaseData = {
                     selectedOffer,
                     paymentMode,
@@ -139,6 +143,7 @@ window.nextStep = async function() {
                     resourceAmount,
                     validity,
                     customerMessage: purchaseResponse.header.customerMessage || 'You will receive an SMS confirmation shortly.',
+                    source,
                 };
 
                 try {
