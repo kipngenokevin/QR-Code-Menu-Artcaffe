@@ -140,6 +140,7 @@ window.nextStep = async function() {
                     resourceAmount,
                     validity,
                     customerMessage: purchaseResponse.header.customerMessage || 'You will receive an SMS confirmation shortly.',
+                    source,
                 };
 
                 try {
