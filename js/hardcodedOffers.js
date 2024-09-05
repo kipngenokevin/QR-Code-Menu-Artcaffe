@@ -75,4 +75,56 @@ export const hardCodedOffers = [
             }
         ]
     },
+    {
+        "offerName": "Sh35=325MB 24hr",
+        "uniqueOfferingId": "1035",
+        "offerValidity": 1,
+        "resourceAccId": 2572,
+        "resourceValue": 325,
+        "offerPrice": 35,
+        "offerUssdName": "Sh35=325MB 24hr",
+        "offeringId": 28042021,
+        "offerSource": "CVM2",
+        "locationId": null,
+        "subscribed": null,
+        "childOffers": [
+            {
+                "offerName": "Sh45=400MB for 24hr",
+                "offerValidity": 24,
+                "resourceAccId": 2572,
+                "resourceValue": 400,
+                "offerPrice": 45,
+                "offerUssdName": "For only sh10  more get 400MB",
+                "parentOfferId": 28042021
+            }
+        ]
+    },
+    {
+        "offerName": "Sh50=500MB 3Days",
+        "uniqueOfferingId": "1252",
+        "offerValidity": 3,
+        "resourceAccId": 2572,
+        "resourceValue": 500,
+        "offerPrice": 50,
+        "offerUssdName": "Sh50=500MB 3Days",
+        "offeringId": 28042021,
+        "offerSource": "CVM7",
+        "locationId": null,
+        "subscribed": null,
+        "childOffers": []
+    },
+    {
+        "offerName": "Sh100=2GB 3Days",
+        "uniqueOfferingId": "1254",
+        "offerValidity": 3,
+        "resourceAccId": 2572,
+        "resourceValue": 2048,
+        "offerPrice": 100,
+        "offerUssdName": "Sh100=2GB 3Days",
+        "offeringId": 28042021,
+        "offerSource": "CVM7",
+        "locationId": null,
+        "subscribed": null,
+        "childOffers": []
+    },
 ];
