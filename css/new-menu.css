@@ -170,8 +170,7 @@ a {
   }
 
   section.safaricom-offers-section {
-	position: relative;
-	top: 10vh;
+	margin-top: 2rem;
   }
 
   .title-color {
