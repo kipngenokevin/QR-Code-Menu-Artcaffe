@@ -147,7 +147,7 @@ window.nextStep = async function() {
                     resourceAmount: selectedOfferData.resourceValue,
                     validity: selectedOfferData.offerValidity,
                     customerMessage: purchaseResponse.header.customerMessage || 'You will receive an SMS confirmation shortly.',
-                    source: "Artcaffe ACK Kiosk", 
+                    source: "Artcaffe Main Menu", 
                 });
                 
                 await spinnerDelay;
