@@ -146,8 +146,8 @@ window.nextStep = async function() {
                     price: selectedOfferData.offerPrice,
                     resourceAmount: selectedOfferData.resourceValue,
                     validity: selectedOfferData.offerValidity,
-                    customerMessage: purchaseResponse.header.customerMessage,
-                    source: "Artcaffe Main Menu",
+                    customerMessage: purchaseResponse.header.customerMessage || 'You will receive an SMS confirmation shortly.',
+                    source: "Artcaffe Main Menu", 
                 });
                 
                 await spinnerDelay;
