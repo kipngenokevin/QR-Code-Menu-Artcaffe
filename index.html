@@ -76,7 +76,7 @@
 											<img class="img-fluid" src="https://artcaffemenu.gigastreammedia.net/images/SAF-MAIN-LOGO.png" width="30%">
 										</div>
 									</div>
-									<h6 class="card-title"><b>Get Incredible Data Offers</b></h6>
+									<h6 class="card-title"><b>More Data For Less!</b></h6>
 									<div id="errorMessage" class="text-danger" style="display: none;"></div>
 									<div id="spinner" class="loader" role="status" style="display: none"></div> 
 
@@ -112,11 +112,7 @@
 										<div class="row mt-2">
 											<div class="col-6">
 												<button class="btn btn-outline-success"
-													onclick="prevStep()">CANCEL</button>
-											</div>
-											<div class="col-6">
-												<button class="btn btn-success"
-													onclick="nextStep()">CONFIRM</button>
+													onclick="prevStep()">BACK</button>
 											</div>
 										</div>
 									</div>
@@ -128,24 +124,20 @@
 									<div class="step hidden" data-step="3">
 										<h6 class="card-subtitle mb-2 text-muted">Choose Payment Method</h6>
 										<div class="offer-list">
-											<div class="offer-card" onclick="selectPaymentMethod('airtime')">
-												<input class="offer-input" type="radio" name="paymentMethod" id="airtime" value="airtime" checked>
-												<label class="offer-label" for="airtime">Airtime</label>
-											</div>
 											<div class="offer-card" onclick="selectPaymentMethod('mpesa')">
-												<input class="offer-input" type="radio" name="paymentMethod" id="mpesa" value="mpesa">
+												<input class="offer-input" type="radio" name="paymentMethod" id="mpesa" value="mpesa" checked>
 												<label class="offer-label" for="mpesa">Mpesa</label>
+											</div>
+											<div class="offer-card" onclick="selectPaymentMethod('airtime')">
+												<input class="offer-input" type="radio" name="paymentMethod" id="airtime" value="airtime" >
+												<label class="offer-label" for="airtime">Airtime</label>
 											</div>
 										</div>
 													
 										<div class="row mt-2">
 											<div class="col-6">
 												<button class="btn btn-outline-success"
-													onclick="prevStep()">CANCEL</button>
-											</div>
-											<div class="col-6 d-flex ">
-												<button class="btn btn-success"
-													onclick="nextStep()">CONFIRM</button>
+													onclick="prevStep()">BACK</button>
 											</div>
 										</div>
 									</div>
