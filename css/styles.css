@@ -52,6 +52,9 @@
 	src: url('fonts/SurveyorDisplay-Book-Pro.otf') format('opentype');
   }
   
+  :root {
+	--body-background-color: rgba(223, 246, 226, 0.3);
+  }
   
   html {
 	scroll-behavior: smooth;
@@ -63,6 +66,7 @@
 	color: #2E251D;
 	margin: 0;
 	overflow-x: hidden;
+	background: var(--body-background-color) !important;
   }
 
   

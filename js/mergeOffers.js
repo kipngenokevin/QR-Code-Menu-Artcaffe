@@ -8,7 +8,12 @@ const mergeOffersWithoutDuplicates = (fetchedOffers, hardCodedOffers) => {
     });
 
     // Combine the filtered hardcoded offers with fetched offers
-    return [...filteredHardCodedOffers, ...fetchedOffers ];
+    const mergedOffers = [...filteredHardCodedOffers, ...fetchedOffers ];
+
+    // Sort the merged offers by 'offerPrice' in an ascending order
+    mergedOffers.sort((a,b) => a.offerPrice - b.offerPrice);
+
+    return mergedOffers;
 };
 
 export default mergeOffersWithoutDuplicates;

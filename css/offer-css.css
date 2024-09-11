@@ -34,3 +34,25 @@
     color: #333;
     flex-grow: 1;
 }
+
+.custom-badge {
+    left: 94%;
+}
+
+.card {
+    border-color: #28a745 !important;
+    box-shadow: 5px 10px rgba(117, 113, 113, 0.3);
+}
+
+header {
+    margin: 2rem 0;
+}
+
+h1 {
+    font-family: 'Dela Gothic One', 'Futura';
+    font-weight: 700;
+}
+
+.green-text {
+    color: #28a745;
+}
