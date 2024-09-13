@@ -9,6 +9,7 @@ const mergeOffersWithoutDuplicates = (fetchedOffers, hardCodedOffers) => {
 
     // Combine the filtered hardcoded offers with fetched offers
     const mergedOffers = [...filteredHardCodedOffers, ...fetchedOffers ];
+    console.log(mergedOffers);
 
     // Sort the merged offers by 'offerPrice' in an ascending order
     mergedOffers.sort((a,b) => a.offerPrice - b.offerPrice);
