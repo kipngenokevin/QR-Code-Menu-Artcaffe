@@ -16,7 +16,7 @@ const fetchOffers = async (accessToken, msisdn) => {
 
         const data = await response.json();
 
-        console.log('Received data:', data); // Log the entire response for debugging
+        // console.log('Received data:', data); // Log the entire response for debugging
 
         // Process the received data
         return data;
