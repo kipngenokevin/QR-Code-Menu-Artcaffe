@@ -25,13 +25,13 @@ export const hardCodedOffers = [
         ]
     },
     {
-        "offerName": "Sh100=2GB 3Days",
-        "uniqueOfferingId": "1254",
+        "offerName": "Sh250=5GB 3Days",
+        "uniqueOfferingId": "1255",
         "offerValidity": 3,
         "resourceAccId": 2572,
-        "resourceValue": 2048,
-        "offerPrice": 100,
-        "offerUssdName": "Sh100=2GB 3Days",
+        "resourceValue": 5120,
+        "offerPrice": 250,
+        "offerUssdName": "Sh250=5GB 3Days",
         "offeringId": 28042021,
         "offerSource": "CVM7",
         "locationId": null,
